@@ -1,0 +1,53 @@
+[DEBUG] 21-11-2025 18:16:47 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\IdeaProjects\Restful-Booker-GP\testNg.xml"
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PingRequestsTest.validateOnline()[pri:0, instance:Tests.PingRequestsTest@6579c3d9] 1490643102
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.invalidUsernameTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.AuthenticationTest@5e3a39cd] 358068294
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.validAuthenticationTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.AuthenticationTest@5e3a39cd] 553222045
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.invalidPasswordTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.AuthenticationTest@5e3a39cd] 848873147
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.validCreateBookingTest(java.lang.String,java.lang.String,int,boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.CreateBookingRequestsTest@2abc224d] -1954321319
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.invalidCreateBookingTest(java.lang.String)[pri:0, instance:Tests.CreateBookingRequestsTest@2abc224d] -2057477104
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDsTest.validGetBookingIDsTest()[pri:0, instance:Tests.GetBookingIDsTest@5f84abe8] -1891831944
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.validGetBookingDetails(int)[pri:0, instance:Tests.GetBookingIDTest@1e63d216] -1142222087
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.invalidGetBookingByIncorrectID(int)[pri:0, instance:Tests.GetBookingIDTest@1e63d216] 453803589
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.validUpdateBookingTest(int,java.lang.String)[pri:0, instance:Tests.UpdateBookingTest@5972d253] 551391777
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.invalidUpdateBookingByIncorrectToken(int,java.lang.String)[pri:0, instance:Tests.UpdateBookingTest@5972d253] 678472899
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.invalidUpdateBookingByIncorrectID(int,java.lang.String)[pri:0, instance:Tests.UpdateBookingTest@5972d253] -1200270065
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.invalidDeleteBookingByIncorrectToken(int)[pri:0, instance:Tests.DeleteTests@777c350f] 1949659301
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.validDeleteBookingTest(int)[pri:0, instance:Tests.DeleteTests@777c350f] 1791152771
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.invalidDeleteBookingByIncorrectID(int)[pri:0, instance:Tests.DeleteTests@777c350f] 1506151765
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2ETest.endToEndBookingTest()[pri:0, instance:Tests.E2ETest@76b224cd] 100309971
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:16:48 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 21-11-2025 18:16:48 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\IdeaProjects\Restful-Booker-GP\testNg.xml
+
+[INFO] 21-11-2025 18:16:51 [main] [resources.LogUtils] - Ping Response Body: Created

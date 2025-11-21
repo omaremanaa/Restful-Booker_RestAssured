@@ -1,0 +1,118 @@
+[DEBUG] 21-11-2025 18:25:37 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\IdeaProjects\Restful-Booker-GP\testNg.xml"
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PingRequestsTest.validateOnline()[pri:0, instance:Tests.PingRequestsTest@27068a50] 442904341
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.invalidUsernameTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.AuthenticationTest@6079cf5] -1121643666
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.validAuthenticationTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.AuthenticationTest@6079cf5] -926489915
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.invalidPasswordTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.AuthenticationTest@6079cf5] -630838813
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.validCreateBookingTest(java.lang.String,java.lang.String,int,boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.CreateBookingRequestsTest@30135202] -1864721394
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.invalidCreateBookingTest(java.lang.String)[pri:0, instance:Tests.CreateBookingRequestsTest@30135202] -1967877179
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDsTest.validGetBookingIDsTest()[pri:0, instance:Tests.GetBookingIDsTest@29314cc9] 1491701849
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.validGetBookingDetails(int)[pri:0, instance:Tests.GetBookingIDTest@5972d253] -151383242
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.invalidGetBookingByIncorrectID(int)[pri:0, instance:Tests.GetBookingIDTest@5972d253] 1444642434
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.validUpdateBookingTest(int,java.lang.String)[pri:0, instance:Tests.UpdateBookingTest@b558294] -759152030
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.invalidUpdateBookingByIncorrectToken(int,java.lang.String)[pri:0, instance:Tests.UpdateBookingTest@b558294] -632070908
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.invalidUpdateBookingByIncorrectID(int,java.lang.String)[pri:0, instance:Tests.UpdateBookingTest@b558294] 1784153424
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.invalidDeleteBookingByIncorrectToken(int)[pri:0, instance:Tests.DeleteTests@6ff37443] 1823256537
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.validDeleteBookingTest(int)[pri:0, instance:Tests.DeleteTests@6ff37443] 1664750007
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.invalidDeleteBookingByIncorrectID(int)[pri:0, instance:Tests.DeleteTests@6ff37443] 1379749001
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2ETest.endToEndBookingTest()[pri:0, instance:Tests.E2ETest@2ca6546f] -1141978251
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:25:38 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 21-11-2025 18:25:38 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\IdeaProjects\Restful-Booker-GP\testNg.xml
+
+[INFO] 21-11-2025 18:25:40 [main] [resources.LogUtils] - Ping Response Body: Created
+[INFO] 21-11-2025 18:25:40 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:40 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:42 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:42 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:42 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[ERROR] 21-11-2025 18:25:43 [main] [resources.LogUtils] - ❌ SoftAssert FAILED
+[INFO] 21-11-2025 18:25:43 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:43 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[ERROR] 21-11-2025 18:25:44 [main] [resources.LogUtils] - ❌ SoftAssert FAILED
+[INFO] 21-11-2025 18:25:44 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:44 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:46 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:46 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:47 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:47 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:47 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[ERROR] 21-11-2025 18:25:48 [main] [resources.LogUtils] - ❌ SoftAssert FAILED
+[INFO] 21-11-2025 18:25:48 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:49 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:49 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[ERROR] 21-11-2025 18:25:51 [main] [resources.LogUtils] - ❌ SoftAssert FAILED
+[INFO] 21-11-2025 18:25:51 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:52 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:52 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:54 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:54 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[ERROR] 21-11-2025 18:25:56 [main] [resources.LogUtils] - ❌ SoftAssert FAILED
+[INFO] 21-11-2025 18:25:56 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:58 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:58 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:59 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:25:59 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:00 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:00 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:00 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:03 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:03 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:04 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:05 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:05 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:05 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:05 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:05 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:05 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:05 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED
+[INFO] 21-11-2025 18:26:06 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED

@@ -1,0 +1,125 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All test suites">
+    <test name="Ping Test">
+        <classes>
+            <class name="Tests.PingRequestsTest">
+                <methods>
+                    <include name="validateOnline"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Authentication Test">
+        <parameter name="username" value="admin"/>
+        <parameter name="password" value="password123"/>
+        <parameter name="invalidUsername" value="test"/>
+        <parameter name="invalidPassword" value="1234"/>
+        <classes>
+            <class name="Tests.AuthenticationTest">
+                <methods>
+                    <include name="validAuthenticationTest"/>
+                    <include name="invalidPasswordTest"/>
+                    <include name="invalidUsernameTest"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+    <test name="Create Booking Test">
+        <parameter name="firstname" value="Omar"/>
+        <parameter name="lastname" value="Mohamed"/>
+        <parameter name="totalprice" value="150"/>
+        <parameter name="depositpaid" value="true"/>
+        <parameter name="checkin" value="2025-10-10"/>
+        <parameter name="checkout" value="2025-11-27"/>
+        <parameter name="additionalneeds" value="Test"/>
+        <parameter name="body" value='{
+    "totalprice": 150,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-10-01",
+        "checkout": "2025-11-20"
+    },
+    "additionalneeds": "Breakfast"
+}'/>
+
+        <classes>
+            <class name="Tests.CreateBookingRequestsTest">
+                <methods>
+                    <include name="validCreateBookingTest"/>
+                    <include name="invalidCreateBookingTest"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+    <test name="Get booking ids">
+        <classes>
+            <class name="Tests.GetBookingIDsTest">
+                <methods>
+                    <include name="validGetBookingIDsTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Get booking details">
+        <parameter name="bookingID" value="1"/>
+        <parameter name="invalidBookingID" value="-1"/>
+        <classes>
+            <class name="Tests.GetBookingIDTest">
+                <methods>
+                    <include name="validGetBookingDetails"/>
+                    <include name="invalidGetBookingByIncorrectID"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Update Booking Test">
+    <parameter name="id" value="1"/>
+    <parameter name="body" value='{
+    "firstname": "Ahmed",
+    "lastname": "Ali",
+    "totalprice": 200,
+    "depositpaid": false,
+    "bookingdates": {
+        "checkin": "2025-12-01",
+        "checkout": "2025-12-15"
+    },
+    "additionalneeds": "UpdatedTest"
+}'/>
+        <parameter name="incorrectID" value="-1"/>
+
+        <classes>
+            <class name="Tests.UpdateBookingTest">
+                <methods>
+                    <include name="validUpdateBookingTest"/>
+                    <include name="invalidUpdateBookingByIncorrectToken"/>
+                    <include name="invalidUpdateBookingByIncorrectID"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Delete Booking Test">
+        <parameter name="bookingID" value="1"/>
+        <parameter name="incorrectBookingID" value="-1"/>
+        <classes>
+            <class name="Tests.DeleteTests">
+                <methods>
+                    <include name="validDeleteBookingTest"/>
+                    <include name="invalidDeleteBookingByIncorrectID"/>
+                    <include name="invalidDeleteBookingByIncorrectToken"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="End-to-end Test">
+        <classes>
+            <class name="Tests.E2ETest">
+                <methods>
+                    <include name="endToEndBookingTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
