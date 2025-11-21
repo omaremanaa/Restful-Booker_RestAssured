@@ -1,0 +1,149 @@
+[DEBUG] 21-11-2025 19:21:26 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\IdeaProjects\Restful-Booker-GP\testNg.xml"
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PingRequestsTest.validateOnline()[pri:0, instance:Tests.PingRequestsTest@6b580b88] 1589096525
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.invalidUsernameTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.AuthenticationTest@3241713e] -379656265
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.validAuthenticationTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.AuthenticationTest@3241713e] -184502514
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.invalidPasswordTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.AuthenticationTest@3241713e] 111148588
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.validCreateBookingTest(java.lang.String,java.lang.String,int,boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.CreateBookingRequestsTest@48ea2003] -1447990769
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.invalidCreateBookingTest(java.lang.String)[pri:0, instance:Tests.CreateBookingRequestsTest@48ea2003] -1551146554
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDsTest.validGetBookingIDsTest()[pri:0, instance:Tests.GetBookingIDsTest@6ef81f31] -1632607551
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.validGetBookingDetails(int)[pri:0, instance:Tests.GetBookingIDTest@777c350f] 352548338
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.invalidGetBookingByIncorrectID(int)[pri:0, instance:Tests.GetBookingIDTest@777c350f] 1948574014
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.validUpdateBookingTest(int,java.lang.String)[pri:0, instance:Tests.UpdateBookingTest@53093491] 443806815
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.invalidUpdateBookingByIncorrectToken(int,java.lang.String)[pri:0, instance:Tests.UpdateBookingTest@53093491] 570887937
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.invalidUpdateBookingByIncorrectID(int,java.lang.String)[pri:0, instance:Tests.UpdateBookingTest@53093491] -1307855027
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.invalidDeleteBookingByIncorrectToken(int)[pri:0, instance:Tests.DeleteTests@56da52a7] 1402179133
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.validDeleteBookingTest(int)[pri:0, instance:Tests.DeleteTests@56da52a7] 1243672603
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.invalidDeleteBookingByIncorrectID(int)[pri:0, instance:Tests.DeleteTests@56da52a7] 958671597
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2ETest.endToEndBookingTest()[pri:0, instance:Tests.E2ETest@4e8e8621] -573113049
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 19:21:27 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 21-11-2025 19:21:27 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\IdeaProjects\Restful-Booker-GP\testNg.xml
+
+[INFO] 21-11-2025 19:21:30 [main] [resources.LogUtils] - Ping Response Body: Created
+[INFO] 21-11-2025 19:21:30 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 201
+[INFO] 21-11-2025 19:21:30 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 3000ms
+[INFO] 21-11-2025 19:21:32 [main] [resources.LogUtils] - Authentication Response Body: {"token":"1647a6508991f6b"}
+[INFO] 21-11-2025 19:21:32 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 21-11-2025 19:21:32 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Token is not null
+[INFO] 21-11-2025 19:21:32 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Response time is less than 2000ms
+[INFO] 21-11-2025 19:21:33 [main] [resources.LogUtils] - Response for Invalid Password Authentication{"reason":"Bad credentials"}
+[ERROR] 21-11-2025 19:21:33 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Status code is not 200 | Error: Status code is not 200 did not expect [200] but found [200]
+[INFO] 21-11-2025 19:21:33 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response contains 'Bad credentials'
+[INFO] 21-11-2025 19:21:33 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 19:21:34 [main] [resources.LogUtils] - Response for Invalid Username Authentication{"reason":"Bad credentials"}
+[ERROR] 21-11-2025 19:21:34 [main] [resources.LogUtils] - ❌ SoftAssert FAILED ->  Status code is not 200 | Error:  Status code is not 200 did not expect [200] but found [200]
+[INFO] 21-11-2025 19:21:34 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Response contains 'Bad credentials'
+[INFO] 21-11-2025 19:21:34 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Response time is less than 2000ms
+[INFO] 21-11-2025 19:21:35 [main] [resources.LogUtils] - Valid Create Booking Response Body: {"bookingid":297,"booking":{"firstname":"Omar","lastname":"Mohamed","totalprice":150,"depositpaid":true,"bookingdates":{"checkin":"2025-10-10","checkout":"2025-11-27"},"additionalneeds":"Test"}}
+[INFO] 21-11-2025 19:21:35 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 21-11-2025 19:21:35 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 19:21:35 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Booking ID is greater than 0
+[INFO] 21-11-2025 19:21:35 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Firstname is correct
+[INFO] 21-11-2025 19:21:35 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Lastname is correct
+[INFO] 21-11-2025 19:21:35 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Total price is correct
+[INFO] 21-11-2025 19:21:35 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Deposit paid is correct
+[INFO] 21-11-2025 19:21:35 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkin date is correct
+[INFO] 21-11-2025 19:21:35 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkout date is correct
+[INFO] 21-11-2025 19:21:35 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Additional needs is correct
+[INFO] 21-11-2025 19:21:36 [main] [resources.LogUtils] - Invalid Create Booking Response Body: Internal Server Error
+[INFO] 21-11-2025 19:21:36 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 200
+[INFO] 21-11-2025 19:21:36 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 19:21:37 [main] [resources.LogUtils] - Get Booking IDs Response Body: [{"bookingid":187},{"bookingid":95},{"bookingid":124},{"bookingid":27},{"bookingid":66},{"bookingid":56},{"bookingid":123},{"bookingid":19},{"bookingid":111},{"bookingid":207},{"bookingid":94},{"bookingid":247},{"bookingid":151},{"bookingid":33},{"bookingid":90},{"bookingid":302},{"bookingid":305},{"bookingid":65},{"bookingid":198},{"bookingid":32},{"bookingid":51},{"bookingid":4},{"bookingid":170},{"bookingid":238},{"bookingid":239},{"bookingid":80},{"bookingid":41},{"bookingid":273},{"bookingid":250},{"bookingid":162},{"bookingid":231},{"bookingid":260},{"bookingid":34},{"bookingid":117},{"bookingid":153},{"bookingid":191},{"bookingid":169},{"bookingid":35},{"bookingid":57},{"bookingid":156},{"bookingid":77},{"bookingid":237},{"bookingid":7},{"bookingid":10},{"bookingid":166},{"bookingid":204},{"bookingid":261},{"bookingid":14},{"bookingid":233},{"bookingid":68},{"bookingid":184},{"bookingid":72},{"bookingid":257},{"bookingid":78},{"bookingid":188},{"bookingid":295},{"bookingid":37},{"bookingid":280},{"bookingid":121},{"bookingid":296},{"bookingid":17},{"bookingid":290},{"bookingid":214},{"bookingid":245},{"bookingid":179},{"bookingid":107},{"bookingid":91},{"bookingid":137},{"bookingid":100},{"bookingid":297},{"bookingid":222},{"bookingid":266},{"bookingid":69},{"bookingid":310},{"bookingid":252},{"bookingid":174},{"bookingid":87},{"bookingid":258},{"bookingid":243},{"bookingid":194},{"bookingid":213},{"bookingid":289},{"bookingid":164},{"bookingid":98},{"bookingid":108},{"bookingid":158},{"bookingid":75},{"bookingid":120},{"bookingid":182},{"bookingid":240},{"bookingid":139},{"bookingid":224},{"bookingid":256},{"bookingid":154},{"bookingid":248},{"bookingid":255},{"bookingid":138},{"bookingid":127},{"bookingid":48},{"bookingid":2},{"bookingid":202},{"bookingid":1},{"bookingid":113},{"bookingid":92},{"bookingid":62},{"bookingid":147},{"bookingid":15},{"bookingid":316},{"bookingid":216},{"bookingid":283},{"bookingid":287},{"bookingid":262},{"bookingid":219},{"bookingid":145},{"bookingid":181},{"bookingid":9},{"bookingid":201},{"bookingid":271},{"bookingid":59},{"bookingid":175},{"bookingid":285},{"bookingid":42},{"bookingid":128},{"bookingid":292},{"bookingid":311},{"bookingid":85},{"bookingid":228},{"bookingid":5},{"bookingid":12},{"bookingid":278},{"bookingid":304},{"bookingid":298},{"bookingid":30},{"bookingid":99},{"bookingid":114},{"bookingid":244},{"bookingid":141},{"bookingid":185},{"bookingid":173},{"bookingid":227},{"bookingid":157},{"bookingid":284},{"bookingid":206},{"bookingid":281},{"bookingid":20},{"bookingid":230},{"bookingid":196},{"bookingid":217},{"bookingid":167},{"bookingid":132},{"bookingid":44},{"bookingid":46},{"bookingid":177},{"bookingid":39},{"bookingid":149},{"bookingid":223},{"bookingid":26},{"bookingid":83},{"bookingid":197},{"bookingid":308},{"bookingid":104},{"bookingid":195},{"bookingid":236},{"bookingid":21},{"bookingid":186},{"bookingid":109},{"bookingid":45},{"bookingid":43},{"bookingid":143},{"bookingid":29},{"bookingid":314},{"bookingid":81},{"bookingid":212},{"bookingid":28},{"bookingid":82},{"bookingid":54},{"bookingid":303},{"bookingid":125},{"bookingid":88},{"bookingid":309},{"bookingid":251},{"bookingid":23},{"bookingid":220},{"bookingid":160},{"bookingid":71},{"bookingid":315},{"bookingid":144},{"bookingid":276},{"bookingid":269},{"bookingid":288},{"bookingid":61},{"bookingid":274},{"bookingid":208},{"bookingid":299},{"bookingid":272},{"bookingid":49},{"bookingid":8},{"bookingid":64},{"bookingid":192},{"bookingid":118},{"bookingid":180},{"bookingid":6},{"bookingid":36},{"bookingid":165},{"bookingid":268},{"bookingid":97},{"bookingid":73},{"bookingid":130},{"bookingid":11},{"bookingid":76},{"bookingid":101},{"bookingid":67},{"bookingid":24},{"bookingid":53},{"bookingid":22},{"bookingid":115},{"bookingid":3},{"bookingid":58},{"bookingid":89},{"bookingid":96},{"bookingid":263},{"bookingid":135},{"bookingid":38},{"bookingid":210},{"bookingid":264},{"bookingid":74},{"bookingid":133},{"bookingid":234},{"bookingid":150},{"bookingid":18},{"bookingid":84},{"bookingid":13}]
+[INFO] 21-11-2025 19:21:37 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 21-11-2025 19:21:37 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 19:21:37 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> At least one booking ID is returned
+[INFO] 21-11-2025 19:21:38 [main] [resources.LogUtils] - Valid Get Booking By ID Response Body: {"firstname":"Mary","lastname":"Smith","totalprice":640,"depositpaid":false,"bookingdates":{"checkin":"2015-07-24","checkout":"2023-04-18"}}
+[INFO] 21-11-2025 19:21:38 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 200
+[INFO] 21-11-2025 19:21:38 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 19:21:39 [main] [resources.LogUtils] - Invalid Get Booking By ID (Non existent ID) Response Body: Not Found
+[INFO] 21-11-2025 19:21:39 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 404
+[INFO] 21-11-2025 19:21:39 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 19:21:40 [main] [resources.LogUtils] - Auth Response: {"token":"2d2a34e54d8fe23"}
+[INFO] 21-11-2025 19:21:41 [main] [resources.LogUtils] - Valid Update Booking Response: {"firstname":"Ahmed","lastname":"Ali","totalprice":200,"depositpaid":false,"bookingdates":{"checkin":"2025-12-01","checkout":"2025-12-15"},"additionalneeds":"UpdatedTest"}
+[INFO] 21-11-2025 19:21:41 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Expected status code 200
+[INFO] 21-11-2025 19:21:41 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 19:21:42 [main] [resources.LogUtils] - Invalid Update Booking (By Incorrect Token) Response: Forbidden
+[INFO] 21-11-2025 19:21:42 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Expected status code 403
+[INFO] 21-11-2025 19:21:42 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 19:21:43 [main] [resources.LogUtils] - Auth Response: {"token":"5215414e7c1be34"}
+[INFO] 21-11-2025 19:21:44 [main] [resources.LogUtils] - Invalid Update Booking (By Nonexistent ID) Response: Method Not Allowed
+[INFO] 21-11-2025 19:21:44 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Expected status code 405
+[INFO] 21-11-2025 19:21:44 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 19:21:45 [main] [resources.LogUtils] - Auth Response: {"token":"8a129b1b7c9fceb"}
+[INFO] 21-11-2025 19:21:46 [main] [resources.LogUtils] - Valid Delete Booking Response Body: Created
+[INFO] 21-11-2025 19:21:46 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 201
+[INFO] 21-11-2025 19:21:46 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 19:21:47 [main] [resources.LogUtils] - Auth Response: {"token":"7a591b18f3df183"}
+[INFO] 21-11-2025 19:21:48 [main] [resources.LogUtils] - Invalid Delete Booking (By Booking ID) Response Body: Method Not Allowed
+[INFO] 21-11-2025 19:21:48 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 405
+[INFO] 21-11-2025 19:21:48 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 19:21:49 [main] [resources.LogUtils] - Invalid Delete Booking (By Token) Response Body: Forbidden
+[INFO] 21-11-2025 19:21:49 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 403
+[INFO] 21-11-2025 19:21:49 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 19:21:49 [main] [resources.LogUtils] - Step 1: Attempting authentication with credentials
+[INFO] 21-11-2025 19:21:50 [main] [resources.LogUtils] - Authentication response - Status: 200 , Response time: {1068}ms, Token: {1068}
+[INFO] 21-11-2025 19:21:50 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Authentication status code is 200
+[INFO] 21-11-2025 19:21:50 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Authentication response time is less than 2000ms
+[INFO] 21-11-2025 19:21:50 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Token is not null
+[INFO] 21-11-2025 19:21:50 [main] [resources.LogUtils] - Step 2: Creating booking for Ahmed Magdy, Total Price: 300, Checkin: 2025-11-11, Checkout: 2025-12-12
+[INFO] 21-11-2025 19:21:51 [main] [resources.LogUtils] - Booking creation response - Status: 200 , Response time: {940}ms, Booking ID: {440}
+[INFO] 21-11-2025 19:21:51 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 21-11-2025 19:21:51 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 19:21:51 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Booking ID is greater than 0
+[INFO] 21-11-2025 19:21:51 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Firstname is correct
+[INFO] 21-11-2025 19:21:51 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Lastname is correct
+[INFO] 21-11-2025 19:21:51 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Total price is correct
+[INFO] 21-11-2025 19:21:51 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkin date is correct
+[INFO] 21-11-2025 19:21:51 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkout date is correct
+[INFO] 21-11-2025 19:21:51 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Additional needs is correct
+[INFO] 21-11-2025 19:21:51 [main] [resources.LogUtils] - Step 3: Retrieving all booking IDs
+[INFO] 21-11-2025 19:21:52 [main] [resources.LogUtils] - Get booking IDs response - Status: 200 , Response time: {953}ms
+[INFO] 21-11-2025 19:21:52 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Get booking IDs status code is 200
+[INFO] 21-11-2025 19:21:52 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> New booking ID is present
+[INFO] 21-11-2025 19:21:52 [main] [resources.LogUtils] - Step 4: Updating booking ID 440 with new details
+[INFO] 21-11-2025 19:21:53 [main] [resources.LogUtils] - Booking update response - Status: 200 , Response time: {891}ms
+[INFO] 21-11-2025 19:21:53 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Update booking status code is 200
+[INFO] 21-11-2025 19:21:53 [main] [resources.LogUtils] - Step 5: Retrieving updated booking details for ID 440
+[INFO] 21-11-2025 19:21:54 [main] [resources.LogUtils] - Get booking response - Status: 200 , Response time: {1021}ms
+[INFO] 21-11-2025 19:21:54 [main] [resources.LogUtils] - Updated booking details: {"firstname":"Mohamed","lastname":"Saad","totalprice":50,"depositpaid":true,"bookingdates":{"checkin":"2025-11-12","checkout":"2025-12-12"},"additionalneeds":"Actor"}
+[INFO] 21-11-2025 19:21:54 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Get booking by ID status code is 200
+[INFO] 21-11-2025 19:21:54 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> First name is updated
+[INFO] 21-11-2025 19:21:54 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Last name is updated
+[INFO] 21-11-2025 19:21:54 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Total price is correct
+[INFO] 21-11-2025 19:21:54 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkin date is updated
+[INFO] 21-11-2025 19:21:54 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkout date is updated
+[INFO] 21-11-2025 19:21:54 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Additional needs is updated
+[INFO] 21-11-2025 19:21:54 [main] [resources.LogUtils] - Step 6: Deleting booking ID 440
+[INFO] 21-11-2025 19:21:55 [main] [resources.LogUtils] - Booking deletion response - Status: 201 , Response time: {861}ms
+[INFO] 21-11-2025 19:21:55 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Delete booking status code is 201
