@@ -1,0 +1,18 @@
+{
+  "uuid": "cc3703f1-a492-44cd-a9f6-c01690547884",
+  "name": "All test suites",
+  "children": [
+    "038aa70e-2da5-4ec2-ac6b-6bee8f1a6415",
+    "d88ec7e5-fe7b-4cc0-9b7e-792e20fe8272",
+    "53f0e129-5948-4152-ae62-fa781b1dd53e",
+    "bf44ba0d-003f-47c8-a522-d6ba1ebd355d",
+    "3bf97b51-3fca-4db9-b2a6-daab607c4a2a",
+    "734bbd2e-0540-4ae0-a3ed-77cec102f9df",
+    "fe491c87-1594-4b42-8849-bc7762f412c0",
+    "84839b9e-d6f1-49b3-881b-cb66a5c075db"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1763747266445,
+  "stop": 1763747296268
+}

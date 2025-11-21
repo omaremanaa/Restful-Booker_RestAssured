@@ -3,6 +3,7 @@ package Tests;
 import Requests.AuthenticationRequests;
 import io.qameta.allure.Allure;
 import io.restassured.response.Response;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import resources.AllureSoftAssert;
@@ -15,7 +16,8 @@ public class AuthenticationTest extends Utils {
 
     @Parameters({"username", "password"})
     @Test
-    public void validAuthenticationTest(String username, String password) {
+    public void validAuthenticationTest(@Optional("admin") String username,
+                                        @Optional("password123") String password) {
         Allure.getLifecycle().updateTestCase(testResult -> {
             testResult.setName("Valid Authentication Test");
             testResult.setDescription("This test verifies that a valid token is generated when correct credentials are provided.");
@@ -35,7 +37,8 @@ public class AuthenticationTest extends Utils {
 
     @Parameters({"username", "invalidPassword"})
     @Test
-    public void invalidPasswordTest(String username, String invalidPassword) {
+    public void invalidPasswordTest(@Optional("admin") String username,
+                                    @Optional("1234") String invalidPassword) {
         Allure.getLifecycle().updateTestCase(testResult -> {
             testResult.setName("Invalid Password Test");
             testResult.setDescription("This test verifies that authentication fails when an incorrect password is provided.");
@@ -55,7 +58,8 @@ public class AuthenticationTest extends Utils {
 
     @Parameters({"invalidUsername", "password"})
     @Test
-    public void invalidUsernameTest(String invalidUsername, String password) {
+    public void invalidUsernameTest(@Optional("test") String invalidUsername,
+                                    @Optional("password123") String password) {
         Allure.getLifecycle().updateTestCase(testResult -> {
             testResult.setName("Invalid Username Test");
             testResult.setDescription("This test verifies that authentication fails when an incorrect username is provided.");

@@ -1,0 +1,12 @@
+{
+  "uuid": "3bf97b51-3fca-4db9-b2a6-daab607c4a2a",
+  "name": "Get booking details",
+  "children": [
+    "daea3219-b4a4-46d3-9f67-8c9b312f943d",
+    "1df257c4-d522-4661-962d-f87015db0f6b"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1763747276976,
+  "stop": 1763747279232
+}

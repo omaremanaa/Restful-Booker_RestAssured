@@ -3,6 +3,7 @@ package Tests;
 import Requests.GetBookingIDRequests;
 import io.qameta.allure.Allure;
 import io.restassured.response.Response;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import resources.AllureSoftAssert;
@@ -17,7 +18,7 @@ public class GetBookingIDTest extends Utils {
             "bookingID"
     })
     @Test
-    public void validGetBookingDetails(int bookingID) {
+    public void validGetBookingDetails(@Optional("1") int bookingID) {
         Allure.getLifecycle().updateTestCase(testResult -> {
             testResult.setName("Valid Get Booking By ID Test");
             testResult.setDescription("This test verifies that a booking can be retrieved by its ID and contains all expected fields.");
@@ -38,7 +39,7 @@ public class GetBookingIDTest extends Utils {
             "invalidBookingID"
     })
     @Test
-    public void invalidGetBookingByIncorrectID(int invalidBookingID) {
+    public void invalidGetBookingByIncorrectID(@Optional("-1") int invalidBookingID) {
         Allure.getLifecycle().updateTestCase(testResult -> {
             testResult.setName("Invalid Get Booking By ID Test");
             testResult.setDescription("This test verifies that retrieving a booking by an incorrect ID returns appropriate error handling.");

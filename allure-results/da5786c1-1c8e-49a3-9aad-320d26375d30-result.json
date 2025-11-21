@@ -1,0 +1,294 @@
+{
+  "uuid": "da5786c1-1c8e-49a3-9aad-320d26375d30",
+  "historyId": "e75b1eeacbee0aa51a34a30bd101d636",
+  "fullName": "Tests.E2ETest.endToEndBookingTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Tests.E2ETest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.E2ETest"
+    },
+    {
+      "name": "testMethod",
+      "value": "endToEndBookingTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Surefire suite"
+    },
+    {
+      "name": "suite",
+      "value": "Surefire test"
+    },
+    {
+      "name": "subSuite",
+      "value": "Tests.E2ETest"
+    },
+    {
+      "name": "host",
+      "value": "oem1800"
+    },
+    {
+      "name": "thread",
+      "value": "26604@oem1800.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "endToEndBookingTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "The following asserts failed:\n\tAuthentication response time is less than 2000ms expected [true] but found [false]",
+    "trace": "java.lang.AssertionError: The following asserts failed:\n\tAuthentication response time is less than 2000ms expected [true] but found [false]\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)\r\n\tat Tests.E2ETest.endToEndBookingTest(E2ETest.java:104)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\r\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\r\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r\n\tat org.testng.TestRunner.run(TestRunner.java:616)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1112)\r\n\tat org.testng.TestNG.run(TestNG.java:1079)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "✔️ SoftAssert PASSED: Authentication status code is 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746627537,
+      "stop": 1763746627538
+    },
+    {
+      "name": "❌ SoftAssert FAILED: Authentication response time is less than 2000ms | Error: Authentication response time is less than 2000ms expected [true] but found [false]",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746627544,
+      "stop": 1763746627544
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Token is not null",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746627546,
+      "stop": 1763746627546
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Status code is 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746628577,
+      "stop": 1763746628577
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Response time is less than 2000ms",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746628578,
+      "stop": 1763746628578
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Booking ID is greater than 0",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746628578,
+      "stop": 1763746628578
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Firstname is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746628608,
+      "stop": 1763746628608
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Lastname is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746628625,
+      "stop": 1763746628625
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Total price is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746628647,
+      "stop": 1763746628647
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Checkin date is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746628664,
+      "stop": 1763746628664
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Checkout date is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746628678,
+      "stop": 1763746628678
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Additional needs is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746628698,
+      "stop": 1763746628698
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Get booking IDs status code is 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746629983,
+      "stop": 1763746629983
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: New booking ID is present",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746630262,
+      "stop": 1763746630262
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Update booking status code is 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746631319,
+      "stop": 1763746631319
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Get booking by ID status code is 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746633677,
+      "stop": 1763746633677
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: First name is updated",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746633697,
+      "stop": 1763746633697
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Last name is updated",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746633717,
+      "stop": 1763746633717
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Total price is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746633734,
+      "stop": 1763746633734
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Checkin date is updated",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746633750,
+      "stop": 1763746633750
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Checkout date is updated",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746633768,
+      "stop": 1763746633768
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Additional needs is updated",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746633784,
+      "stop": 1763746633784
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Delete booking status code is 201",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763746634803,
+      "stop": 1763746634803
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1763746623958,
+  "stop": 1763746634807
+}

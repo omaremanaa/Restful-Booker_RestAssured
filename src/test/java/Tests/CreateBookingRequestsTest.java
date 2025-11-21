@@ -3,6 +3,7 @@ package Tests;
 import Requests.CreateBookingRequests;
 import io.qameta.allure.Allure;
 import io.restassured.response.Response;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import resources.AllureSoftAssert;
@@ -17,9 +18,13 @@ public class CreateBookingRequestsTest extends Utils {
             "totalprice", "depositpaid",
             "checkin", "checkout", "additionalneeds"})
     @Test
-    public void validCreateBookingTest(String firstname, String lastname, int totalprice,
-                                       boolean depositpaid, String checkin,
-                                       String checkout, String additionalneeds) {
+    public void validCreateBookingTest(@Optional("Omar") String firstname,
+                                       @Optional("Mohamed") String lastname,
+                                       @Optional("150") int totalprice,
+                                       @Optional("true") boolean depositpaid,
+                                       @Optional("2025-10-10") String checkin,
+                                       @Optional("2025-11-27") String checkout,
+                                       @Optional("Test") String additionalneeds) {
         Allure.getLifecycle().updateTestCase(testResult -> {
             testResult.setName("Valid Create Booking Test");
             testResult.setDescription("This test verifies that a booking is successfully created when valid data is provided.");
@@ -58,7 +63,15 @@ public class CreateBookingRequestsTest extends Utils {
 
     @Parameters({"body"})
     @Test
-    public void invalidCreateBookingTest(String body) {
+    public void invalidCreateBookingTest(@Optional("{\n" +
+            "    \"totalprice\": 150,\n" +
+            "    \"depositpaid\": true,\n" +
+            "    \"bookingdates\": {\n" +
+            "        \"checkin\": \"2023-10-01\",\n" +
+            "        \"checkout\": \"2025-11-20\"\n" +
+            "    },\n" +
+            "    \"additionalneeds\": \"Breakfast\"\n" +
+            "}") String body) {
         Allure.getLifecycle().updateTestCase(testResult -> {
             testResult.setName("Invalid Create Booking Test");
             testResult.setDescription("This test verifies that booking creation fails when invalid data is provided.");
