@@ -1,0 +1,118 @@
+[DEBUG] 21-11-2025 18:28:36 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\IdeaProjects\Restful-Booker-GP\testNg.xml"
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PingRequestsTest.validateOnline()[pri:0, instance:Tests.PingRequestsTest@4525d1d3] 948270744
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.invalidUsernameTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.AuthenticationTest@4d33940d] 72419974
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.validAuthenticationTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.AuthenticationTest@4d33940d] 267573725
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.invalidPasswordTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.AuthenticationTest@4d33940d] 563224827
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.validCreateBookingTest(java.lang.String,java.lang.String,int,boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.CreateBookingRequestsTest@6edaa77a] -811470458
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.invalidCreateBookingTest(java.lang.String)[pri:0, instance:Tests.CreateBookingRequestsTest@6edaa77a] -914626243
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDsTest.validGetBookingIDsTest()[pri:0, instance:Tests.GetBookingIDsTest@1280851e] 1111017646
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.validGetBookingDetails(int)[pri:0, instance:Tests.GetBookingIDTest@6ef81f31] 209674260
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.invalidGetBookingByIncorrectID(int)[pri:0, instance:Tests.GetBookingIDTest@6ef81f31] 1805699936
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.validUpdateBookingTest(int,java.lang.String)[pri:0, instance:Tests.UpdateBookingTest@726a17c4] 970250130
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.invalidUpdateBookingByIncorrectToken(int,java.lang.String)[pri:0, instance:Tests.UpdateBookingTest@726a17c4] 1097331252
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.invalidUpdateBookingByIncorrectID(int,java.lang.String)[pri:0, instance:Tests.UpdateBookingTest@726a17c4] -781411712
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.invalidDeleteBookingByIncorrectToken(int)[pri:0, instance:Tests.DeleteTests@aa10649] 123355615
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.validDeleteBookingTest(int)[pri:0, instance:Tests.DeleteTests@aa10649] -35150915
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.invalidDeleteBookingByIncorrectID(int)[pri:0, instance:Tests.DeleteTests@aa10649] -320151921
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2ETest.endToEndBookingTest()[pri:0, instance:Tests.E2ETest@231baf51] -1302059433
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 18:28:37 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 21-11-2025 18:28:37 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\IdeaProjects\Restful-Booker-GP\testNg.xml
+
+[INFO] 21-11-2025 18:28:40 [main] [resources.LogUtils] - Ping Response Body: Created
+[INFO] 21-11-2025 18:28:40 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 201
+[INFO] 21-11-2025 18:28:40 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 3000ms
+[INFO] 21-11-2025 18:28:42 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 21-11-2025 18:28:42 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Token is not null
+[INFO] 21-11-2025 18:28:42 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Response time is less than 2000ms
+[ERROR] 21-11-2025 18:28:43 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Status code is not 200 | Error: Status code is not 200 did not expect [200] but found [200]
+[INFO] 21-11-2025 18:28:43 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response contains 'Bad credentials'
+[INFO] 21-11-2025 18:28:43 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[ERROR] 21-11-2025 18:28:44 [main] [resources.LogUtils] - ❌ SoftAssert FAILED ->  Status code is not 200 | Error:  Status code is not 200 did not expect [200] but found [200]
+[INFO] 21-11-2025 18:28:44 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Response contains 'Bad credentials'
+[INFO] 21-11-2025 18:28:44 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Response time is less than 2000ms
+[INFO] 21-11-2025 18:28:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 21-11-2025 18:28:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 18:28:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Booking ID is greater than 0
+[INFO] 21-11-2025 18:28:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Firstname is correct
+[INFO] 21-11-2025 18:28:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Lastname is correct
+[INFO] 21-11-2025 18:28:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Total price is correct
+[INFO] 21-11-2025 18:28:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Deposit paid is correct
+[INFO] 21-11-2025 18:28:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkin date is correct
+[INFO] 21-11-2025 18:28:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkout date is correct
+[INFO] 21-11-2025 18:28:45 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Additional needs is correct
+[INFO] 21-11-2025 18:28:46 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 200
+[INFO] 21-11-2025 18:28:46 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 18:28:47 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 21-11-2025 18:28:47 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 18:28:47 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> At least one booking ID is returned
+[ERROR] 21-11-2025 18:28:48 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Status code is not 200 | Error: Status code is not 200 expected [200] but found [404]
+[INFO] 21-11-2025 18:28:48 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 18:28:49 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 404
+[INFO] 21-11-2025 18:28:49 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[ERROR] 21-11-2025 18:28:51 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Expected status code 200 | Error: Expected status code 200 expected [200] but found [405]
+[INFO] 21-11-2025 18:28:51 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 18:28:52 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Expected status code 403
+[INFO] 21-11-2025 18:28:52 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 18:28:54 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Expected status code 405
+[INFO] 21-11-2025 18:28:54 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[ERROR] 21-11-2025 18:28:56 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Status code is not 201 | Error: Status code is not 201 expected [201] but found [405]
+[INFO] 21-11-2025 18:28:56 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 18:28:58 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 405
+[INFO] 21-11-2025 18:28:58 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 18:28:59 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 403
+[INFO] 21-11-2025 18:28:59 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 18:29:00 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Authentication status code is 200
+[INFO] 21-11-2025 18:29:00 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Authentication response time is less than 2000ms
+[INFO] 21-11-2025 18:29:00 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Token is not null
+[INFO] 21-11-2025 18:29:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 21-11-2025 18:29:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 18:29:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Booking ID is greater than 0
+[INFO] 21-11-2025 18:29:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Firstname is correct
+[INFO] 21-11-2025 18:29:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Lastname is correct
+[INFO] 21-11-2025 18:29:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Total price is correct
+[INFO] 21-11-2025 18:29:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkin date is correct
+[INFO] 21-11-2025 18:29:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkout date is correct
+[INFO] 21-11-2025 18:29:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Additional needs is correct
+[INFO] 21-11-2025 18:29:02 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Get booking IDs status code is 200
+[INFO] 21-11-2025 18:29:02 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> New booking ID is present
+[INFO] 21-11-2025 18:29:03 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Update booking status code is 200
+[INFO] 21-11-2025 18:29:04 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Get booking by ID status code is 200
+[INFO] 21-11-2025 18:29:04 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> First name is updated
+[INFO] 21-11-2025 18:29:04 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Last name is updated
+[INFO] 21-11-2025 18:29:04 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Total price is correct
+[INFO] 21-11-2025 18:29:04 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkin date is updated
+[INFO] 21-11-2025 18:29:04 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkout date is updated
+[INFO] 21-11-2025 18:29:04 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Additional needs is updated
+[INFO] 21-11-2025 18:29:05 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Delete booking status code is 201
