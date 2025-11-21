@@ -9,8 +9,6 @@ import resources.AllureSoftAssert;
 import resources.LogUtils;
 import resources.Utils;
 
-import java.util.Map;
-
 public class GetBookingIDTest extends Utils {
     GetBookingIDRequests getBookingIDRequests;
     AllureSoftAssert softAssert;

@@ -1,1 +1,96 @@
-{"uuid":"26a90df3-f556-4416-87fc-6327966ad6a3","historyId":"a708cf316258cad8479fa20a7aa2d07f","fullName":"Tests.UpdateBookingTest.validUpdateBookingTest","labels":[{"name":"package","value":"Tests.UpdateBookingTest"},{"name":"testClass","value":"Tests.UpdateBookingTest"},{"name":"testMethod","value":"validUpdateBookingTest"},{"name":"parentSuite","value":"All test suites"},{"name":"suite","value":"Update Booking Test"},{"name":"subSuite","value":"Tests.UpdateBookingTest"},{"name":"host","value":"oem1800"},{"name":"thread","value":"31360@oem1800.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"Valid Update Booking Test","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","description":"This test verifies that a booking can be updated successfully with valid data and authentication.","steps":[{"name":"✔️ SoftAssert PASSED: Expected status code 200","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743699768,"stop":1763743699768},{"name":"✔️ SoftAssert PASSED: Response time is less than 2000ms","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743699768,"stop":1763743699768}],"attachments":[],"parameters":[{"name":"body","value":"{     \"firstname\": \"Ahmed\",     \"lastname\": \"Ali\",     \"totalprice\": 200,     \"depositpaid\": false,     \"bookingdates\": {         \"checkin\": \"2025-12-01\",         \"checkout\": \"2025-12-15\"     },     \"additionalneeds\": \"UpdatedTest\" }"},{"name":"incorrectID","value":"-1"},{"name":"id","value":"1"}],"start":1763743697525,"stop":1763743699769}
+{
+  "uuid": "26a90df3-f556-4416-87fc-6327966ad6a3",
+  "historyId": "a708cf316258cad8479fa20a7aa2d07f",
+  "fullName": "Tests.UpdateBookingTest.validUpdateBookingTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Tests.UpdateBookingTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.UpdateBookingTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "validUpdateBookingTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All test suites"
+    },
+    {
+      "name": "suite",
+      "value": "Update Booking Test"
+    },
+    {
+      "name": "subSuite",
+      "value": "Tests.UpdateBookingTest"
+    },
+    {
+      "name": "host",
+      "value": "oem1800"
+    },
+    {
+      "name": "thread",
+      "value": "31360@oem1800.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Valid Update Booking Test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "This test verifies that a booking can be updated successfully with valid data and authentication.",
+  "steps": [
+    {
+      "name": "✔️ SoftAssert PASSED: Expected status code 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743699768,
+      "stop": 1763743699768
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Response time is less than 2000ms",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743699768,
+      "stop": 1763743699768
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "body",
+      "value": "{     \"firstname\": \"Ahmed\",     \"lastname\": \"Ali\",     \"totalprice\": 200,     \"depositpaid\": false,     \"bookingdates\": {         \"checkin\": \"2025-12-01\",         \"checkout\": \"2025-12-15\"     },     \"additionalneeds\": \"UpdatedTest\" }"
+    },
+    {
+      "name": "incorrectID",
+      "value": "-1"
+    },
+    {
+      "name": "id",
+      "value": "1"
+    }
+  ],
+  "start": 1763743697525,
+  "stop": 1763743699769
+}

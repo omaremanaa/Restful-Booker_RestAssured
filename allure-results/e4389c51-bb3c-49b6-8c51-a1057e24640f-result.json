@@ -1,1 +1,96 @@
-{"uuid":"e4389c51-bb3c-49b6-8c51-a1057e24640f","historyId":"b0c9e07f653bd68ab8a3c9e91b0d8747","fullName":"Tests.UpdateBookingTest.invalidUpdateBookingByIncorrectID","labels":[{"name":"package","value":"Tests.UpdateBookingTest"},{"name":"testClass","value":"Tests.UpdateBookingTest"},{"name":"testMethod","value":"invalidUpdateBookingByIncorrectID"},{"name":"parentSuite","value":"All test suites"},{"name":"suite","value":"Update Booking Test"},{"name":"subSuite","value":"Tests.UpdateBookingTest"},{"name":"host","value":"oem1800"},{"name":"thread","value":"29740@oem1800.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"Invalid Update Booking Test By Incorrect ID","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","description":"This test verifies that updating a booking fails when an incorrect booking ID is provided.","steps":[{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@2776fd8f","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763727261863,"stop":1763727261863},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$1@1c62c3fd","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763727261863,"stop":1763727261863}],"attachments":[],"parameters":[{"name":"body","value":"{     \"firstname\": \"Ahmed\",     \"lastname\": \"Ali\",     \"totalprice\": 200,     \"depositpaid\": false,     \"bookingdates\": {         \"checkin\": \"2025-12-01\",         \"checkout\": \"2025-12-15\"     },     \"additionalneeds\": \"UpdatedTest\" }"},{"name":"incorrectID","value":"-1"},{"name":"id","value":"1"}],"start":1763727260321,"stop":1763727261863}
+{
+  "uuid": "e4389c51-bb3c-49b6-8c51-a1057e24640f",
+  "historyId": "b0c9e07f653bd68ab8a3c9e91b0d8747",
+  "fullName": "Tests.UpdateBookingTest.invalidUpdateBookingByIncorrectID",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Tests.UpdateBookingTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.UpdateBookingTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "invalidUpdateBookingByIncorrectID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All test suites"
+    },
+    {
+      "name": "suite",
+      "value": "Update Booking Test"
+    },
+    {
+      "name": "subSuite",
+      "value": "Tests.UpdateBookingTest"
+    },
+    {
+      "name": "host",
+      "value": "oem1800"
+    },
+    {
+      "name": "thread",
+      "value": "29740@oem1800.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Invalid Update Booking Test By Incorrect ID",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "This test verifies that updating a booking fails when an incorrect booking ID is provided.",
+  "steps": [
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@2776fd8f",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763727261863,
+      "stop": 1763727261863
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$1@1c62c3fd",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763727261863,
+      "stop": 1763727261863
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "body",
+      "value": "{     \"firstname\": \"Ahmed\",     \"lastname\": \"Ali\",     \"totalprice\": 200,     \"depositpaid\": false,     \"bookingdates\": {         \"checkin\": \"2025-12-01\",         \"checkout\": \"2025-12-15\"     },     \"additionalneeds\": \"UpdatedTest\" }"
+    },
+    {
+      "name": "incorrectID",
+      "value": "-1"
+    },
+    {
+      "name": "id",
+      "value": "1"
+    }
+  ],
+  "start": 1763727260321,
+  "stop": 1763727261863
+}

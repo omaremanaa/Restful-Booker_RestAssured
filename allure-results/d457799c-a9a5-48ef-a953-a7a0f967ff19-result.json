@@ -1,1 +1,92 @@
-{"uuid":"d457799c-a9a5-48ef-a953-a7a0f967ff19","historyId":"69a86ce9ea726a57cc061685b9e9e573","fullName":"Tests.GetBookingIDTest.invalidGetBookingByIncorrectID","labels":[{"name":"package","value":"Tests.GetBookingIDTest"},{"name":"testClass","value":"Tests.GetBookingIDTest"},{"name":"testMethod","value":"invalidGetBookingByIncorrectID"},{"name":"parentSuite","value":"All test suites"},{"name":"suite","value":"Get booking details"},{"name":"subSuite","value":"Tests.GetBookingIDTest"},{"name":"host","value":"oem1800"},{"name":"thread","value":"10632@oem1800.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"Invalid Get Booking By ID Test","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","description":"This test verifies that retrieving a booking by an incorrect ID returns appropriate error handling.","steps":[{"name":"✔️ SoftAssert PASSED: Status code is not 404","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745699984,"stop":1763745699984},{"name":"✔️ SoftAssert PASSED: Response time is less than 2000ms","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745699984,"stop":1763745699984}],"attachments":[],"parameters":[{"name":"invalidBookingID","value":"-1"},{"name":"bookingID","value":"1"}],"start":1763745698966,"stop":1763745699986}
+{
+  "uuid": "d457799c-a9a5-48ef-a953-a7a0f967ff19",
+  "historyId": "69a86ce9ea726a57cc061685b9e9e573",
+  "fullName": "Tests.GetBookingIDTest.invalidGetBookingByIncorrectID",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Tests.GetBookingIDTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.GetBookingIDTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "invalidGetBookingByIncorrectID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All test suites"
+    },
+    {
+      "name": "suite",
+      "value": "Get booking details"
+    },
+    {
+      "name": "subSuite",
+      "value": "Tests.GetBookingIDTest"
+    },
+    {
+      "name": "host",
+      "value": "oem1800"
+    },
+    {
+      "name": "thread",
+      "value": "10632@oem1800.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Invalid Get Booking By ID Test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "This test verifies that retrieving a booking by an incorrect ID returns appropriate error handling.",
+  "steps": [
+    {
+      "name": "✔️ SoftAssert PASSED: Status code is not 404",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745699984,
+      "stop": 1763745699984
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Response time is less than 2000ms",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745699984,
+      "stop": 1763745699984
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "invalidBookingID",
+      "value": "-1"
+    },
+    {
+      "name": "bookingID",
+      "value": "1"
+    }
+  ],
+  "start": 1763745698966,
+  "stop": 1763745699986
+}

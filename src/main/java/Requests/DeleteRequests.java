@@ -5,14 +5,14 @@ import io.restassured.response.Response;
 import static io.restassured.RestAssured.given;
 
 public class DeleteRequests {
-    private String pathPar = "/booking/{id}" ;
+    private String pathPar = "/booking/{id}";
 
     public Response deleteBooking(int id, String token) {
         Response deleteBookingResponse;
         deleteBookingResponse = given()
-                .pathParam("id",id)
+                .pathParam("id", id)
                 .header("Content-Type", "application/json")
-                .header("Cookie","token="+token)
+                .header("Cookie", "token=" + token)
                 .when()
                 .delete(pathPar)
                 .then()

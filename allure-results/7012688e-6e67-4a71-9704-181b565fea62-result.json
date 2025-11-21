@@ -1,1 +1,294 @@
-{"uuid":"7012688e-6e67-4a71-9704-181b565fea62","historyId":"e75b1eeacbee0aa51a34a30bd101d636","fullName":"Tests.E2ETest.endToEndBookingTest","labels":[{"name":"package","value":"Tests.E2ETest"},{"name":"testClass","value":"Tests.E2ETest"},{"name":"testMethod","value":"endToEndBookingTest"},{"name":"parentSuite","value":"Default Suite"},{"name":"suite","value":"Restful-Booker-GP"},{"name":"subSuite","value":"Tests.E2ETest"},{"name":"host","value":"oem1800"},{"name":"thread","value":"27180@oem1800.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"endToEndBookingTest","status":"failed","statusDetails":{"known":false,"muted":false,"flaky":false,"message":"The following asserts failed:\n\tAuthentication response time is less than 2000ms expected [true] but found [false]","trace":"java.lang.AssertionError: The following asserts failed:\n\tAuthentication response time is less than 2000ms expected [true] but found [false]\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)\r\n\tat Tests.E2ETest.endToEndBookingTest(E2ETest.java:104)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\r\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\r\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r\n\tat org.testng.TestRunner.run(TestRunner.java:616)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1112)\r\n\tat org.testng.TestNG.run(TestNG.java:1079)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\r\n"},"stage":"finished","steps":[{"name":"✔️ SoftAssert PASSED: Authentication status code is 200","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743621213,"stop":1763743621214},{"name":"❌ SoftAssert FAILED: Authentication response time is less than 2000ms | Error: Authentication response time is less than 2000ms expected [true] but found [false]","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743621221,"stop":1763743621221},{"name":"✔️ SoftAssert PASSED: Token is not null","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743621222,"stop":1763743621222},{"name":"✔️ SoftAssert PASSED: Status code is 200","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743622276,"stop":1763743622276},{"name":"✔️ SoftAssert PASSED: Response time is less than 2000ms","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743622276,"stop":1763743622276},{"name":"✔️ SoftAssert PASSED: Booking ID is greater than 0","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743622276,"stop":1763743622276},{"name":"✔️ SoftAssert PASSED: Firstname is correct","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743622289,"stop":1763743622289},{"name":"✔️ SoftAssert PASSED: Lastname is correct","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743622304,"stop":1763743622304},{"name":"✔️ SoftAssert PASSED: Total price is correct","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743622316,"stop":1763743622316},{"name":"✔️ SoftAssert PASSED: Checkin date is correct","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743622344,"stop":1763743622344},{"name":"✔️ SoftAssert PASSED: Checkout date is correct","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743622370,"stop":1763743622371},{"name":"✔️ SoftAssert PASSED: Additional needs is correct","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743622389,"stop":1763743622389},{"name":"✔️ SoftAssert PASSED: Get booking IDs status code is 200","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743623489,"stop":1763743623489},{"name":"✔️ SoftAssert PASSED: New booking ID is present","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743623815,"stop":1763743623815},{"name":"✔️ SoftAssert PASSED: Update booking status code is 200","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743624711,"stop":1763743624711},{"name":"✔️ SoftAssert PASSED: Get booking by ID status code is 200","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743625736,"stop":1763743625736},{"name":"✔️ SoftAssert PASSED: First name is updated","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743625749,"stop":1763743625749},{"name":"✔️ SoftAssert PASSED: Last name is updated","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743625760,"stop":1763743625760},{"name":"✔️ SoftAssert PASSED: Total price is correct","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743625769,"stop":1763743625769},{"name":"✔️ SoftAssert PASSED: Checkin date is updated","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743625786,"stop":1763743625786},{"name":"✔️ SoftAssert PASSED: Checkout date is updated","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743625796,"stop":1763743625796},{"name":"✔️ SoftAssert PASSED: Additional needs is updated","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743625807,"stop":1763743625807},{"name":"✔️ SoftAssert PASSED: Delete booking status code is 201","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763743626963,"stop":1763743626963}],"attachments":[],"parameters":[],"start":1763743617583,"stop":1763743626975}
+{
+  "uuid": "7012688e-6e67-4a71-9704-181b565fea62",
+  "historyId": "e75b1eeacbee0aa51a34a30bd101d636",
+  "fullName": "Tests.E2ETest.endToEndBookingTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Tests.E2ETest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.E2ETest"
+    },
+    {
+      "name": "testMethod",
+      "value": "endToEndBookingTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "Restful-Booker-GP"
+    },
+    {
+      "name": "subSuite",
+      "value": "Tests.E2ETest"
+    },
+    {
+      "name": "host",
+      "value": "oem1800"
+    },
+    {
+      "name": "thread",
+      "value": "27180@oem1800.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "endToEndBookingTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "The following asserts failed:\n\tAuthentication response time is less than 2000ms expected [true] but found [false]",
+    "trace": "java.lang.AssertionError: The following asserts failed:\n\tAuthentication response time is less than 2000ms expected [true] but found [false]\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)\r\n\tat Tests.E2ETest.endToEndBookingTest(E2ETest.java:104)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\r\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\r\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r\n\tat org.testng.TestRunner.run(TestRunner.java:616)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1112)\r\n\tat org.testng.TestNG.run(TestNG.java:1079)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "✔️ SoftAssert PASSED: Authentication status code is 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743621213,
+      "stop": 1763743621214
+    },
+    {
+      "name": "❌ SoftAssert FAILED: Authentication response time is less than 2000ms | Error: Authentication response time is less than 2000ms expected [true] but found [false]",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743621221,
+      "stop": 1763743621221
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Token is not null",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743621222,
+      "stop": 1763743621222
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Status code is 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743622276,
+      "stop": 1763743622276
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Response time is less than 2000ms",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743622276,
+      "stop": 1763743622276
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Booking ID is greater than 0",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743622276,
+      "stop": 1763743622276
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Firstname is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743622289,
+      "stop": 1763743622289
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Lastname is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743622304,
+      "stop": 1763743622304
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Total price is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743622316,
+      "stop": 1763743622316
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Checkin date is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743622344,
+      "stop": 1763743622344
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Checkout date is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743622370,
+      "stop": 1763743622371
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Additional needs is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743622389,
+      "stop": 1763743622389
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Get booking IDs status code is 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743623489,
+      "stop": 1763743623489
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: New booking ID is present",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743623815,
+      "stop": 1763743623815
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Update booking status code is 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743624711,
+      "stop": 1763743624711
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Get booking by ID status code is 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743625736,
+      "stop": 1763743625736
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: First name is updated",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743625749,
+      "stop": 1763743625749
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Last name is updated",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743625760,
+      "stop": 1763743625760
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Total price is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743625769,
+      "stop": 1763743625769
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Checkin date is updated",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743625786,
+      "stop": 1763743625786
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Checkout date is updated",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743625796,
+      "stop": 1763743625796
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Additional needs is updated",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743625807,
+      "stop": 1763743625807
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Delete booking status code is 201",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763743626963,
+      "stop": 1763743626963
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1763743617583,
+  "stop": 1763743626975
+}

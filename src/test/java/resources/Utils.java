@@ -4,9 +4,9 @@ import io.restassured.RestAssured;
 
 
 public class Utils {
-    private  String baseURI = "https://restful-booker.herokuapp.com";
+    private String baseURI = "https://restful-booker.herokuapp.com";
 
-    public Utils(){
+    public Utils() {
         RestAssured.baseURI = baseURI;
     }
 

@@ -42,7 +42,7 @@ public class DeleteTests extends Utils {
     @Parameters({"incorrectBookingID"})
     @Test
     public void invalidDeleteBookingByIncorrectID(int incorrectBookingID) {
-           Allure.getLifecycle().updateTestCase(testResult -> {
+        Allure.getLifecycle().updateTestCase(testResult -> {
             testResult.setName("Invalid Delete Booking By Incorrect ID Test");
             testResult.setDescription("This test verifies that deleting a booking with an incorrect ID returns appropriate error handling.");
         });

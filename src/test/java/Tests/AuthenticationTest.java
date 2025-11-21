@@ -23,13 +23,13 @@ public class AuthenticationTest extends Utils {
 
         softAssert = new AllureSoftAssert();
         authenticationRequests = new AuthenticationRequests();
-        Response response = authenticationRequests.createToken(username,password);
+        Response response = authenticationRequests.createToken(username, password);
         String token = response.jsonPath().getString("token");
         LogUtils.info("Authentication Response Body: " + response.asString());
 
         softAssert.assertEquals(response.statusCode(), 200, "Status code is 200");
-        softAssert.assertNotNull(token," Token is not null");
-        softAssert.assertTrue(response.getTime()<2000, " Response time is less than 2000ms");
+        softAssert.assertNotNull(token, " Token is not null");
+        softAssert.assertTrue(response.getTime() < 2000, " Response time is less than 2000ms");
         softAssert.assertAll();
     }
 
@@ -43,13 +43,13 @@ public class AuthenticationTest extends Utils {
 
         softAssert = new AllureSoftAssert();
         authenticationRequests = new AuthenticationRequests();
-        Response response = authenticationRequests.createToken(username,invalidPassword);
+        Response response = authenticationRequests.createToken(username, invalidPassword);
         LogUtils.info("Response for Invalid Password Authentication"
                 + response.asString());
 
         softAssert.assertNotEquals(response.statusCode(), 200, "Status code is not 200");
-        softAssert.assertTrue(response.asString().contains("Bad credentials"),"Response contains 'Bad credentials'");
-        softAssert.assertTrue(response.getTime()<2000, "Response time is less than 2000ms");
+        softAssert.assertTrue(response.asString().contains("Bad credentials"), "Response contains 'Bad credentials'");
+        softAssert.assertTrue(response.getTime() < 2000, "Response time is less than 2000ms");
         softAssert.assertAll();
     }
 
@@ -63,13 +63,13 @@ public class AuthenticationTest extends Utils {
 
         softAssert = new AllureSoftAssert();
         authenticationRequests = new AuthenticationRequests();
-        Response response = authenticationRequests.createToken(invalidUsername,password);
+        Response response = authenticationRequests.createToken(invalidUsername, password);
         LogUtils.info("Response for Invalid Username Authentication"
                 + response.asString());
 
-        softAssert.assertNotEquals(response.statusCode(), 200," Status code is not 200");
-        softAssert.assertTrue(response.asString().contains("Bad credentials")," Response contains 'Bad credentials'");
-        softAssert.assertTrue(response.getTime()<2000, " Response time is less than 2000ms");
+        softAssert.assertNotEquals(response.statusCode(), 200, " Status code is not 200");
+        softAssert.assertTrue(response.asString().contains("Bad credentials"), " Response contains 'Bad credentials'");
+        softAssert.assertTrue(response.getTime() < 2000, " Response time is less than 2000ms");
         softAssert.assertAll();
     }
 }

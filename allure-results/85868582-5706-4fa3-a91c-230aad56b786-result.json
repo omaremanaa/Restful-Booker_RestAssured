@@ -1,1 +1,196 @@
-{"uuid":"85868582-5706-4fa3-a91c-230aad56b786","historyId":"2aa0ff7dd66e02bf08c57c45df9dcdd1","fullName":"Tests.CreateBookingRequestsTest.validCreateBookingTest","labels":[{"name":"package","value":"Tests.CreateBookingRequestsTest"},{"name":"testClass","value":"Tests.CreateBookingRequestsTest"},{"name":"testMethod","value":"validCreateBookingTest"},{"name":"parentSuite","value":"All test suites"},{"name":"suite","value":"Create Booking Test"},{"name":"subSuite","value":"Tests.CreateBookingRequestsTest"},{"name":"host","value":"oem1800"},{"name":"thread","value":"26212@oem1800.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"Valid Create Booking Test","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","description":"This test verifies that a booking is successfully created when valid data is provided.","steps":[{"name":"✔️ SoftAssert PASSED","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763742345728,"stop":1763742345729},{"name":"✔️ SoftAssert PASSED","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763742345729,"stop":1763742345729},{"name":"✔️ SoftAssert PASSED","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763742345729,"stop":1763742345729},{"name":"✔️ SoftAssert PASSED","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763742345730,"stop":1763742345730},{"name":"✔️ SoftAssert PASSED","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763742345730,"stop":1763742345730},{"name":"✔️ SoftAssert PASSED","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763742345732,"stop":1763742345732},{"name":"✔️ SoftAssert PASSED","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763742345734,"stop":1763742345734},{"name":"✔️ SoftAssert PASSED","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763742345734,"stop":1763742345734},{"name":"✔️ SoftAssert PASSED","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763742345734,"stop":1763742345734},{"name":"✔️ SoftAssert PASSED","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763742345735,"stop":1763742345735}],"attachments":[],"parameters":[{"name":"firstname","value":"Omar"},{"name":"additionalneeds","value":"Test"},{"name":"checkin","value":"2025-10-10"},{"name":"totalprice","value":"150"},{"name":"depositpaid","value":"true"},{"name":"body","value":"{     \"totalprice\": 150,     \"depositpaid\": true,     \"bookingdates\": {         \"checkin\": \"2023-10-01\",         \"checkout\": \"2025-11-20\"     },     \"additionalneeds\": \"Breakfast\" }"},{"name":"checkout","value":"2025-11-27"},{"name":"lastname","value":"Mohamed"}],"start":1763742344544,"stop":1763742345735}
+{
+  "uuid": "85868582-5706-4fa3-a91c-230aad56b786",
+  "historyId": "2aa0ff7dd66e02bf08c57c45df9dcdd1",
+  "fullName": "Tests.CreateBookingRequestsTest.validCreateBookingTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Tests.CreateBookingRequestsTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.CreateBookingRequestsTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "validCreateBookingTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All test suites"
+    },
+    {
+      "name": "suite",
+      "value": "Create Booking Test"
+    },
+    {
+      "name": "subSuite",
+      "value": "Tests.CreateBookingRequestsTest"
+    },
+    {
+      "name": "host",
+      "value": "oem1800"
+    },
+    {
+      "name": "thread",
+      "value": "26212@oem1800.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Valid Create Booking Test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "This test verifies that a booking is successfully created when valid data is provided.",
+  "steps": [
+    {
+      "name": "✔️ SoftAssert PASSED",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763742345728,
+      "stop": 1763742345729
+    },
+    {
+      "name": "✔️ SoftAssert PASSED",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763742345729,
+      "stop": 1763742345729
+    },
+    {
+      "name": "✔️ SoftAssert PASSED",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763742345729,
+      "stop": 1763742345729
+    },
+    {
+      "name": "✔️ SoftAssert PASSED",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763742345730,
+      "stop": 1763742345730
+    },
+    {
+      "name": "✔️ SoftAssert PASSED",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763742345730,
+      "stop": 1763742345730
+    },
+    {
+      "name": "✔️ SoftAssert PASSED",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763742345732,
+      "stop": 1763742345732
+    },
+    {
+      "name": "✔️ SoftAssert PASSED",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763742345734,
+      "stop": 1763742345734
+    },
+    {
+      "name": "✔️ SoftAssert PASSED",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763742345734,
+      "stop": 1763742345734
+    },
+    {
+      "name": "✔️ SoftAssert PASSED",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763742345734,
+      "stop": 1763742345734
+    },
+    {
+      "name": "✔️ SoftAssert PASSED",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763742345735,
+      "stop": 1763742345735
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "firstname",
+      "value": "Omar"
+    },
+    {
+      "name": "additionalneeds",
+      "value": "Test"
+    },
+    {
+      "name": "checkin",
+      "value": "2025-10-10"
+    },
+    {
+      "name": "totalprice",
+      "value": "150"
+    },
+    {
+      "name": "depositpaid",
+      "value": "true"
+    },
+    {
+      "name": "body",
+      "value": "{     \"totalprice\": 150,     \"depositpaid\": true,     \"bookingdates\": {         \"checkin\": \"2023-10-01\",         \"checkout\": \"2025-11-20\"     },     \"additionalneeds\": \"Breakfast\" }"
+    },
+    {
+      "name": "checkout",
+      "value": "2025-11-27"
+    },
+    {
+      "name": "lastname",
+      "value": "Mohamed"
+    }
+  ],
+  "start": 1763742344544,
+  "stop": 1763742345735
+}

@@ -30,11 +30,11 @@ public class E2ETest extends Utils {
         Response authResponse = authenticationRequests.createToken("admin", "password123");
         String token = authResponse.jsonPath().getString("token");
         LogUtils.info("Authentication response - Status: " +
-                authResponse.statusCode()+" , Response time: {"+authResponse.getTime()
-                +"}ms, Token: {"+authResponse.getTime()+"}");
+                authResponse.statusCode() + " , Response time: {" + authResponse.getTime()
+                + "}ms, Token: {" + authResponse.getTime() + "}");
 
         softAssert.assertEquals(authResponse.statusCode(), 200, "Authentication status code is 200");
-        softAssert.assertTrue(authResponse.getTime()<2000, "Authentication response time is less than 2000ms");
+        softAssert.assertTrue(authResponse.getTime() < 2000, "Authentication response time is less than 2000ms");
         softAssert.assertNotNull(token, "Token is not null");
 
 
@@ -47,8 +47,8 @@ public class E2ETest extends Utils {
                 createResponse.statusCode() + " , Response time: {" + createResponse.getTime() + "}ms, Booking ID: {" + bookingID + "}");
 
         softAssert.assertEquals(createResponse.statusCode(), 200, "Status code is 200");
-        softAssert.assertTrue(createResponse.getTime()<2000, "Response time is less than 2000ms");
-        softAssert.assertTrue(bookingID>0, "Booking ID is greater than 0");
+        softAssert.assertTrue(createResponse.getTime() < 2000, "Response time is less than 2000ms");
+        softAssert.assertTrue(bookingID > 0, "Booking ID is greater than 0");
         softAssert.assertEquals(createResponse.jsonPath().getString("booking.firstname"), "Ahmed", "Firstname is correct");
         softAssert.assertEquals(createResponse.jsonPath().getString("booking.lastname"), "Magdy", "Lastname is correct");
         softAssert.assertEquals(createResponse.jsonPath().getInt("booking.totalprice"), 300, "Total price is correct");

@@ -1,1 +1,11 @@
-{"uuid":"bc3e65a8-2238-4785-9792-7f778ded0321","name":"Tests.E2ETest","children":["29d6d6f7-1459-48c8-a16b-40c1b24ba34e"],"befores":[],"afters":[],"start":1763742326011,"stop":1763742331762}
+{
+  "uuid": "bc3e65a8-2238-4785-9792-7f778ded0321",
+  "name": "Tests.E2ETest",
+  "children": [
+    "29d6d6f7-1459-48c8-a16b-40c1b24ba34e"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1763742326011,
+  "stop": 1763742331762
+}

@@ -1,15 +1,16 @@
 package Requests;
 
 import io.restassured.response.Response;
+
 import static io.restassured.RestAssured.given;
 
 public class CreateBookingRequests {
 
-    private String pathPar = "/booking" ;
+    private String pathPar = "/booking";
 
     public Response createBooking(String firstname, String lastname,
                                   int totalprice, boolean depositpaid,
-                                  String checkin, String checkout, String additionalneeds){
+                                  String checkin, String checkout, String additionalneeds) {
 
         Payload payload = new Payload();
 
@@ -25,7 +26,7 @@ public class CreateBookingRequests {
         return response;
     }
 
-    public Response createBookings(String body){
+    public Response createBookings(String body) {
         Response response;
         response =
                 given()
