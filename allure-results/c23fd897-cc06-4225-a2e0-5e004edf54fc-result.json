@@ -1,1 +1,92 @@
-{"uuid":"c23fd897-cc06-4225-a2e0-5e004edf54fc","historyId":"69a86ce9ea726a57cc061685b9e9e573","fullName":"Tests.GetBookingIDTest.invalidGetBookingByIncorrectID","labels":[{"name":"package","value":"Tests.GetBookingIDTest"},{"name":"testClass","value":"Tests.GetBookingIDTest"},{"name":"testMethod","value":"invalidGetBookingByIncorrectID"},{"name":"parentSuite","value":"All test suites"},{"name":"suite","value":"Get booking details"},{"name":"subSuite","value":"Tests.GetBookingIDTest"},{"name":"host","value":"oem1800"},{"name":"thread","value":"26212@oem1800.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"Invalid Get Booking By ID Test","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","description":"This test verifies that retrieving a booking by an incorrect ID returns appropriate error handling.","steps":[{"name":"✔️ SoftAssert PASSED","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763742349844,"stop":1763742349844},{"name":"✔️ SoftAssert PASSED","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763742349844,"stop":1763742349844}],"attachments":[],"parameters":[{"name":"invalidBookingID","value":"-1"},{"name":"bookingID","value":"1"}],"start":1763742348910,"stop":1763742349845}
+{
+  "uuid": "c23fd897-cc06-4225-a2e0-5e004edf54fc",
+  "historyId": "69a86ce9ea726a57cc061685b9e9e573",
+  "fullName": "Tests.GetBookingIDTest.invalidGetBookingByIncorrectID",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Tests.GetBookingIDTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.GetBookingIDTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "invalidGetBookingByIncorrectID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All test suites"
+    },
+    {
+      "name": "suite",
+      "value": "Get booking details"
+    },
+    {
+      "name": "subSuite",
+      "value": "Tests.GetBookingIDTest"
+    },
+    {
+      "name": "host",
+      "value": "oem1800"
+    },
+    {
+      "name": "thread",
+      "value": "26212@oem1800.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Invalid Get Booking By ID Test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "This test verifies that retrieving a booking by an incorrect ID returns appropriate error handling.",
+  "steps": [
+    {
+      "name": "✔️ SoftAssert PASSED",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763742349844,
+      "stop": 1763742349844
+    },
+    {
+      "name": "✔️ SoftAssert PASSED",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763742349844,
+      "stop": 1763742349844
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "invalidBookingID",
+      "value": "-1"
+    },
+    {
+      "name": "bookingID",
+      "value": "1"
+    }
+  ],
+  "start": 1763742348910,
+  "stop": 1763742349845
+}

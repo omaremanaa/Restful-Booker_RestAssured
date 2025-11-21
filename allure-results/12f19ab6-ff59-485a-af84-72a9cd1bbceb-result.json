@@ -1,1 +1,116 @@
-{"uuid":"12f19ab6-ff59-485a-af84-72a9cd1bbceb","historyId":"5464b41c2ccabf46ef345afd74718cf3","fullName":"Tests.CreateBookingRequestsTest.invalidCreateBookingTest","labels":[{"name":"package","value":"Tests.CreateBookingRequestsTest"},{"name":"testClass","value":"Tests.CreateBookingRequestsTest"},{"name":"testMethod","value":"invalidCreateBookingTest"},{"name":"parentSuite","value":"All test suites"},{"name":"suite","value":"Create Booking Test"},{"name":"subSuite","value":"Tests.CreateBookingRequestsTest"},{"name":"host","value":"oem1800"},{"name":"thread","value":"26180@oem1800.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"Invalid Create Booking Test","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","description":"This test verifies that booking creation fails when invalid data is provided.","steps":[{"name":"✔️ SoftAssert PASSED: Status code is not 200","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763742526280,"stop":1763742526280},{"name":"✔️ SoftAssert PASSED: Response time is less than 2000ms","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763742526280,"stop":1763742526280}],"attachments":[],"parameters":[{"name":"firstname","value":"Omar"},{"name":"additionalneeds","value":"Test"},{"name":"checkin","value":"2025-10-10"},{"name":"totalprice","value":"150"},{"name":"depositpaid","value":"true"},{"name":"body","value":"{     \"totalprice\": 150,     \"depositpaid\": true,     \"bookingdates\": {         \"checkin\": \"2023-10-01\",         \"checkout\": \"2025-11-20\"     },     \"additionalneeds\": \"Breakfast\" }"},{"name":"checkout","value":"2025-11-27"},{"name":"lastname","value":"Mohamed"}],"start":1763742525530,"stop":1763742526281}
+{
+  "uuid": "12f19ab6-ff59-485a-af84-72a9cd1bbceb",
+  "historyId": "5464b41c2ccabf46ef345afd74718cf3",
+  "fullName": "Tests.CreateBookingRequestsTest.invalidCreateBookingTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Tests.CreateBookingRequestsTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.CreateBookingRequestsTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "invalidCreateBookingTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All test suites"
+    },
+    {
+      "name": "suite",
+      "value": "Create Booking Test"
+    },
+    {
+      "name": "subSuite",
+      "value": "Tests.CreateBookingRequestsTest"
+    },
+    {
+      "name": "host",
+      "value": "oem1800"
+    },
+    {
+      "name": "thread",
+      "value": "26180@oem1800.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Invalid Create Booking Test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "This test verifies that booking creation fails when invalid data is provided.",
+  "steps": [
+    {
+      "name": "✔️ SoftAssert PASSED: Status code is not 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763742526280,
+      "stop": 1763742526280
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Response time is less than 2000ms",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763742526280,
+      "stop": 1763742526280
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "firstname",
+      "value": "Omar"
+    },
+    {
+      "name": "additionalneeds",
+      "value": "Test"
+    },
+    {
+      "name": "checkin",
+      "value": "2025-10-10"
+    },
+    {
+      "name": "totalprice",
+      "value": "150"
+    },
+    {
+      "name": "depositpaid",
+      "value": "true"
+    },
+    {
+      "name": "body",
+      "value": "{     \"totalprice\": 150,     \"depositpaid\": true,     \"bookingdates\": {         \"checkin\": \"2023-10-01\",         \"checkout\": \"2025-11-20\"     },     \"additionalneeds\": \"Breakfast\" }"
+    },
+    {
+      "name": "checkout",
+      "value": "2025-11-27"
+    },
+    {
+      "name": "lastname",
+      "value": "Mohamed"
+    }
+  ],
+  "start": 1763742525530,
+  "stop": 1763742526281
+}

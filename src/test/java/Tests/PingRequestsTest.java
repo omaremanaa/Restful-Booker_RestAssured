@@ -11,6 +11,7 @@ import resources.Utils;
 public class PingRequestsTest extends Utils {
     PingRequests pingRequestsEndpoint;
     AllureSoftAssert softAssert;
+
     @Test
     public void validateOnline() {
         Allure.getLifecycle().updateTestCase(testResult -> {

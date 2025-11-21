@@ -1,1 +1,92 @@
-{"uuid":"7bb68ed5-1d14-418c-b958-4a1e144f92bd","historyId":"7f26ce4996624ca70995618af4d1e41a","fullName":"Tests.GetBookingIDTest.validGetBookingDetails","labels":[{"name":"package","value":"Tests.GetBookingIDTest"},{"name":"testClass","value":"Tests.GetBookingIDTest"},{"name":"testMethod","value":"validGetBookingDetails"},{"name":"parentSuite","value":"All test suites"},{"name":"suite","value":"Get booking details"},{"name":"subSuite","value":"Tests.GetBookingIDTest"},{"name":"host","value":"oem1800"},{"name":"thread","value":"10632@oem1800.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"Valid Get Booking By ID Test","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","description":"This test verifies that a booking can be retrieved by its ID and contains all expected fields.","steps":[{"name":"✔️ SoftAssert PASSED: Status code is not 200","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745698960,"stop":1763745698960},{"name":"✔️ SoftAssert PASSED: Response time is less than 2000ms","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745698961,"stop":1763745698961}],"attachments":[],"parameters":[{"name":"invalidBookingID","value":"-1"},{"name":"bookingID","value":"1"}],"start":1763745697892,"stop":1763745698961}
+{
+  "uuid": "7bb68ed5-1d14-418c-b958-4a1e144f92bd",
+  "historyId": "7f26ce4996624ca70995618af4d1e41a",
+  "fullName": "Tests.GetBookingIDTest.validGetBookingDetails",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Tests.GetBookingIDTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.GetBookingIDTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "validGetBookingDetails"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All test suites"
+    },
+    {
+      "name": "suite",
+      "value": "Get booking details"
+    },
+    {
+      "name": "subSuite",
+      "value": "Tests.GetBookingIDTest"
+    },
+    {
+      "name": "host",
+      "value": "oem1800"
+    },
+    {
+      "name": "thread",
+      "value": "10632@oem1800.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Valid Get Booking By ID Test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "This test verifies that a booking can be retrieved by its ID and contains all expected fields.",
+  "steps": [
+    {
+      "name": "✔️ SoftAssert PASSED: Status code is not 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745698960,
+      "stop": 1763745698960
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Response time is less than 2000ms",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745698961,
+      "stop": 1763745698961
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "invalidBookingID",
+      "value": "-1"
+    },
+    {
+      "name": "bookingID",
+      "value": "1"
+    }
+  ],
+  "start": 1763745697892,
+  "stop": 1763745698961
+}

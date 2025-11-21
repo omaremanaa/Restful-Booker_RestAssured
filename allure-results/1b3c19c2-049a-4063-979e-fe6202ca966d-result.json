@@ -1,1 +1,244 @@
-{"uuid":"1b3c19c2-049a-4063-979e-fe6202ca966d","historyId":"e75b1eeacbee0aa51a34a30bd101d636","fullName":"Tests.E2ETest.endToEndBookingTest","labels":[{"name":"package","value":"Tests.E2ETest"},{"name":"testClass","value":"Tests.E2ETest"},{"name":"testMethod","value":"endToEndBookingTest"},{"name":"parentSuite","value":"Default Suite"},{"name":"suite","value":"Restful-Booker-GP"},{"name":"subSuite","value":"Tests.E2ETest"},{"name":"host","value":"oem1800"},{"name":"thread","value":"27824@oem1800.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"endToEndBookingTest","status":"broken","statusDetails":{"known":false,"muted":false,"flaky":false,"message":"Cannot invoke \"java.lang.Integer.intValue()\" because the return value of \"io.restassured.path.json.JsonPath.get(String)\" is null","trace":"java.lang.NullPointerException: Cannot invoke \"java.lang.Integer.intValue()\" because the return value of \"io.restassured.path.json.JsonPath.get(String)\" is null\r\n\tat Tests.E2ETest.endToEndBookingTest(E2ETest.java:77)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\r\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\r\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r\n\tat org.testng.TestRunner.run(TestRunner.java:616)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1112)\r\n\tat org.testng.TestNG.run(TestNG.java:1079)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\r\n"},"stage":"finished","steps":[{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@7f0b93b4","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763722801008,"stop":1763722801009},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$1@2213639b","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763722801011,"stop":1763722801011},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$29@7b5cc918","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763722801012,"stop":1763722801012},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@45292ec1","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763722801870,"stop":1763722801870},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$1@3a7c678b","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763722801870,"stop":1763722801870},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$1@28babeca","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763722801870,"stop":1763722801870},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@64e7d698","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763722801879,"stop":1763722801879},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@16d07cf3","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763722801887,"stop":1763722801887},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@459003a0","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763722801895,"stop":1763722801895},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@18a096b5","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763722801903,"stop":1763722801903},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@3f9b7fe1","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763722801910,"stop":1763722801910},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@48268eec","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763722801918,"stop":1763722801918},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@1cb9ef52","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763722802763,"stop":1763722802763},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$1@236fdf","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763722803205,"stop":1763722803205},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@44592c39","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763722803983,"stop":1763722803983},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@6b63abdc","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763722804745,"stop":1763722804745},{"name":"❌ SoftAssert FAILED: org.testng.asserts.Assertion$10@3d3a1903","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763722804762,"stop":1763722804762},{"name":"❌ SoftAssert FAILED: org.testng.asserts.Assertion$10@599a9cb2","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763722804769,"stop":1763722804769}],"attachments":[],"parameters":[],"start":1763722798218,"stop":1763722804781}
+{
+  "uuid": "1b3c19c2-049a-4063-979e-fe6202ca966d",
+  "historyId": "e75b1eeacbee0aa51a34a30bd101d636",
+  "fullName": "Tests.E2ETest.endToEndBookingTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Tests.E2ETest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.E2ETest"
+    },
+    {
+      "name": "testMethod",
+      "value": "endToEndBookingTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "Restful-Booker-GP"
+    },
+    {
+      "name": "subSuite",
+      "value": "Tests.E2ETest"
+    },
+    {
+      "name": "host",
+      "value": "oem1800"
+    },
+    {
+      "name": "thread",
+      "value": "27824@oem1800.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "endToEndBookingTest",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Cannot invoke \"java.lang.Integer.intValue()\" because the return value of \"io.restassured.path.json.JsonPath.get(String)\" is null",
+    "trace": "java.lang.NullPointerException: Cannot invoke \"java.lang.Integer.intValue()\" because the return value of \"io.restassured.path.json.JsonPath.get(String)\" is null\r\n\tat Tests.E2ETest.endToEndBookingTest(E2ETest.java:77)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\r\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\r\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r\n\tat org.testng.TestRunner.run(TestRunner.java:616)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1112)\r\n\tat org.testng.TestNG.run(TestNG.java:1079)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@7f0b93b4",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763722801008,
+      "stop": 1763722801009
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$1@2213639b",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763722801011,
+      "stop": 1763722801011
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$29@7b5cc918",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763722801012,
+      "stop": 1763722801012
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@45292ec1",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763722801870,
+      "stop": 1763722801870
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$1@3a7c678b",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763722801870,
+      "stop": 1763722801870
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$1@28babeca",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763722801870,
+      "stop": 1763722801870
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@64e7d698",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763722801879,
+      "stop": 1763722801879
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@16d07cf3",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763722801887,
+      "stop": 1763722801887
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@459003a0",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763722801895,
+      "stop": 1763722801895
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@18a096b5",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763722801903,
+      "stop": 1763722801903
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@3f9b7fe1",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763722801910,
+      "stop": 1763722801910
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@48268eec",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763722801918,
+      "stop": 1763722801918
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@1cb9ef52",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763722802763,
+      "stop": 1763722802763
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$1@236fdf",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763722803205,
+      "stop": 1763722803205
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@44592c39",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763722803983,
+      "stop": 1763722803983
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@6b63abdc",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763722804745,
+      "stop": 1763722804745
+    },
+    {
+      "name": "❌ SoftAssert FAILED: org.testng.asserts.Assertion$10@3d3a1903",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763722804762,
+      "stop": 1763722804762
+    },
+    {
+      "name": "❌ SoftAssert FAILED: org.testng.asserts.Assertion$10@599a9cb2",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763722804769,
+      "stop": 1763722804769
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1763722798218,
+  "stop": 1763722804781
+}

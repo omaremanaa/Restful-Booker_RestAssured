@@ -1,1 +1,94 @@
-{"uuid":"7baa8d7c-3019-4a96-bf9e-49317e4876a7","historyId":"86d9bbff6efab6950a89fe212fa65663","fullName":"Tests.DeleteTests.validDeleteBookingTest","labels":[{"name":"package","value":"Tests.DeleteTests"},{"name":"testClass","value":"Tests.DeleteTests"},{"name":"testMethod","value":"validDeleteBookingTest"},{"name":"parentSuite","value":"All test suites"},{"name":"suite","value":"Delete Booking Test"},{"name":"subSuite","value":"Tests.DeleteTests"},{"name":"host","value":"oem1800"},{"name":"thread","value":"23460@oem1800.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"Valid Delete Booking Test","status":"failed","statusDetails":{"known":false,"muted":false,"flaky":false,"message":"The following asserts failed:\n\tStatus code is not 201 expected [201] but found [405]","trace":"java.lang.AssertionError: The following asserts failed:\n\tStatus code is not 201 expected [201] but found [405]\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)\r\n\tat Tests.DeleteTests.validDeleteBookingTest(DeleteTests.java:35)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\r\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\r\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r\n\tat org.testng.TestRunner.run(TestRunner.java:616)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1112)\r\n\tat org.testng.TestNG.run(TestNG.java:1079)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\r\n"},"stage":"finished","description":"This test verifies that a booking can be deleted successfully with valid authentication.","steps":[{"name":"❌ SoftAssert FAILED","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763742323089,"stop":1763742323089},{"name":"✔️ SoftAssert PASSED","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763742323089,"stop":1763742323089}],"attachments":[],"parameters":[{"name":"incorrectBookingID","value":"-1"},{"name":"bookingID","value":"1"}],"start":1763742321365,"stop":1763742323090}
+{
+  "uuid": "7baa8d7c-3019-4a96-bf9e-49317e4876a7",
+  "historyId": "86d9bbff6efab6950a89fe212fa65663",
+  "fullName": "Tests.DeleteTests.validDeleteBookingTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Tests.DeleteTests"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.DeleteTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "validDeleteBookingTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All test suites"
+    },
+    {
+      "name": "suite",
+      "value": "Delete Booking Test"
+    },
+    {
+      "name": "subSuite",
+      "value": "Tests.DeleteTests"
+    },
+    {
+      "name": "host",
+      "value": "oem1800"
+    },
+    {
+      "name": "thread",
+      "value": "23460@oem1800.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Valid Delete Booking Test",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "The following asserts failed:\n\tStatus code is not 201 expected [201] but found [405]",
+    "trace": "java.lang.AssertionError: The following asserts failed:\n\tStatus code is not 201 expected [201] but found [405]\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)\r\n\tat Tests.DeleteTests.validDeleteBookingTest(DeleteTests.java:35)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\r\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\r\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r\n\tat org.testng.TestRunner.run(TestRunner.java:616)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1112)\r\n\tat org.testng.TestNG.run(TestNG.java:1079)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\r\n"
+  },
+  "stage": "finished",
+  "description": "This test verifies that a booking can be deleted successfully with valid authentication.",
+  "steps": [
+    {
+      "name": "❌ SoftAssert FAILED",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763742323089,
+      "stop": 1763742323089
+    },
+    {
+      "name": "✔️ SoftAssert PASSED",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763742323089,
+      "stop": 1763742323089
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "incorrectBookingID",
+      "value": "-1"
+    },
+    {
+      "name": "bookingID",
+      "value": "1"
+    }
+  ],
+  "start": 1763742321365,
+  "stop": 1763742323090
+}

@@ -2,12 +2,12 @@ package Requests;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import static io.restassured.RestAssured.*;
 
+import static io.restassured.RestAssured.given;
 
 
 public class AuthenticationRequests {
-    private String pathPar = "/auth" ;
+    private String pathPar = "/auth";
 
     public Response createToken(String username, String password) {
         RestAssured.baseURI = "https://restful-booker.herokuapp.com";
@@ -16,7 +16,7 @@ public class AuthenticationRequests {
 
         response = given()
                 .header("Content-Type", "application/json")
-                .body(payload.authorizePayload(username,password))
+                .body(payload.authorizePayload(username, password))
                 .when()
                 .post(pathPar)
                 .then()

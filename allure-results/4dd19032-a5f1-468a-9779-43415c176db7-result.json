@@ -1,1 +1,93 @@
-{"uuid":"4dd19032-a5f1-468a-9779-43415c176db7","historyId":"847c425cbe8438d9628c163bcddc391e","fullName":"Tests.GetBookingIDsTest.validGetBookingIDsTest","labels":[{"name":"package","value":"Tests.GetBookingIDsTest"},{"name":"testClass","value":"Tests.GetBookingIDsTest"},{"name":"testMethod","value":"validGetBookingIDsTest"},{"name":"parentSuite","value":"All test suites"},{"name":"suite","value":"Get booking ids"},{"name":"subSuite","value":"Tests.GetBookingIDsTest"},{"name":"host","value":"oem1800"},{"name":"thread","value":"29740@oem1800.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"Valid Get Booking IDs Test","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","description":"This test verifies that booking IDs can be retrieved successfully.","steps":[{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@14de1901","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763727256273,"stop":1763727256273},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$1@437ed416","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763727256273,"stop":1763727256273},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$1@1788cb61","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763727256339,"stop":1763727256339}],"attachments":[],"parameters":[],"start":1763727255378,"stop":1763727256340}
+{
+  "uuid": "4dd19032-a5f1-468a-9779-43415c176db7",
+  "historyId": "847c425cbe8438d9628c163bcddc391e",
+  "fullName": "Tests.GetBookingIDsTest.validGetBookingIDsTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Tests.GetBookingIDsTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.GetBookingIDsTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "validGetBookingIDsTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All test suites"
+    },
+    {
+      "name": "suite",
+      "value": "Get booking ids"
+    },
+    {
+      "name": "subSuite",
+      "value": "Tests.GetBookingIDsTest"
+    },
+    {
+      "name": "host",
+      "value": "oem1800"
+    },
+    {
+      "name": "thread",
+      "value": "29740@oem1800.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Valid Get Booking IDs Test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "This test verifies that booking IDs can be retrieved successfully.",
+  "steps": [
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@14de1901",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763727256273,
+      "stop": 1763727256273
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$1@437ed416",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763727256273,
+      "stop": 1763727256273
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$1@1788cb61",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763727256339,
+      "stop": 1763727256339
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1763727255378,
+  "stop": 1763727256340
+}

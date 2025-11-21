@@ -75,8 +75,8 @@
         </classes>
     </test>
     <test name="Update Booking Test">
-    <parameter name="id" value="1"/>
-    <parameter name="body" value='{
+        <parameter name="id" value="1"/>
+        <parameter name="body" value='{
     "firstname": "Ahmed",
     "lastname": "Ali",
     "totalprice": 200,

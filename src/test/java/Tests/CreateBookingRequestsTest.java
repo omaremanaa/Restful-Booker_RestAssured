@@ -12,13 +12,14 @@ import resources.Utils;
 public class CreateBookingRequestsTest extends Utils {
     CreateBookingRequests createBookingRequests;
     AllureSoftAssert softAssert;
+
     @Parameters({"firstname", "lastname",
             "totalprice", "depositpaid",
             "checkin", "checkout", "additionalneeds"})
     @Test
     public void validCreateBookingTest(String firstname, String lastname, int totalprice,
                                        boolean depositpaid, String checkin,
-                                       String checkout,  String additionalneeds) {
+                                       String checkout, String additionalneeds) {
         Allure.getLifecycle().updateTestCase(testResult -> {
             testResult.setName("Valid Create Booking Test");
             testResult.setDescription("This test verifies that a booking is successfully created when valid data is provided.");
@@ -43,12 +44,12 @@ public class CreateBookingRequestsTest extends Utils {
 
 
         softAssert.assertEquals(response.statusCode(), 200, "Status code is 200");
-        softAssert.assertTrue(response.getTime()<2000, "Response time is less than 2000ms");
-        softAssert.assertTrue(bookingid>0, "Booking ID is greater than 0");
+        softAssert.assertTrue(response.getTime() < 2000, "Response time is less than 2000ms");
+        softAssert.assertTrue(bookingid > 0, "Booking ID is greater than 0");
         softAssert.assertEquals(firstnameResponse, firstname, "Firstname is correct");
         softAssert.assertEquals(lastnameResponse, lastname, "Lastname is correct");
         softAssert.assertEquals(totalpriceResponse, totalprice, "Total price is correct");
-        softAssert.assertEquals(depositpaidResponse,depositpaid, "Deposit paid is correct");
+        softAssert.assertEquals(depositpaidResponse, depositpaid, "Deposit paid is correct");
         softAssert.assertEquals(checkinResponse, checkin, "Checkin date is correct");
         softAssert.assertEquals(checkoutResponse, checkout, "Checkout date is correct");
         softAssert.assertEquals(additionalneedsResponse, additionalneedsResponse, "Additional needs is correct");
@@ -70,6 +71,6 @@ public class CreateBookingRequestsTest extends Utils {
         LogUtils.info("Invalid Create Booking Response Body: " + response.asString());
 
         softAssert.assertNotEquals(response.statusCode(), 200, "Status code is not 200");
-        softAssert.assertTrue(response.getTime()<2000, "Response time is less than 2000ms");
+        softAssert.assertTrue(response.getTime() < 2000, "Response time is less than 2000ms");
     }
 }

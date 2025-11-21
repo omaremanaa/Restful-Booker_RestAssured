@@ -1,6 +1,7 @@
 package Requests;
 
 import io.restassured.response.Response;
+
 import static io.restassured.RestAssured.given;
 
 public class GetBookingIDRequests {
@@ -9,7 +10,7 @@ public class GetBookingIDRequests {
 
     public Response getBookingById(int id) {
         Response singleBookingResponse;
-        singleBookingResponse = given().pathParam("id",id)
+        singleBookingResponse = given().pathParam("id", id)
                 .header("Content-Type", "application/json")
                 .when()
                 .get(pathPar)

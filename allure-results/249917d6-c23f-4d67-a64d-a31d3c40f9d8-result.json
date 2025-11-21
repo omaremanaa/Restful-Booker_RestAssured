@@ -1,1 +1,196 @@
-{"uuid":"249917d6-c23f-4d67-a64d-a31d3c40f9d8","historyId":"2aa0ff7dd66e02bf08c57c45df9dcdd1","fullName":"Tests.CreateBookingRequestsTest.validCreateBookingTest","labels":[{"name":"package","value":"Tests.CreateBookingRequestsTest"},{"name":"testClass","value":"Tests.CreateBookingRequestsTest"},{"name":"testMethod","value":"validCreateBookingTest"},{"name":"parentSuite","value":"All test suites"},{"name":"suite","value":"Create Booking Test"},{"name":"subSuite","value":"Tests.CreateBookingRequestsTest"},{"name":"host","value":"oem1800"},{"name":"thread","value":"29740@oem1800.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"Valid Create Booking Test","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","description":"This test verifies that a booking is successfully created when valid data is provided.","steps":[{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@5b1e88f","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763727254551,"stop":1763727254551},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$1@340cb97f","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763727254551,"stop":1763727254551},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$1@6a1568d6","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763727254551,"stop":1763727254551},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@bb3ecfe","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763727254552,"stop":1763727254552},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@5ec88f9e","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763727254552,"stop":1763727254552},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@7a04f730","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763727254552,"stop":1763727254552},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$18@689faf79","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763727254553,"stop":1763727254553},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@582e9152","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763727254553,"stop":1763727254553},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@7a31ca20","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763727254553,"stop":1763727254553},{"name":"✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@349c4d1c","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763727254553,"stop":1763727254553}],"attachments":[],"parameters":[{"name":"firstname","value":"Omar"},{"name":"additionalneeds","value":"Test"},{"name":"checkin","value":"2025-10-10"},{"name":"totalprice","value":"150"},{"name":"depositpaid","value":"true"},{"name":"body","value":"{     \"totalprice\": 150,     \"depositpaid\": true,     \"bookingdates\": {         \"checkin\": \"2023-10-01\",         \"checkout\": \"2025-11-20\"     },     \"additionalneeds\": \"Breakfast\" }"},{"name":"checkout","value":"2025-11-27"},{"name":"lastname","value":"Mohamed"}],"start":1763727253744,"stop":1763727254553}
+{
+  "uuid": "249917d6-c23f-4d67-a64d-a31d3c40f9d8",
+  "historyId": "2aa0ff7dd66e02bf08c57c45df9dcdd1",
+  "fullName": "Tests.CreateBookingRequestsTest.validCreateBookingTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Tests.CreateBookingRequestsTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.CreateBookingRequestsTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "validCreateBookingTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All test suites"
+    },
+    {
+      "name": "suite",
+      "value": "Create Booking Test"
+    },
+    {
+      "name": "subSuite",
+      "value": "Tests.CreateBookingRequestsTest"
+    },
+    {
+      "name": "host",
+      "value": "oem1800"
+    },
+    {
+      "name": "thread",
+      "value": "29740@oem1800.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Valid Create Booking Test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "This test verifies that a booking is successfully created when valid data is provided.",
+  "steps": [
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@5b1e88f",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763727254551,
+      "stop": 1763727254551
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$1@340cb97f",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763727254551,
+      "stop": 1763727254551
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$1@6a1568d6",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763727254551,
+      "stop": 1763727254551
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@bb3ecfe",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763727254552,
+      "stop": 1763727254552
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@5ec88f9e",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763727254552,
+      "stop": 1763727254552
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$26@7a04f730",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763727254552,
+      "stop": 1763727254552
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$18@689faf79",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763727254553,
+      "stop": 1763727254553
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@582e9152",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763727254553,
+      "stop": 1763727254553
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@7a31ca20",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763727254553,
+      "stop": 1763727254553
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: org.testng.asserts.Assertion$10@349c4d1c",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763727254553,
+      "stop": 1763727254553
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "firstname",
+      "value": "Omar"
+    },
+    {
+      "name": "additionalneeds",
+      "value": "Test"
+    },
+    {
+      "name": "checkin",
+      "value": "2025-10-10"
+    },
+    {
+      "name": "totalprice",
+      "value": "150"
+    },
+    {
+      "name": "depositpaid",
+      "value": "true"
+    },
+    {
+      "name": "body",
+      "value": "{     \"totalprice\": 150,     \"depositpaid\": true,     \"bookingdates\": {         \"checkin\": \"2023-10-01\",         \"checkout\": \"2025-11-20\"     },     \"additionalneeds\": \"Breakfast\" }"
+    },
+    {
+      "name": "checkout",
+      "value": "2025-11-27"
+    },
+    {
+      "name": "lastname",
+      "value": "Mohamed"
+    }
+  ],
+  "start": 1763727253744,
+  "stop": 1763727254553
+}

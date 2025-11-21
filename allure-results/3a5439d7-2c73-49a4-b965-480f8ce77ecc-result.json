@@ -1,1 +1,292 @@
-{"uuid":"3a5439d7-2c73-49a4-b965-480f8ce77ecc","historyId":"e75b1eeacbee0aa51a34a30bd101d636","fullName":"Tests.E2ETest.endToEndBookingTest","labels":[{"name":"package","value":"Tests.E2ETest"},{"name":"testClass","value":"Tests.E2ETest"},{"name":"testMethod","value":"endToEndBookingTest"},{"name":"parentSuite","value":"All test suites"},{"name":"suite","value":"End-to-end Test"},{"name":"subSuite","value":"Tests.E2ETest"},{"name":"host","value":"oem1800"},{"name":"thread","value":"10632@oem1800.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"endToEndBookingTest","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","steps":[{"name":"✔️ SoftAssert PASSED: Authentication status code is 200","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745710757,"stop":1763745710757},{"name":"✔️ SoftAssert PASSED: Authentication response time is less than 2000ms","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745710758,"stop":1763745710758},{"name":"✔️ SoftAssert PASSED: Token is not null","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745710758,"stop":1763745710758},{"name":"✔️ SoftAssert PASSED: Status code is 200","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745711746,"stop":1763745711746},{"name":"✔️ SoftAssert PASSED: Response time is less than 2000ms","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745711747,"stop":1763745711747},{"name":"✔️ SoftAssert PASSED: Booking ID is greater than 0","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745711747,"stop":1763745711747},{"name":"✔️ SoftAssert PASSED: Firstname is correct","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745711763,"stop":1763745711763},{"name":"✔️ SoftAssert PASSED: Lastname is correct","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745711777,"stop":1763745711778},{"name":"✔️ SoftAssert PASSED: Total price is correct","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745711790,"stop":1763745711790},{"name":"✔️ SoftAssert PASSED: Checkin date is correct","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745711801,"stop":1763745711801},{"name":"✔️ SoftAssert PASSED: Checkout date is correct","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745711814,"stop":1763745711814},{"name":"✔️ SoftAssert PASSED: Additional needs is correct","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745711824,"stop":1763745711824},{"name":"✔️ SoftAssert PASSED: Get booking IDs status code is 200","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745712785,"stop":1763745712785},{"name":"✔️ SoftAssert PASSED: New booking ID is present","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745712806,"stop":1763745712806},{"name":"✔️ SoftAssert PASSED: Update booking status code is 200","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745713702,"stop":1763745713702},{"name":"✔️ SoftAssert PASSED: Get booking by ID status code is 200","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745714728,"stop":1763745714728},{"name":"✔️ SoftAssert PASSED: First name is updated","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745714740,"stop":1763745714740},{"name":"✔️ SoftAssert PASSED: Last name is updated","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745714749,"stop":1763745714749},{"name":"✔️ SoftAssert PASSED: Total price is correct","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745714760,"stop":1763745714760},{"name":"✔️ SoftAssert PASSED: Checkin date is updated","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745714769,"stop":1763745714769},{"name":"✔️ SoftAssert PASSED: Checkout date is updated","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745714781,"stop":1763745714781},{"name":"✔️ SoftAssert PASSED: Additional needs is updated","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745714789,"stop":1763745714789},{"name":"✔️ SoftAssert PASSED: Delete booking status code is 201","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1763745715655,"stop":1763745715655}],"attachments":[],"parameters":[],"start":1763745709660,"stop":1763745715655}
+{
+  "uuid": "3a5439d7-2c73-49a4-b965-480f8ce77ecc",
+  "historyId": "e75b1eeacbee0aa51a34a30bd101d636",
+  "fullName": "Tests.E2ETest.endToEndBookingTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Tests.E2ETest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.E2ETest"
+    },
+    {
+      "name": "testMethod",
+      "value": "endToEndBookingTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All test suites"
+    },
+    {
+      "name": "suite",
+      "value": "End-to-end Test"
+    },
+    {
+      "name": "subSuite",
+      "value": "Tests.E2ETest"
+    },
+    {
+      "name": "host",
+      "value": "oem1800"
+    },
+    {
+      "name": "thread",
+      "value": "10632@oem1800.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "endToEndBookingTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "✔️ SoftAssert PASSED: Authentication status code is 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745710757,
+      "stop": 1763745710757
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Authentication response time is less than 2000ms",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745710758,
+      "stop": 1763745710758
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Token is not null",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745710758,
+      "stop": 1763745710758
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Status code is 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745711746,
+      "stop": 1763745711746
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Response time is less than 2000ms",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745711747,
+      "stop": 1763745711747
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Booking ID is greater than 0",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745711747,
+      "stop": 1763745711747
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Firstname is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745711763,
+      "stop": 1763745711763
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Lastname is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745711777,
+      "stop": 1763745711778
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Total price is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745711790,
+      "stop": 1763745711790
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Checkin date is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745711801,
+      "stop": 1763745711801
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Checkout date is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745711814,
+      "stop": 1763745711814
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Additional needs is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745711824,
+      "stop": 1763745711824
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Get booking IDs status code is 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745712785,
+      "stop": 1763745712785
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: New booking ID is present",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745712806,
+      "stop": 1763745712806
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Update booking status code is 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745713702,
+      "stop": 1763745713702
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Get booking by ID status code is 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745714728,
+      "stop": 1763745714728
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: First name is updated",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745714740,
+      "stop": 1763745714740
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Last name is updated",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745714749,
+      "stop": 1763745714749
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Total price is correct",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745714760,
+      "stop": 1763745714760
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Checkin date is updated",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745714769,
+      "stop": 1763745714769
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Checkout date is updated",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745714781,
+      "stop": 1763745714781
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Additional needs is updated",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745714789,
+      "stop": 1763745714789
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Delete booking status code is 201",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763745715655,
+      "stop": 1763745715655
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1763745709660,
+  "stop": 1763745715655
+}
