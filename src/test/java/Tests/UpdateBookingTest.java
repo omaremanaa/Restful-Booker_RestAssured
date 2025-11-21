@@ -4,6 +4,7 @@ import Requests.AuthenticationRequests;
 import Requests.UpdateBookingRequest;
 import io.qameta.allure.Allure;
 import io.restassured.response.Response;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import resources.AllureSoftAssert;
@@ -17,7 +18,18 @@ public class UpdateBookingTest extends Utils {
 
     @Parameters({"id", "body"})
     @Test
-    public void validUpdateBookingTest(int id, String body) {
+    public void validUpdateBookingTest(@Optional("1") int id,
+                                       @Optional("{\n" +
+                                               "    \"firstname\": \"Ahmed\",\n" +
+                                               "    \"lastname\": \"Ali\",\n" +
+                                               "    \"totalprice\": 200,\n" +
+                                               "    \"depositpaid\": false,\n" +
+                                               "    \"bookingdates\": {\n" +
+                                               "        \"checkin\": \"2025-12-01\",\n" +
+                                               "        \"checkout\": \"2025-12-15\"\n" +
+                                               "    },\n" +
+                                               "    \"additionalneeds\": \"UpdatedTest\"\n" +
+                                               "}") String body) {
         Allure.getLifecycle().updateTestCase(testResult -> {
             testResult.setName("Valid Update Booking Test");
             testResult.setDescription("This test verifies that a booking can be updated successfully with valid data and authentication.");
@@ -42,7 +54,18 @@ public class UpdateBookingTest extends Utils {
 
     @Parameters({"id", "body"})
     @Test
-    public void invalidUpdateBookingByIncorrectToken(int id, String body) {
+    public void invalidUpdateBookingByIncorrectToken(@Optional("1") int id,
+                                                     @Optional("{\n" +
+                                                             "    \"firstname\": \"Ahmed\",\n" +
+                                                             "    \"lastname\": \"Ali\",\n" +
+                                                             "    \"totalprice\": 200,\n" +
+                                                             "    \"depositpaid\": false,\n" +
+                                                             "    \"bookingdates\": {\n" +
+                                                             "        \"checkin\": \"2025-12-01\",\n" +
+                                                             "        \"checkout\": \"2025-12-15\"\n" +
+                                                             "    },\n" +
+                                                             "    \"additionalneeds\": \"UpdatedTest\"\n" +
+                                                             "}") String body) {
         Allure.getLifecycle().updateTestCase(testResult -> {
             testResult.setName("Invalid Update Booking Test");
             testResult.setDescription("This test verifies that updating a booking fails when an incorrect authentication token is provided.");
@@ -63,7 +86,18 @@ public class UpdateBookingTest extends Utils {
 
     @Parameters({"incorrectID", "body"})
     @Test
-    public void invalidUpdateBookingByIncorrectID(int incorrectID, String body) {
+    public void invalidUpdateBookingByIncorrectID(@Optional("-1") int incorrectID,
+                                                  @Optional("{\n" +
+                                                          "    \"firstname\": \"Ahmed\",\n" +
+                                                          "    \"lastname\": \"Ali\",\n" +
+                                                          "    \"totalprice\": 200,\n" +
+                                                          "    \"depositpaid\": false,\n" +
+                                                          "    \"bookingdates\": {\n" +
+                                                          "        \"checkin\": \"2025-12-01\",\n" +
+                                                          "        \"checkout\": \"2025-12-15\"\n" +
+                                                          "    },\n" +
+                                                          "    \"additionalneeds\": \"UpdatedTest\"\n" +
+                                                          "}") String body) {
         Allure.getLifecycle().updateTestCase(testResult -> {
             testResult.setName("Invalid Update Booking Test By Incorrect ID");
             testResult.setDescription("This test verifies that updating a booking fails when an incorrect booking ID is provided.");

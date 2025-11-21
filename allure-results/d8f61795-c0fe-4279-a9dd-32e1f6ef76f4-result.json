@@ -1,0 +1,93 @@
+{
+  "uuid": "d8f61795-c0fe-4279-a9dd-32e1f6ef76f4",
+  "historyId": "847c425cbe8438d9628c163bcddc391e",
+  "fullName": "Tests.GetBookingIDsTest.validGetBookingIDsTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Tests.GetBookingIDsTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.GetBookingIDsTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "validGetBookingIDsTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Surefire suite"
+    },
+    {
+      "name": "suite",
+      "value": "Surefire test"
+    },
+    {
+      "name": "subSuite",
+      "value": "Tests.GetBookingIDsTest"
+    },
+    {
+      "name": "host",
+      "value": "oem1800"
+    },
+    {
+      "name": "thread",
+      "value": "31208@oem1800.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Valid Get Booking IDs Test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "This test verifies that booking IDs can be retrieved successfully.",
+  "steps": [
+    {
+      "name": "✔️ SoftAssert PASSED: Status code is 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763747330711,
+      "stop": 1763747330711
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Response time is less than 2000ms",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763747330712,
+      "stop": 1763747330712
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: At least one booking ID is returned",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763747330878,
+      "stop": 1763747330878
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1763747329396,
+  "stop": 1763747330878
+}

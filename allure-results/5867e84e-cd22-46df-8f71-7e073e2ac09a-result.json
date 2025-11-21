@@ -1,0 +1,88 @@
+{
+  "uuid": "5867e84e-cd22-46df-8f71-7e073e2ac09a",
+  "historyId": "dc663e7ca850d03eeb3726ff4af7cac2",
+  "fullName": "Tests.DeleteTests.invalidDeleteBookingByIncorrectID",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Tests.DeleteTests"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.DeleteTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "invalidDeleteBookingByIncorrectID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Surefire suite"
+    },
+    {
+      "name": "suite",
+      "value": "Surefire test"
+    },
+    {
+      "name": "subSuite",
+      "value": "Tests.DeleteTests"
+    },
+    {
+      "name": "host",
+      "value": "oem1800"
+    },
+    {
+      "name": "thread",
+      "value": "31208@oem1800.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Invalid Delete Booking By Incorrect ID Test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "This test verifies that deleting a booking with an incorrect ID returns appropriate error handling.",
+  "steps": [
+    {
+      "name": "✔️ SoftAssert PASSED: Status code is not 405",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763747319862,
+      "stop": 1763747319862
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Response time is less than 2000ms",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763747319863,
+      "stop": 1763747319863
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "incorrectBookingID",
+      "value": "-1"
+    }
+  ],
+  "start": 1763747317842,
+  "stop": 1763747319863
+}

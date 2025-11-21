@@ -1,0 +1,110 @@
+{
+  "uuid": "c8041507-f127-4ace-a8ed-29f67190f43f",
+  "historyId": "d213ce894ccd710777acfe783bbb6fed",
+  "fullName": "Tests.AuthenticationTest.validAuthenticationTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Tests.AuthenticationTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.AuthenticationTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "validAuthenticationTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All test suites"
+    },
+    {
+      "name": "suite",
+      "value": "Authentication Test"
+    },
+    {
+      "name": "subSuite",
+      "value": "Tests.AuthenticationTest"
+    },
+    {
+      "name": "host",
+      "value": "oem1800"
+    },
+    {
+      "name": "thread",
+      "value": "10632@oem1800.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Valid Authentication Test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "This test verifies that a valid token is generated when correct credentials are provided.",
+  "steps": [
+    {
+      "name": "✔️ SoftAssert PASSED: Status code is 200",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763747271153,
+      "stop": 1763747271153
+    },
+    {
+      "name": "✔️ SoftAssert PASSED:  Token is not null",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763747271154,
+      "stop": 1763747271154
+    },
+    {
+      "name": "✔️ SoftAssert PASSED:  Response time is less than 2000ms",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763747271155,
+      "stop": 1763747271155
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "invalidPassword",
+      "value": "1234"
+    },
+    {
+      "name": "password",
+      "value": "password123"
+    },
+    {
+      "name": "invalidUsername",
+      "value": "test"
+    },
+    {
+      "name": "username",
+      "value": "admin"
+    }
+  ],
+  "start": 1763747269700,
+  "stop": 1763747271155
+}

@@ -1,0 +1,83 @@
+{
+  "uuid": "412b7b9a-e689-4bbe-a0e4-dc423d9724ac",
+  "historyId": "67b4c4444761778130506b181633fd9d",
+  "fullName": "Tests.PingRequestsTest.validateOnline",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Tests.PingRequestsTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests.PingRequestsTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "validateOnline"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Surefire suite"
+    },
+    {
+      "name": "suite",
+      "value": "Surefire test"
+    },
+    {
+      "name": "subSuite",
+      "value": "Tests.PingRequestsTest"
+    },
+    {
+      "name": "host",
+      "value": "oem1800"
+    },
+    {
+      "name": "thread",
+      "value": "31208@oem1800.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Ping Health Check Test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "This test verifies that the ping endpoint is online and responsive.",
+  "steps": [
+    {
+      "name": "✔️ SoftAssert PASSED: Status code is 201",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763747334098,
+      "stop": 1763747334098
+    },
+    {
+      "name": "✔️ SoftAssert PASSED: Response time is less than 3000ms",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1763747334098,
+      "stop": 1763747334098
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1763747333082,
+  "stop": 1763747334099
+}
