@@ -24,4 +24,11 @@ public class Payload {
                 "    \"additionalneeds\" : \"" + additionalneeds + "\"\n" +
                 "}";
     }
+
+    public String partialUpdateBookingPayload(String firstname, String lastname) {
+        return "{\n" +
+                "    \"firstname\" : \"" + firstname + "\",\n" +
+                "    \"lastname\" : \"" + lastname + "\"\n" +
+                "}";
+    }
 }

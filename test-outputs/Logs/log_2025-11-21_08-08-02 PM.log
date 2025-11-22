@@ -1,0 +1,24 @@
+[DEBUG] 21-11-2025 20:08:02 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[TRACE] 21-11-2025 20:08:03 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.validCreateBookingTest(java.lang.String,java.lang.String,int,boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.CreateBookingRequestsTest@6ad6fa53] -878820257
+[TRACE] 21-11-2025 20:08:03 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.invalidCreateBookingTest(java.lang.String)[pri:0, instance:Tests.CreateBookingRequestsTest@6ad6fa53] -981976042
+[TRACE] 21-11-2025 20:08:03 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 21-11-2025 20:08:03 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 21-11-2025 20:08:03 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 21-11-2025 20:08:03 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 21-11-2025 20:08:03 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] 21-11-2025 20:08:06 [main] [resources.LogUtils] - Invalid Create Booking Response Body: Internal Server Error
+[INFO] 21-11-2025 20:08:06 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 200
+[ERROR] 21-11-2025 20:08:06 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Response time is less than 2000ms | Error: Response time is less than 2000ms expected [true] but found [false]
+[INFO] 21-11-2025 20:08:07 [main] [resources.LogUtils] - Valid Create Booking Response Body: {"bookingid":3412,"booking":{"firstname":"Omar","lastname":"Mohamed","totalprice":150,"depositpaid":true,"bookingdates":{"checkin":"2025-10-10","checkout":"2025-11-27"},"additionalneeds":"Test"}}
+[INFO] 21-11-2025 20:08:08 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 21-11-2025 20:08:08 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 21-11-2025 20:08:08 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Booking ID is greater than 0
+[INFO] 21-11-2025 20:08:08 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Firstname is correct
+[INFO] 21-11-2025 20:08:08 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Lastname is correct
+[INFO] 21-11-2025 20:08:08 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Total price is correct
+[INFO] 21-11-2025 20:08:08 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Deposit paid is correct
+[INFO] 21-11-2025 20:08:08 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkin date is correct
+[INFO] 21-11-2025 20:08:08 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkout date is correct
+[INFO] 21-11-2025 20:08:08 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Additional needs is correct

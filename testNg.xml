@@ -74,6 +74,21 @@
             </class>
         </classes>
     </test>
+    <test name="Partial Update Booking Test">
+        <parameter name="id" value="1"/>
+        <parameter name="firstname" value="Mohamed"/>
+        <parameter name="lastname" value="Ahmed"/>
+        <parameter name="incorrectID" value="-1"/>
+        <classes>
+            <class name="Tests.PartialUpdateBookingTest">
+                <methods>
+                    <include name="validPartialUpdateBooking"/>
+                    <include name="invalidPartialUpdateBookingByID"/>
+                    <include name="invalidPartialUpdateBookingByToken"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
     <test name="Update Booking Test">
         <parameter name="id" value="1"/>
         <parameter name="body" value='{
