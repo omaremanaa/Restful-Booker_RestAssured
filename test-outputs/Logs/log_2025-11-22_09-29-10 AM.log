@@ -1,0 +1,13 @@
+[DEBUG] 22-11-2025 09:29:10 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[TRACE] 22-11-2025 09:29:11 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PartialUpdateBookingTest.validPartialUpdateBookingTest(int,java.lang.String,java.lang.String)[pri:0, instance:Tests.PartialUpdateBookingTest@2d84cb86] -43162060
+[TRACE] 22-11-2025 09:29:11 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 22-11-2025 09:29:11 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 22-11-2025 09:29:11 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 22-11-2025 09:29:11 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 22-11-2025 09:29:11 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] 22-11-2025 09:29:16 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[ERROR] 22-11-2025 09:29:16 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> First name is updated correctly | Error: First name is updated correctly expected [First] but found [null]
+[ERROR] 22-11-2025 09:29:16 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Last name is updated correctly | Error: Last name is updated correctly expected [Last] but found [null]
+[INFO] 22-11-2025 09:29:16 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms

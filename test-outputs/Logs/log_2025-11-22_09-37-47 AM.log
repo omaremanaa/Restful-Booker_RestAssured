@@ -1,0 +1,12 @@
+[DEBUG] 22-11-2025 09:37:47 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[TRACE] 22-11-2025 09:37:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PartialUpdateBookingTest.invalidPartialUpdateBookingByTokenTest(int,java.lang.String,java.lang.String)[pri:0, instance:Tests.PartialUpdateBookingTest@7c974942] 638207203
+[TRACE] 22-11-2025 09:37:48 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 22-11-2025 09:37:48 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 22-11-2025 09:37:48 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 22-11-2025 09:37:48 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 22-11-2025 09:37:48 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] 22-11-2025 09:37:51 [main] [resources.LogUtils] - Invalid Partial Update Booking (Incorrect Token) Response Body: Forbidden
+[INFO] 22-11-2025 09:37:51 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 403
+[ERROR] 22-11-2025 09:37:51 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Response time is less than 2000ms | Error: Response time is less than 2000ms expected [true] but found [false]

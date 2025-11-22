@@ -1,0 +1,92 @@
+package Tests;
+
+import Requests.AuthenticationRequests;
+import Requests.PartialUpdateBookingRequest;
+import io.qameta.allure.Allure;
+import io.restassured.response.Response;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+import resources.AllureSoftAssert;
+import resources.LogUtils;
+import resources.Utils;
+
+public class PartialUpdateBookingTest extends Utils {
+    PartialUpdateBookingRequest partialUpdateBookingRequest;
+    AuthenticationRequests authenticationRequests;
+    AllureSoftAssert softAssert;
+
+    @Parameters({"id", "firstname", "lastname"})
+    @Test
+    public void validPartialUpdateBooking(@Optional("1") int id,@Optional("First") String firstname,
+                                              @Optional("Last") String lastname) {
+        Allure.getLifecycle().updateTestCase(testResult -> {
+            testResult.setName("Valid Partial Update Booking Test");
+            testResult.setDescription("This test verifies that a booking is successfully partially updated when valid data is provided.");
+        });
+        softAssert = new AllureSoftAssert();
+        authenticationRequests = new AuthenticationRequests();
+        partialUpdateBookingRequest = new PartialUpdateBookingRequest();
+
+        Response authResponse = authenticationRequests.createToken("admin", "password123");
+        String token = authResponse.jsonPath().getString("token");
+
+        Response response = partialUpdateBookingRequest.partialUpdateBooking(id, token, firstname, lastname);
+        String firstnameResponse = response.jsonPath().getString("firstname");
+        String lastnameResponse = response.jsonPath().getString("lastname");
+        LogUtils.info("Valid Partial Update Booking Response Body: " + response.asString());
+
+        softAssert.assertEquals(response.statusCode(), 200, "Status code is 200");
+        softAssert.assertEquals(firstnameResponse,firstname, "First name is updated correctly");
+        softAssert.assertEquals(lastnameResponse, lastname, "Last name is updated correctly");
+        softAssert.assertTrue(response.getTime() < 2000, "Response time is less than 2000ms");
+        softAssert.assertAll();
+    }
+
+    @Parameters({"invalidID", "firstname", "lastname"})
+    @Test
+    public void invalidPartialUpdateBookingByID(@Optional("-1") int invalidID,
+                                                    @Optional("First") String firstname,
+                                                    @Optional("Last") String lastname) {
+     Allure.getLifecycle().updateTestCase(testResult -> {
+            testResult.setName("Invalid Partial Update Booking By ID Test");
+            testResult.setDescription("This test verifies that an error is returned when attempting to partially update a booking with an invalid ID.");
+        });
+        softAssert = new AllureSoftAssert();
+        authenticationRequests = new AuthenticationRequests();
+        partialUpdateBookingRequest = new PartialUpdateBookingRequest();
+
+        Response authResponse = authenticationRequests.createToken("admin", "password123");
+        String token = authResponse.jsonPath().getString("token");
+
+        Response response = partialUpdateBookingRequest.partialUpdateBooking(-1, token, "", "");
+        LogUtils.info("Invalid Partial Update Booking (Non existing Id) Response Body: " + response.asString());
+
+        softAssert.assertEquals(response.statusCode(), 405, "Status code is 405");
+        softAssert.assertTrue(response.getTime() < 2000, "Response time is less than 2000ms");
+        softAssert.assertAll();
+    }
+
+    @Parameters({"id", "firstname", "lastname"})
+    @Test
+    public void invalidPartialUpdateBookingByToken(@Optional("1") int id,
+                                                    @Optional("First") String firstname,
+                                                    @Optional("Last") String lastname) {
+        Allure.getLifecycle().updateTestCase(testResult -> {
+            testResult.setName("Invalid Partial Update Booking By Token Test");
+            testResult.setDescription("This test verifies that an error is returned when attempting to partially update a booking with an invalid token.");
+        });
+        softAssert = new AllureSoftAssert();
+        partialUpdateBookingRequest = new PartialUpdateBookingRequest();
+
+        String token = "invalidToken";
+
+        Response response = partialUpdateBookingRequest.partialUpdateBooking(-1, token, "", "");
+        LogUtils.info("Invalid Partial Update Booking (Incorrect Token) Response Body: " + response.asString());
+
+        softAssert.assertEquals(response.statusCode(), 403, "Status code is 403");
+        softAssert.assertTrue(response.getTime() < 2000, "Response time is less than 2000ms");
+        softAssert.assertAll();
+    }
+
+}
