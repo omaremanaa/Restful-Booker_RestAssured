@@ -1,0 +1,47 @@
+[DEBUG] 23-11-2025 08:46:48 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.setup()[pri:0, instance:null] 2135650151
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.init()[pri:0, instance:null] 2046701636
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.tearDown()[pri:0, instance:null] -452620496
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.invalidUpdateBookingByIncorrectID()[pri:0, instance:Tests.UpdateBookingTest@783ec989] -683586491
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.validUpdateBookingTest()[pri:0, instance:Tests.UpdateBookingTest@783ec989] 1068075351
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.invalidUpdateBookingByIncorrectToken()[pri:0, instance:Tests.UpdateBookingTest@783ec989] 1195156473
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 08:46:48 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 23-11-2025 08:46:48 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[DEBUG] 23-11-2025 08:46:48 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['incorrectBookingID']
+[DEBUG] 23-11-2025 08:46:48 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['booking-data']
+[DEBUG] 23-11-2025 08:46:48 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 23-11-2025 08:46:48 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] 23-11-2025 08:46:50 [main] [resources.LogUtils] - Auth Response: {"token":"9ce0b13de4afc5c"}
+[INFO] 23-11-2025 08:46:52 [main] [resources.LogUtils] - Invalid Update Booking (By Nonexistent ID) Response: Method Not Allowed
+[INFO] 23-11-2025 08:46:52 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Expected status code 405
+[INFO] 23-11-2025 08:46:52 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[DEBUG] 23-11-2025 08:46:52 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingID']
+[DEBUG] 23-11-2025 08:46:52 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['booking-data']
+[INFO] 23-11-2025 08:46:52 [main] [resources.LogUtils] - Invalid Update Booking (By Incorrect Token) Response: Forbidden
+[INFO] 23-11-2025 08:46:52 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Expected status code 403
+[INFO] 23-11-2025 08:46:52 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[DEBUG] 23-11-2025 08:46:52 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingID']
+[DEBUG] 23-11-2025 08:46:52 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['booking-data']
+[DEBUG] 23-11-2025 08:46:52 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 23-11-2025 08:46:52 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] 23-11-2025 08:46:53 [main] [resources.LogUtils] - Auth Response: {"token":"8c0bd223a798eee"}
+[INFO] 23-11-2025 08:46:54 [main] [resources.LogUtils] - Valid Update Booking Response: {"firstname":"Karim","lastname":"Hassan","totalprice":350,"depositpaid":true,"bookingdates":{"checkin":"2025-12-01","checkout":"2025-12-10"},"additionalneeds":"Breakfast"}
+[INFO] 23-11-2025 08:46:54 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Expected status code 200
+[INFO] 23-11-2025 08:46:54 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms

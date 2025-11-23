@@ -1,0 +1,25 @@
+[DEBUG] 23-11-2025 08:19:06 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[TRACE] 23-11-2025 08:19:07 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.setup()[pri:0, instance:null] 986692863
+[TRACE] 23-11-2025 08:19:07 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 08:19:07 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 08:19:07 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 08:19:07 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 23-11-2025 08:19:07 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.init()[pri:0, instance:null] 1014686636
+[TRACE] 23-11-2025 08:19:07 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 08:19:07 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 08:19:07 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 08:19:07 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 23-11-2025 08:19:07 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.validGetBookingDetails()[pri:0, instance:Tests.GetBookingByIDTest@44afefd5] -499699528
+[TRACE] 23-11-2025 08:19:07 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.invalidGetBookingByIncorrectID()[pri:0, instance:Tests.GetBookingByIDTest@44afefd5] 1096326148
+[TRACE] 23-11-2025 08:19:07 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 08:19:07 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 08:19:07 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 08:19:07 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 23-11-2025 08:19:07 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[DEBUG] 23-11-2025 08:19:07 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalidBookingID']
+[DEBUG] 23-11-2025 08:19:07 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingID']
+[INFO] 23-11-2025 08:19:10 [main] [resources.LogUtils] - Valid Get Booking By ID Response Body: {"firstname":"Jim","lastname":"Jones","totalprice":968,"depositpaid":false,"bookingdates":{"checkin":"2021-09-08","checkout":"2025-07-04"}}
+[INFO] 23-11-2025 08:19:10 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 200
+[INFO] 23-11-2025 08:19:10 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms

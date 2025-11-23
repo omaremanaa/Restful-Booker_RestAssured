@@ -1,0 +1,57 @@
+[DEBUG] 23-11-2025 06:58:18 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.init()[pri:0, instance:null] -996817867
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.tearDown()[pri:0, instance:null] 1483635521
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.setup()[pri:0, instance:null] -1038050406
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.init()[pri:0, instance:Tests.CreateBookingRequestsTest@68809cc7] 916676402
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.invalidCreateBookingTest()[pri:0, instance:Tests.CreateBookingRequestsTest@68809cc7] -1021190518
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.validCreateBookingTest()[pri:0, instance:Tests.CreateBookingRequestsTest@68809cc7] -918034733
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.tearDown()[pri:0, instance:Tests.CreateBookingRequestsTest@68809cc7] 501320102
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 06:58:18 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 23-11-2025 06:58:18 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[DEBUG] 23-11-2025 06:58:18 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['body']
+[INFO] 23-11-2025 06:58:20 [main] [resources.LogUtils] - Invalid Create Booking Response Body: Internal Server Error
+[INFO] 23-11-2025 06:58:20 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 200
+[INFO] 23-11-2025 06:58:20 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[DEBUG] 23-11-2025 06:58:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstname']
+[DEBUG] 23-11-2025 06:58:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastname']
+[DEBUG] 23-11-2025 06:58:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['totalprice']
+[DEBUG] 23-11-2025 06:58:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['depositpaid']
+[DEBUG] 23-11-2025 06:58:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingdates']['checkin']
+[DEBUG] 23-11-2025 06:58:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingdates']['checkout']
+[DEBUG] 23-11-2025 06:58:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['additionalneeds']
+[INFO] 23-11-2025 06:58:21 [main] [resources.LogUtils] - Valid Create Booking Response Body: {"bookingid":3858,"booking":{"firstname":"Karim","lastname":"Hassan","totalprice":350,"depositpaid":true,"bookingdates":{"checkin":"2025-12-01","checkout":"2025-12-10"},"additionalneeds":"Breakfast"}}
+[INFO] 23-11-2025 06:58:21 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 23-11-2025 06:58:21 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 23-11-2025 06:58:21 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Booking ID is greater than 0
+[INFO] 23-11-2025 06:58:21 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Firstname is correct
+[INFO] 23-11-2025 06:58:21 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Lastname is correct
+[INFO] 23-11-2025 06:58:21 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Total price is correct
+[INFO] 23-11-2025 06:58:21 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Deposit paid is correct
+[INFO] 23-11-2025 06:58:21 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkin date is correct
+[INFO] 23-11-2025 06:58:21 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkout date is correct
+[INFO] 23-11-2025 06:58:21 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Additional needs is correct

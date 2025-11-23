@@ -1,0 +1,35 @@
+[DEBUG] 23-11-2025 07:11:57 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[TRACE] 23-11-2025 07:11:58 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.setup()[pri:0, instance:null] -712026893
+[TRACE] 23-11-2025 07:11:58 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 07:11:58 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 07:11:58 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 07:11:58 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 23-11-2025 07:11:58 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.init()[pri:0, instance:null] -751170600
+[TRACE] 23-11-2025 07:11:58 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 07:11:58 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 07:11:58 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 07:11:58 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 23-11-2025 07:11:58 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.validDeleteBookingTest()[pri:0, instance:Tests.DeleteTests@6079cf5] -112313751
+[TRACE] 23-11-2025 07:11:58 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.invalidDeleteBookingByIncorrectToken()[pri:0, instance:Tests.DeleteTests@6079cf5] 46192779
+[TRACE] 23-11-2025 07:11:58 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.invalidDeleteBookingByIncorrectID()[pri:0, instance:Tests.DeleteTests@6079cf5] -397314757
+[TRACE] 23-11-2025 07:11:58 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 07:11:58 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 07:11:58 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 07:11:58 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 23-11-2025 07:11:58 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] 23-11-2025 07:12:00 [main] [resources.LogUtils] - Auth Response: {"token":"982efd92de94bda"}
+[DEBUG] 23-11-2025 07:12:00 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['incorrectBookingID']
+[INFO] 23-11-2025 07:12:01 [main] [resources.LogUtils] - Invalid Delete Booking (By Booking ID) Response Body: Method Not Allowed
+[INFO] 23-11-2025 07:12:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 405
+[INFO] 23-11-2025 07:12:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[DEBUG] 23-11-2025 07:12:01 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingID']
+[INFO] 23-11-2025 07:12:02 [main] [resources.LogUtils] - Invalid Delete Booking (By Token) Response Body: Forbidden
+[INFO] 23-11-2025 07:12:02 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 403
+[INFO] 23-11-2025 07:12:02 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 23-11-2025 07:12:03 [main] [resources.LogUtils] - Auth Response: {"token":"4a4e019bd7a2c49"}
+[DEBUG] 23-11-2025 07:12:03 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingID']
+[INFO] 23-11-2025 07:12:04 [main] [resources.LogUtils] - Valid Delete Booking Response Body: Created
+[INFO] 23-11-2025 07:12:04 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 201
+[INFO] 23-11-2025 07:12:04 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms

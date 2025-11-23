@@ -1,0 +1,39 @@
+[DEBUG] 23-11-2025 08:50:30 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[TRACE] 23-11-2025 08:50:30 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.setup()[pri:0, instance:null] -374301111
+[TRACE] 23-11-2025 08:50:30 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 08:50:30 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 08:50:30 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 08:50:30 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 23-11-2025 08:50:30 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.init()[pri:0, instance:null] -284835482
+[TRACE] 23-11-2025 08:50:30 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 08:50:30 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 08:50:30 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 08:50:30 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 23-11-2025 08:50:30 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.invalidPasswordTest()[pri:0, instance:Tests.AuthenticationTest@5226e402] 646279408
+[TRACE] 23-11-2025 08:50:30 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.invalidUsernameTest()[pri:0, instance:Tests.AuthenticationTest@5226e402] 155474555
+[TRACE] 23-11-2025 08:50:30 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.validAuthenticationTest()[pri:0, instance:Tests.AuthenticationTest@5226e402] 350628306
+[TRACE] 23-11-2025 08:50:30 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 08:50:30 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 08:50:30 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 08:50:30 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 23-11-2025 08:50:30 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[DEBUG] 23-11-2025 08:50:30 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 23-11-2025 08:50:30 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalidPassword']
+[INFO] 23-11-2025 08:50:32 [main] [resources.LogUtils] - Response for Invalid Password Authentication{"reason":"Bad credentials"}
+[ERROR] 23-11-2025 08:50:32 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Status code is not 200 | Error: Status code is not 200 did not expect [200] but found [200]
+[INFO] 23-11-2025 08:50:32 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response contains 'Bad credentials'
+[INFO] 23-11-2025 08:50:32 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[DEBUG] 23-11-2025 08:50:32 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalidUsername']
+[DEBUG] 23-11-2025 08:50:32 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] 23-11-2025 08:50:33 [main] [resources.LogUtils] - Response for Invalid Username Authentication{"reason":"Bad credentials"}
+[ERROR] 23-11-2025 08:50:33 [main] [resources.LogUtils] - ❌ SoftAssert FAILED ->  Status code is not 200 | Error:  Status code is not 200 did not expect [200] but found [200]
+[INFO] 23-11-2025 08:50:33 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Response contains 'Bad credentials'
+[INFO] 23-11-2025 08:50:33 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Response time is less than 2000ms
+[DEBUG] 23-11-2025 08:50:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 23-11-2025 08:50:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] 23-11-2025 08:50:34 [main] [resources.LogUtils] - Authentication Response Body: {"token":"f1fdcfe37b0c989"}
+[INFO] 23-11-2025 08:50:34 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 23-11-2025 08:50:34 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Token is not null
+[INFO] 23-11-2025 08:50:34 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Response time is less than 2000ms

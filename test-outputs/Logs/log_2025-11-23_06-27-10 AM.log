@@ -1,0 +1,23 @@
+[DEBUG] 23-11-2025 06:27:10 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[TRACE] 23-11-2025 06:27:11 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.invalidPasswordTest()[pri:0, instance:Tests.AuthenticationTest@2571066a] -103836840
+[TRACE] 23-11-2025 06:27:11 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.invalidUsernameTest()[pri:0, instance:Tests.AuthenticationTest@2571066a] -594641693
+[TRACE] 23-11-2025 06:27:11 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.validAuthenticationTest()[pri:0, instance:Tests.AuthenticationTest@2571066a] -399487942
+[TRACE] 23-11-2025 06:27:11 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 06:27:11 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 06:27:11 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 06:27:11 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 23-11-2025 06:27:11 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] 23-11-2025 06:27:14 [main] [resources.LogUtils] - Response for Invalid Password Authentication{"reason":"Bad credentials"}
+[ERROR] 23-11-2025 06:27:14 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Status code is not 200 | Error: Status code is not 200 did not expect [200] but found [200]
+[INFO] 23-11-2025 06:27:14 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response contains 'Bad credentials'
+[ERROR] 23-11-2025 06:27:14 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Response time is less than 2000ms | Error: Response time is less than 2000ms expected [true] but found [false]
+[INFO] 23-11-2025 06:27:15 [main] [resources.LogUtils] - Response for Invalid Username Authentication{"reason":"Bad credentials"}
+[ERROR] 23-11-2025 06:27:15 [main] [resources.LogUtils] - ❌ SoftAssert FAILED ->  Status code is not 200 | Error:  Status code is not 200 did not expect [200] but found [200]
+[INFO] 23-11-2025 06:27:15 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Response contains 'Bad credentials'
+[INFO] 23-11-2025 06:27:15 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Response time is less than 2000ms
+[INFO] 23-11-2025 06:27:17 [main] [resources.LogUtils] - Authentication Response Body: {"reason":"Bad credentials"}
+[INFO] 23-11-2025 06:27:17 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[ERROR] 23-11-2025 06:27:17 [main] [resources.LogUtils] - ❌ SoftAssert FAILED ->  Token is not null | Error:  Token is not null expected object to not be null
+[INFO] 23-11-2025 06:27:17 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Response time is less than 2000ms

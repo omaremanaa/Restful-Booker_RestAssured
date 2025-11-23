@@ -1,11 +1,13 @@
 package Requests;
 
+import Helpers.JsonReader;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
 
 public class GetBookingIDsRequest {
-    private String pathPar = "/booking";
+    JsonReader jsonReader = new JsonReader("api-data");
+    private String pathPar = jsonReader.getJsonData("bookingPath");
 
     public Response getBookingIDs() {
         Response bookingIDsResponse;

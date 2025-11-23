@@ -4,7 +4,7 @@
 [TRACE] 21-11-2025 18:47:26 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
 [TRACE] 21-11-2025 18:47:26 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
 [TRACE] 21-11-2025 18:47:26 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
-[INFO] 21-11-2025 18:47:26 [main] [org.testng.internal.Utils] - [TestNG] Running:
+[INFO] 21-11-2025 18:47:26 [main] [org.testng.internal.Utitlity] - [TestNG] Running:
   C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
 
 [INFO] 21-11-2025 18:47:26 [main] [resources.LogUtils] - Step 1: Attempting authentication with credentials

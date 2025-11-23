@@ -22,8 +22,8 @@
 [TRACE] 21-11-2025 18:25:04 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
 [TRACE] 21-11-2025 18:25:04 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
 [TRACE] 21-11-2025 18:25:04 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
-[TRACE] 21-11-2025 18:25:04 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.validGetBookingDetails(int)[pri:0, instance:Tests.GetBookingIDTest@5ca1f591] -97962380
-[TRACE] 21-11-2025 18:25:04 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.invalidGetBookingByIncorrectID(int)[pri:0, instance:Tests.GetBookingIDTest@5ca1f591] 1498063296
+[TRACE] 21-11-2025 18:25:04 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.validGetBookingDetails(int)[pri:0, instance:Tests.GetBookingByIDTest@5ca1f591] -97962380
+[TRACE] 21-11-2025 18:25:04 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.invalidGetBookingByIncorrectID(int)[pri:0, instance:Tests.GetBookingByIDTest@5ca1f591] 1498063296
 [TRACE] 21-11-2025 18:25:04 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
 [TRACE] 21-11-2025 18:25:04 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
 [TRACE] 21-11-2025 18:25:04 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
@@ -47,7 +47,7 @@
 [TRACE] 21-11-2025 18:25:04 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
 [TRACE] 21-11-2025 18:25:04 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
 [TRACE] 21-11-2025 18:25:04 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
-[INFO] 21-11-2025 18:25:04 [main] [org.testng.internal.Utils] - [TestNG] Running:
+[INFO] 21-11-2025 18:25:04 [main] [org.testng.internal.Utitlity] - [TestNG] Running:
   C:\Users\omar_\IdeaProjects\Restful-Booker-GP\testNg.xml
 
 [INFO] 21-11-2025 18:25:07 [main] [resources.LogUtils] - Ping Response Body: Created
