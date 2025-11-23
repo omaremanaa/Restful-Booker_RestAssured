@@ -3,6 +3,8 @@ package Tests;
 import Requests.PingRequests;
 import io.qameta.allure.Allure;
 import io.restassured.response.Response;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import resources.AllureSoftAssert;
 import resources.LogUtils;
@@ -12,14 +14,22 @@ public class PingRequestsTest extends Utils {
     PingRequests pingRequestsEndpoint;
     AllureSoftAssert softAssert;
 
+    @BeforeClass
+    public void setup(){
+        pingRequestsEndpoint = new PingRequests();
+
+    }
+    @BeforeMethod
+    public void init(){
+        softAssert = new AllureSoftAssert();
+    }
     @Test
     public void validateOnline() {
         Allure.getLifecycle().updateTestCase(testResult -> {
             testResult.setName("Ping Health Check Test");
             testResult.setDescription("This test verifies that the ping endpoint is online and responsive.");
         });
-        softAssert = new AllureSoftAssert();
-        pingRequestsEndpoint = new PingRequests();
+
         Response response = pingRequestsEndpoint.healthCheck();
         LogUtils.info("Ping Response Body: " + response.asString());
 

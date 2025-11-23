@@ -5,7 +5,7 @@
 [TRACE] 21-11-2025 20:08:03 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
 [TRACE] 21-11-2025 20:08:03 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
 [TRACE] 21-11-2025 20:08:03 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
-[INFO] 21-11-2025 20:08:03 [main] [org.testng.internal.Utils] - [TestNG] Running:
+[INFO] 21-11-2025 20:08:03 [main] [org.testng.internal.Utitlity] - [TestNG] Running:
   C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
 
 [INFO] 21-11-2025 20:08:06 [main] [resources.LogUtils] - Invalid Create Booking Response Body: Internal Server Error

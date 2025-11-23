@@ -8,8 +8,8 @@
 [TRACE] 21-11-2025 19:48:30 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.invalidDeleteBookingByIncorrectID(int)[pri:0, instance:Tests.DeleteTests@6f95cd51] 1373611415
 [TRACE] 21-11-2025 19:48:30 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2ETest.endToEndBookingTest()[pri:0, instance:Tests.E2ETest@c7a977f] -1681715579
 [TRACE] 21-11-2025 19:48:30 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDsTest.validGetBookingIDsTest()[pri:0, instance:Tests.GetBookingIDsTest@55caeb35] -2055000379
-[TRACE] 21-11-2025 19:48:30 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.validGetBookingDetails(int)[pri:0, instance:Tests.GetBookingIDTest@6d868997] 185453178
-[TRACE] 21-11-2025 19:48:30 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.invalidGetBookingByIncorrectID(int)[pri:0, instance:Tests.GetBookingIDTest@6d868997] 1781478854
+[TRACE] 21-11-2025 19:48:30 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.validGetBookingDetails(int)[pri:0, instance:Tests.GetBookingByIDTest@6d868997] 185453178
+[TRACE] 21-11-2025 19:48:30 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.invalidGetBookingByIncorrectID(int)[pri:0, instance:Tests.GetBookingByIDTest@6d868997] 1781478854
 [TRACE] 21-11-2025 19:48:30 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PingRequestsTest.validateOnline()[pri:0, instance:Tests.PingRequestsTest@2c383e33] 530047736
 [TRACE] 21-11-2025 19:48:30 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.validUpdateBookingTest(int,java.lang.String)[pri:0, instance:Tests.UpdateBookingTest@74a195a4] 1007441266
 [TRACE] 21-11-2025 19:48:30 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.invalidUpdateBookingByIncorrectToken(int,java.lang.String)[pri:0, instance:Tests.UpdateBookingTest@74a195a4] 1134522388
@@ -124,8 +124,8 @@
 [TRACE] 21-11-2025 19:48:59 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.invalidDeleteBookingByIncorrectToken(int)[pri:0, instance:Tests.DeleteTests@6f95cd51] 1817118951
 [TRACE] 21-11-2025 19:48:59 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.validDeleteBookingTest(int)[pri:0, instance:Tests.DeleteTests@6f95cd51] 1658612421
 [TRACE] 21-11-2025 19:48:59 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2ETest.endToEndBookingTest()[pri:0, instance:Tests.E2ETest@c7a977f] -1681715579
-[TRACE] 21-11-2025 19:48:59 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.invalidGetBookingByIncorrectID(int)[pri:0, instance:Tests.GetBookingIDTest@6d868997] 1781478854
-[TRACE] 21-11-2025 19:48:59 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.validGetBookingDetails(int)[pri:0, instance:Tests.GetBookingIDTest@6d868997] 185453178
+[TRACE] 21-11-2025 19:48:59 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.invalidGetBookingByIncorrectID(int)[pri:0, instance:Tests.GetBookingByIDTest@6d868997] 1781478854
+[TRACE] 21-11-2025 19:48:59 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.validGetBookingDetails(int)[pri:0, instance:Tests.GetBookingByIDTest@6d868997] 185453178
 [TRACE] 21-11-2025 19:48:59 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDsTest.validGetBookingIDsTest()[pri:0, instance:Tests.GetBookingIDsTest@55caeb35] -2055000379
 [TRACE] 21-11-2025 19:48:59 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PingRequestsTest.validateOnline()[pri:0, instance:Tests.PingRequestsTest@2c383e33] 530047736
 [TRACE] 21-11-2025 19:48:59 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.invalidUpdateBookingByIncorrectID(int,java.lang.String)[pri:0, instance:Tests.UpdateBookingTest@74a195a4] -744220576

@@ -1,0 +1,11 @@
+{
+  "firstname": "Karim",
+  "lastname": "Hassan",
+  "totalprice": "350",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2025-12-01",
+    "checkout": "2025-12-10"
+  },
+  "additionalneeds": "Breakfast"
+}

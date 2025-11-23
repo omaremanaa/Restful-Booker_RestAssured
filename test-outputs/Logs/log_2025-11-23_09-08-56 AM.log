@@ -1,0 +1,57 @@
+[DEBUG] 23-11-2025 09:08:56 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[TRACE] 23-11-2025 09:08:57 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2ETest.setup()[pri:0, instance:null] -970716801
+[TRACE] 23-11-2025 09:08:57 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 09:08:57 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 09:08:57 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 09:08:57 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 23-11-2025 09:08:57 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2ETest.init()[pri:0, instance:null] -1064217044
+[TRACE] 23-11-2025 09:08:57 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 09:08:57 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 09:08:57 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 09:08:57 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 23-11-2025 09:08:57 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2ETest.endToEndBookingTest()[pri:0, instance:Tests.E2ETest@4f20a5e0] -563536666
+[TRACE] 23-11-2025 09:08:57 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 09:08:57 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 09:08:57 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 09:08:57 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 23-11-2025 09:08:57 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] 23-11-2025 09:08:57 [main] [resources.LogUtils] - Step 1: Attempting authentication with credentials
+[DEBUG] 23-11-2025 09:08:58 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 23-11-2025 09:08:58 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] 23-11-2025 09:09:00 [main] [resources.LogUtils] - Authentication response - Status: 200 , Response time: {1402}ms, Token: {1402}
+[INFO] 23-11-2025 09:09:00 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Authentication status code is 200
+[INFO] 23-11-2025 09:09:00 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Authentication response time is less than 2000ms
+[INFO] 23-11-2025 09:09:00 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Token is not null
+[DEBUG] 23-11-2025 09:09:00 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['booking-data']
+[INFO] 23-11-2025 09:09:00 [main] [resources.LogUtils] - Step 2: Creating booking for Ahmed Magdy, Total Price: 300, Checkin: 2025-11-11, Checkout: 2025-12-12
+[DEBUG] 23-11-2025 09:09:00 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['booking-data']
+[INFO] 23-11-2025 09:09:01 [main] [resources.LogUtils] - Booking creation response - Status: 200 , Response time: {729}ms, Booking ID: {3806}
+[INFO] 23-11-2025 09:09:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 23-11-2025 09:09:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 23-11-2025 09:09:01 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Booking ID is greater than 0
+[ERROR] 23-11-2025 09:09:01 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Firstname is correct | Error: Firstname is correct expected [Ahmed] but found [Karim]
+[ERROR] 23-11-2025 09:09:01 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Lastname is correct | Error: Lastname is correct expected [Magdy] but found [Hassan]
+[ERROR] 23-11-2025 09:09:01 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Total price is correct | Error: Total price is correct expected [300] but found [350]
+[ERROR] 23-11-2025 09:09:01 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Checkin date is correct | Error: Checkin date is correct expected [2025-11-11] but found [2025-12-01]
+[ERROR] 23-11-2025 09:09:01 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Checkout date is correct | Error: Checkout date is correct expected [2025-12-12] but found [2025-12-10]
+[ERROR] 23-11-2025 09:09:01 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Additional needs is correct | Error: Additional needs is correct expected [E2E Test] but found [Breakfast]
+[INFO] 23-11-2025 09:09:01 [main] [resources.LogUtils] - Step 3: Retrieving all booking IDs
+[INFO] 23-11-2025 09:09:02 [main] [resources.LogUtils] - Get booking IDs response - Status: 200 , Response time: {852}ms
+[INFO] 23-11-2025 09:09:02 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Get booking IDs status code is 200
+[INFO] 23-11-2025 09:09:02 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> New booking ID is present
+[INFO] 23-11-2025 09:09:02 [main] [resources.LogUtils] - Step 4: Updating booking ID 3806 with new details
+[DEBUG] 23-11-2025 09:09:02 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstname']
+[DEBUG] 23-11-2025 09:09:02 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastname']
+[INFO] 23-11-2025 09:09:03 [main] [resources.LogUtils] - Booking update response - Status: 200 , Response time: {722}ms
+[INFO] 23-11-2025 09:09:03 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Update booking status code is 200
+[INFO] 23-11-2025 09:09:03 [main] [resources.LogUtils] - Step 5: Retrieving updated booking details for ID 3806
+[INFO] 23-11-2025 09:09:03 [main] [resources.LogUtils] - Get booking response - Status: 200 , Response time: {694}ms
+[INFO] 23-11-2025 09:09:03 [main] [resources.LogUtils] - Updated booking details: {"firstname":"Ahmed","lastname":"Mohamed","totalprice":350,"depositpaid":true,"bookingdates":{"checkin":"2025-12-01","checkout":"2025-12-10"},"additionalneeds":"Breakfast"}
+[INFO] 23-11-2025 09:09:03 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Get booking by ID status code is 200
+[INFO] 23-11-2025 09:09:03 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> First name is updated
+[INFO] 23-11-2025 09:09:03 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Last name is updated
+[INFO] 23-11-2025 09:09:03 [main] [resources.LogUtils] - Step 6: Deleting booking ID 3806
+[INFO] 23-11-2025 09:09:04 [main] [resources.LogUtils] - Booking deletion response - Status: 201 , Response time: {710}ms
+[INFO] 23-11-2025 09:09:04 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Delete booking status code is 201

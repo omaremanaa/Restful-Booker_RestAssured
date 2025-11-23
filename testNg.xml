@@ -1,140 +1,91 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="All test suites">
-    <test name="Ping Test">
-        <classes>
-            <class name="Tests.PingRequestsTest">
-                <methods>
-                    <include name="validateOnline"/>
-                </methods>
-            </class>
-        </classes>
+   <test name="Valid Test Cases">
+         <classes>
+             <class name="Tests.PingRequestsTest">
+                 <methods>
+                        <include name="validateOnline"/>
+                 </methods>
+             </class>
+              <class name="Tests.AuthenticationTest">
+                  <methods>
+                      <include name="validAuthenticationTest"/>
+                  </methods>
+              </class>
+             <class name="Tests.CreateBookingRequestsTest">
+                 <methods>
+                     <include name="validCreateBookingTest"/>
+                 </methods>
+             </class>
+             <class name="Requests.GetBookingIDsRequest">
+                 <methods>
+                        <include name="validGetBookingIDsTest"/>
+                 </methods>
+             </class>
+             <class name="Tests.GetBookingByIDTest">
+                 <methods>
+                        <include name="validGetBookingDetails"/>
+                 </methods>
+             </class>
+             <class name="Tests.PartialUpdateBookingTest">
+                 <methods>
+                        <include name="validPartialUpdateBooking"/>
+                 </methods>
+             </class>
+             <class name="Tests.UpdateBookingTest">
+                 <methods>
+                        <include name="validUpdateBookingTest"/>
+                 </methods>
+             </class>
+             <class name="Tests.DeleteTests">
+                 <methods>
+                        <include name="validDeleteBookingTest"/>
+                 </methods>
+             </class>
+         </classes>
     </test>
-    <test name="Authentication Test">
-        <parameter name="username" value="admin"/>
-        <parameter name="password" value="password123"/>
-        <parameter name="invalidUsername" value="test"/>
-        <parameter name="invalidPassword" value="1234"/>
+    <test name="Invalid Test Cases">
         <classes>
             <class name="Tests.AuthenticationTest">
                 <methods>
-                    <include name="validAuthenticationTest"/>
-                    <include name="invalidPasswordTest"/>
-                    <include name="invalidUsernameTest"/>
+                    <exclude name="validAuthenticationTest"/>
                 </methods>
             </class>
-        </classes>
-
-    </test>
-    <test name="Create Booking Test">
-        <parameter name="firstname" value="Omar"/>
-        <parameter name="lastname" value="Mohamed"/>
-        <parameter name="totalprice" value="150"/>
-        <parameter name="depositpaid" value="true"/>
-        <parameter name="checkin" value="2025-10-10"/>
-        <parameter name="checkout" value="2025-11-27"/>
-        <parameter name="additionalneeds" value="Test"/>
-        <parameter name="body" value='{
-    "totalprice": 150,
-    "depositpaid": true,
-    "bookingdates": {
-        "checkin": "2023-10-01",
-        "checkout": "2025-11-20"
-    },
-    "additionalneeds": "Breakfast"
-}'/>
-
-        <classes>
             <class name="Tests.CreateBookingRequestsTest">
                 <methods>
-                    <include name="validCreateBookingTest"/>
-                    <include name="invalidCreateBookingTest"/>
+                    <exclude name="validCreateBookingTest"/>
                 </methods>
             </class>
-        </classes>
-
-    </test>
-    <test name="Get booking ids">
-        <classes>
-            <class name="Tests.GetBookingIDsTest">
+            <class name="Requests.GetBookingIDsRequest">
                 <methods>
-                    <include name="validGetBookingIDsTest"/>
+                    <exclude name="validGetBookingIDsTest"/>
                 </methods>
             </class>
-        </classes>
-    </test>
-    <test name="Get booking details">
-        <parameter name="bookingID" value="1"/>
-        <parameter name="invalidBookingID" value="-1"/>
-        <classes>
-            <class name="Tests.GetBookingIDTest">
+            <class name="Tests.GetBookingByIDTest">
                 <methods>
-                    <include name="validGetBookingDetails"/>
-                    <include name="invalidGetBookingByIncorrectID"/>
+                    <exclude name="validGetBookingDetails"/>
                 </methods>
             </class>
-        </classes>
-    </test>
-    <test name="Partial Update Booking Test">
-        <parameter name="id" value="1"/>
-        <parameter name="firstname" value="Mohamed"/>
-        <parameter name="lastname" value="Ahmed"/>
-        <parameter name="incorrectID" value="-1"/>
-        <classes>
             <class name="Tests.PartialUpdateBookingTest">
                 <methods>
-                    <include name="validPartialUpdateBooking"/>
-                    <include name="invalidPartialUpdateBookingByID"/>
-                    <include name="invalidPartialUpdateBookingByToken"/>
+                    <exclude name="validPartialUpdateBooking"/>
                 </methods>
             </class>
-        </classes>
-    </test>
-    <test name="Update Booking Test">
-        <parameter name="id" value="1"/>
-        <parameter name="body" value='{
-    "firstname": "Ahmed",
-    "lastname": "Ali",
-    "totalprice": 200,
-    "depositpaid": false,
-    "bookingdates": {
-        "checkin": "2025-12-01",
-        "checkout": "2025-12-15"
-    },
-    "additionalneeds": "UpdatedTest"
-}'/>
-        <parameter name="incorrectID" value="-1"/>
-
-        <classes>
             <class name="Tests.UpdateBookingTest">
                 <methods>
-                    <include name="validUpdateBookingTest"/>
-                    <include name="invalidUpdateBookingByIncorrectToken"/>
-                    <include name="invalidUpdateBookingByIncorrectID"/>
+                    <exclude name="validUpdateBookingTest"/>
                 </methods>
             </class>
-        </classes>
-    </test>
-    <test name="Delete Booking Test">
-        <parameter name="bookingID" value="1"/>
-        <parameter name="incorrectBookingID" value="-1"/>
-        <classes>
             <class name="Tests.DeleteTests">
                 <methods>
-                    <include name="validDeleteBookingTest"/>
-                    <include name="invalidDeleteBookingByIncorrectID"/>
-                    <include name="invalidDeleteBookingByIncorrectToken"/>
+                    <exclude name="validDeleteBookingTest"/>
                 </methods>
             </class>
         </classes>
     </test>
-    <test name="End-to-end Test">
+    <test name="End to End">
         <classes>
-            <class name="Tests.E2ETest">
-                <methods>
-                    <include name="endToEndBookingTest"/>
-                </methods>
-            </class>
+            <class name="Tests.E2ETest"/>
         </classes>
     </test>
-
 </suite>

@@ -1,0 +1,7 @@
+{
+  "baseURI": "https://restful-booker.herokuapp.com",
+  "authPath": "/auth",
+  "bookingPath": "/booking",
+  "bookingIdPath": "/booking/{id}",
+  "pingPath": "/ping"
+}

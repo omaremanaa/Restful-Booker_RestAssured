@@ -1,12 +1,15 @@
 package Requests;
 
+import Helpers.JsonReader;
+import Helpers.Payload;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
 
 public class CreateBookingRequests {
 
-    private String pathPar = "/booking";
+    JsonReader jsonReader = new JsonReader("api-data");
+    private String pathPar = jsonReader.getJsonData("bookingPath");
 
     public Response createBooking(String firstname, String lastname,
                                   int totalprice, boolean depositpaid,
@@ -26,7 +29,7 @@ public class CreateBookingRequests {
         return response;
     }
 
-    public Response createBookings(String body) {
+    public Response createBooking(String body) {
         Response response;
         response =
                 given()

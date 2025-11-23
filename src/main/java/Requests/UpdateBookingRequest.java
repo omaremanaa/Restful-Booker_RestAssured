@@ -1,11 +1,13 @@
 package Requests;
 
+import Helpers.JsonReader;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
 
 public class UpdateBookingRequest {
-    private String pathPar = "/booking/{id}";
+    JsonReader jsonReader = new JsonReader("api-data");
+    private String pathPar = jsonReader.getJsonData("bookingIdPath");
 
     public Response updateBooking(int id, String token, String updateBody) {
         Response updateBookingResponse;
