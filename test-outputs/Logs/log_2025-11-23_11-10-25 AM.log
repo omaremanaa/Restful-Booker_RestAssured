@@ -1,0 +1,54 @@
+[DEBUG] 23-11-2025 11:10:26 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2ETest.setup()[pri:0, instance:null] -970716801
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2ETest.init()[pri:0, instance:null] -1064217044
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2ETest.updateBooking()[pri:3, instance:Tests.E2ETest@5d58c727] 895108155
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2ETest.verifyAuthentication()[pri:1, instance:Tests.E2ETest@5d58c727] -1316095972
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2ETest.deleteBooking()[pri:5, instance:Tests.E2ETest@5d58c727] 119237141
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2ETest.verifyCreatedBookingInIDs()[pri:2, instance:Tests.E2ETest@5d58c727] -1289558540
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2ETest.retrieveUpdatedBooking()[pri:4, instance:Tests.E2ETest@5d58c727] -1186156959
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 23-11-2025 11:10:27 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 23-11-2025 11:10:27 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[DEBUG] 23-11-2025 11:10:27 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['authPath']
+[DEBUG] 23-11-2025 11:10:27 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingPath']
+[DEBUG] 23-11-2025 11:10:27 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingPath']
+[DEBUG] 23-11-2025 11:10:27 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 23-11-2025 11:10:27 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 23-11-2025 11:10:27 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[INFO] 23-11-2025 11:10:27 [main] [resources.LogUtils] - Generating Token (BeforeClass)...
+[DEBUG] 23-11-2025 11:10:27 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 23-11-2025 11:10:27 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] 23-11-2025 11:10:27 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[INFO] 23-11-2025 11:10:31 [main] [resources.LogUtils] - Token generated: e599f7e3e612cc1
+[INFO] 23-11-2025 11:10:31 [main] [resources.LogUtils] - Creating Booking (BeforeClass)...
+[DEBUG] 23-11-2025 11:10:31 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['booking-data']
+[INFO] 23-11-2025 11:10:32 [main] [resources.LogUtils] - Booking created with ID: 4534
+[INFO] 23-11-2025 11:10:32 [main] [resources.LogUtils] - Verifying that token is valid...
+[INFO] 23-11-2025 11:10:32 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Token must not be null.
+[INFO] 23-11-2025 11:10:32 [main] [resources.LogUtils] - Retrieving all booking IDs...
+[INFO] 23-11-2025 11:10:33 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> org.testng.asserts.Assertion$27@13aed42b
+[INFO] 23-11-2025 11:10:33 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Booking ID should appear in list
+[INFO] 23-11-2025 11:10:33 [main] [resources.LogUtils] - Updating booking ID 4534
+[DEBUG] 23-11-2025 11:10:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstname']
+[DEBUG] 23-11-2025 11:10:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastname']
+[INFO] 23-11-2025 11:10:34 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Update should return 200
+[INFO] 23-11-2025 11:10:34 [main] [resources.LogUtils] - Retrieving updated booking ID 4534
+[DEBUG] 23-11-2025 11:10:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstname']
+[DEBUG] 23-11-2025 11:10:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastname']
+[INFO] 23-11-2025 11:10:35 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> org.testng.asserts.Assertion$27@c758a2d
+[INFO] 23-11-2025 11:10:35 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> org.testng.asserts.Assertion$11@d969452
+[INFO] 23-11-2025 11:10:35 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> org.testng.asserts.Assertion$11@11d2714a
+[INFO] 23-11-2025 11:10:35 [main] [resources.LogUtils] - Deleting booking ID 4534
+[INFO] 23-11-2025 11:10:36 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> org.testng.asserts.Assertion$27@54463380
