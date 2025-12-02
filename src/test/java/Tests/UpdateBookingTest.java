@@ -13,13 +13,11 @@ import resources.Utils;
 public class UpdateBookingTest extends Utils {
     AllureSoftAssert softAssert;
     UpdateBookingRequest updateBookingRequest;
-    AuthenticationRequests authenticationRequests;
     JsonReader jsonReader, authJsonReader, bookingDetailsJsonReader;
 
     @BeforeClass
     public void setup(){
         updateBookingRequest = new UpdateBookingRequest();
-        authenticationRequests = new AuthenticationRequests();
         jsonReader = new JsonReader("booking-data");
         authJsonReader = new JsonReader("auth-data");
         bookingDetailsJsonReader = new JsonReader("booking-details-data");
@@ -35,17 +33,9 @@ public class UpdateBookingTest extends Utils {
             testResult.setName("Valid Update Booking Test");
             testResult.setDescription("This test verifies that a booking can be updated successfully with valid data and authentication.");
         });
-        int id = Integer.parseInt(bookingDetailsJsonReader.getJsonData("bookingID"));
         String body = jsonReader.getJsonData("booking-data");
-        String username = authJsonReader.getJsonData("username");
-        String password = authJsonReader.getJsonData("password");
 
-        Response authResponse = authenticationRequests.createToken(username, password);
-        LogUtils.info("Auth Response: "
-                + authResponse.asString());
-
-        String token = authResponse.jsonPath().getString("token");
-        Response response = updateBookingRequest.updateBooking(id, token, body);
+        Response response = updateBookingRequest.updateBooking(bookingID, token, body);
         LogUtils.info("Valid Update Booking Response: "
                 + response.asString());
         softAssert.assertEquals(response.statusCode(), 200, "Expected status code 200");
@@ -60,11 +50,10 @@ public class UpdateBookingTest extends Utils {
             testResult.setName("Invalid Update Booking Test");
             testResult.setDescription("This test verifies that updating a booking fails when an incorrect authentication token is provided.");
         });
-        int id = Integer.parseInt(bookingDetailsJsonReader.getJsonData("bookingID"));
         String body = jsonReader.getJsonData("booking-data");
         String invalidToken = "invalidToken123";
 
-        Response response = updateBookingRequest.updateBooking(id, invalidToken, body);
+        Response response = updateBookingRequest.updateBooking(2, invalidToken, body);
         LogUtils.info("Invalid Update Booking (By Incorrect Token) Response: "
                 + response.asString());
 
@@ -82,14 +71,7 @@ public class UpdateBookingTest extends Utils {
         });
         int incorrectID = Integer.parseInt(bookingDetailsJsonReader.getJsonData("incorrectBookingID"));
         String body = jsonReader.getJsonData("booking-data");
-        String username = authJsonReader.getJsonData("username");
-        String password = authJsonReader.getJsonData("password");
 
-        Response authResponse = authenticationRequests.createToken(username, password);
-        LogUtils.info("Auth Response: "
-                + authResponse.asString());
-
-        String token = authResponse.jsonPath().getString("token");
         Response response = updateBookingRequest.updateBooking(incorrectID, token, body);
         LogUtils.info("Invalid Update Booking (By Nonexistent ID) Response: "
                 + response.asString());

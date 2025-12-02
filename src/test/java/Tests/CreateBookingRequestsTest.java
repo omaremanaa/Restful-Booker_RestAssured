@@ -44,7 +44,8 @@ public class CreateBookingRequestsTest extends Utils {
 
         LogUtils.info("Valid Create Booking Response Body: " + response.asString());
 
-        int bookingid = response.jsonPath().getInt("bookingid");
+        bookingID = response.jsonPath().getInt("bookingid");
+
         String firstnameResponse = response.jsonPath().getString("booking.firstname");
         String lastnameResponse = response.jsonPath().getString("booking.lastname");
         int totalpriceResponse = response.jsonPath().getInt("booking.totalprice");
@@ -56,7 +57,7 @@ public class CreateBookingRequestsTest extends Utils {
 
         softAssert.assertEquals(response.statusCode(), 200, "Status code is 200");
         softAssert.assertTrue(response.getTime() < 2000, "Response time is less than 2000ms");
-        softAssert.assertTrue(bookingid > 0, "Booking ID is greater than 0");
+        softAssert.assertTrue(bookingID>0, "Booking ID is greater than 0");
         softAssert.assertEquals(firstnameResponse, firstname, "Firstname is correct");
         softAssert.assertEquals(lastnameResponse, lastname, "Lastname is correct");
         softAssert.assertEquals(totalpriceResponse, totalprice, "Total price is correct");

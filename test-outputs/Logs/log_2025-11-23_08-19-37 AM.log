@@ -9,8 +9,8 @@
 [TRACE] 23-11-2025 08:19:38 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
 [TRACE] 23-11-2025 08:19:38 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
 [TRACE] 23-11-2025 08:19:38 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
-[TRACE] 23-11-2025 08:19:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.validGetBookingDetails()[pri:0, instance:Tests.GetBookingByIDTest@1917d90f] -1231087118
-[TRACE] 23-11-2025 08:19:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.invalidGetBookingByIncorrectID()[pri:0, instance:Tests.GetBookingByIDTest@1917d90f] 364938558
+[TRACE] 23-11-2025 08:19:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.validGetBookingDetails()[pri:0, instance:Tests.EndToEndTest.GetBookingByIDTest@1917d90f] -1231087118
+[TRACE] 23-11-2025 08:19:38 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingIDTest.invalidGetBookingByIncorrectID()[pri:0, instance:Tests.EndToEndTest.GetBookingByIDTest@1917d90f] 364938558
 [TRACE] 23-11-2025 08:19:38 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
 [TRACE] 23-11-2025 08:19:38 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
 [TRACE] 23-11-2025 08:19:38 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES

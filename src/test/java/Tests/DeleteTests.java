@@ -1,6 +1,5 @@
 package Tests;
 
-import Requests.AuthenticationRequests;
 import Requests.DeleteRequests;
 import Helpers.JsonReader;
 import io.qameta.allure.Allure;
@@ -13,12 +12,10 @@ import resources.Utils;
 public class DeleteTests extends Utils {
     AllureSoftAssert softAssert;
     DeleteRequests deleteRequests;
-    AuthenticationRequests authenticationRequests;
     JsonReader jsonReader;
 
     @BeforeClass
     public void setup(){
-        authenticationRequests = new AuthenticationRequests();
         deleteRequests = new DeleteRequests();
         jsonReader = new JsonReader("booking-details-data");
     }
@@ -33,11 +30,6 @@ public class DeleteTests extends Utils {
             testResult.setDescription("This test verifies that a booking can be deleted successfully with valid authentication.");
         });
 
-        Response authResponse = authenticationRequests.createToken("admin", "password123");
-        String token = authResponse.jsonPath().getString("token");
-        LogUtils.info("Auth Response: "
-                + authResponse.asString());
-        int bookingID = Integer.parseInt(jsonReader.getJsonData("bookingID"));
         Response response = deleteRequests.deleteBooking(bookingID, token);
         LogUtils.info("Valid Delete Booking Response Body: " + response.asString());
 
@@ -54,11 +46,6 @@ public class DeleteTests extends Utils {
             testResult.setDescription("This test verifies that deleting a booking with an incorrect ID returns appropriate error handling.");
         });
 
-        Response authResponse = authenticationRequests.createToken("admin", "password123");
-        LogUtils.info("Auth Response: "
-                + authResponse.asString());
-
-        String token = authResponse.jsonPath().getString("token");
         int incorrectBookingID = Integer.parseInt(jsonReader.getJsonData("incorrectBookingID"));
 
         Response response = deleteRequests.deleteBooking(incorrectBookingID, token);
@@ -79,7 +66,6 @@ public class DeleteTests extends Utils {
         });
 
         String token = "invalidToken123";
-        int bookingID = Integer.parseInt(jsonReader.getJsonData("bookingID"));
         Response response = deleteRequests.deleteBooking(bookingID, token);
         LogUtils.info("Invalid Delete Booking (By Token) Response Body: "
                 + response.asString());

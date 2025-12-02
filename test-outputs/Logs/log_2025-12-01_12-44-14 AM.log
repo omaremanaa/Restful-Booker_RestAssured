@@ -1,0 +1,37 @@
+[DEBUG] 01-12-2025 00:44:14 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[DEBUG] 01-12-2025 00:44:15 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.setup()[pri:0, instance:null] -639662280
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.init()[pri:0, instance:null] -546645869
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.updateBooking()[pri:5, instance:Tests.EndToEndTest@3afae281] -2106356082
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.checkBookingDeleted()[pri:8, instance:Tests.EndToEndTest@3afae281] 1684798966
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.getBookingDetails()[pri:6, instance:Tests.EndToEndTest@3afae281] 2038386599
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.authenticateUser()[pri:2, instance:Tests.EndToEndTest@3afae281] -551460450
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.checkServerWorking()[pri:1, instance:Tests.EndToEndTest@3afae281] 1023554400
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.deleteBooking()[pri:7, instance:Tests.EndToEndTest@3afae281] 834029112
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.checkBookingCreated()[pri:4, instance:Tests.EndToEndTest@3afae281] 1645105807
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.createBooking()[pri:3, instance:Tests.EndToEndTest@3afae281] -1215026551
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 01-12-2025 00:44:15 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 01-12-2025 00:44:15 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[DEBUG] 01-12-2025 00:44:15 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['pingPath']
+[DEBUG] 01-12-2025 00:44:15 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['authPath']
+[DEBUG] 01-12-2025 00:44:15 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingPath']
+[DEBUG] 01-12-2025 00:44:15 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingPath']
+[DEBUG] 01-12-2025 00:44:15 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 01-12-2025 00:44:15 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 01-12-2025 00:44:15 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 01-12-2025 00:44:15 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 01-12-2025 00:44:15 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 01-12-2025 00:44:15 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']

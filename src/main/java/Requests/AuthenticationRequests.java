@@ -14,7 +14,6 @@ public class AuthenticationRequests {
     private String pathPar = jsonReader.getJsonData("authPath");
 
     public Response createToken(String username, String password) {
-        RestAssured.baseURI = jsonReader.getJsonData("baseURI");
         Payload payload = new Payload();
         Response response;
 

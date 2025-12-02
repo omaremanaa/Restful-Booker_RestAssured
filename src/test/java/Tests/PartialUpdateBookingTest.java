@@ -12,14 +12,12 @@ import resources.Utils;
 
 public class PartialUpdateBookingTest extends Utils {
     PartialUpdateBookingRequest partialUpdateBookingRequest;
-    AuthenticationRequests authenticationRequests;
     AllureSoftAssert softAssert;
     JsonReader jsonReader, authJsonReader;
 
     @BeforeClass
     public void setup(){
         partialUpdateBookingRequest = new PartialUpdateBookingRequest();
-        authenticationRequests = new AuthenticationRequests();
         jsonReader = new JsonReader("booking-details-data");
         authJsonReader = new JsonReader("auth-data");
     }
@@ -34,17 +32,10 @@ public class PartialUpdateBookingTest extends Utils {
             testResult.setName("Valid Partial Update Booking Test");
             testResult.setDescription("This test verifies that a booking is successfully partially updated when valid data is provided.");
         });
-        int id = Integer.parseInt(jsonReader.getJsonData("bookingID"));
         String firstname = jsonReader.getJsonData("firstname");
         String lastname = jsonReader.getJsonData("lastname");
-        String username = authJsonReader.getJsonData("username");
-        String password = authJsonReader.getJsonData("password");
 
-        Response authResponse = authenticationRequests.createToken(username, password);
-        String token = authResponse.jsonPath().getString("token");
-
-        Response response = partialUpdateBookingRequest.partialUpdateBooking(id, token, firstname, lastname);
-        System.out.println(response.asString());
+        Response response = partialUpdateBookingRequest.partialUpdateBooking(bookingID, token, firstname, lastname);
         String firstnameResponse = response.jsonPath().getString("firstname");
         String lastnameResponse = response.jsonPath().getString("lastname");
         LogUtils.info("Valid Partial Update Booking Response Body: " + response.asString());
@@ -63,11 +54,6 @@ public class PartialUpdateBookingTest extends Utils {
             testResult.setDescription("This test verifies that an error is returned when attempting to partially update a booking with an invalid ID.");
         });
         int incorrectBookingID = Integer.parseInt(jsonReader.getJsonData("incorrectBookingID"));
-        String username = authJsonReader.getJsonData("username");
-        String password = authJsonReader.getJsonData("password");
-
-        Response authResponse = authenticationRequests.createToken(username, password);
-        String token = authResponse.jsonPath().getString("token");
 
         Response response = partialUpdateBookingRequest.partialUpdateBooking(incorrectBookingID, token, "", "");
         LogUtils.info("Invalid Partial Update Booking (Non existing Id) Response Body: " + response.asString());
@@ -83,13 +69,12 @@ public class PartialUpdateBookingTest extends Utils {
             testResult.setName("Invalid Partial Update Booking By Token Test");
             testResult.setDescription("This test verifies that an error is returned when attempting to partially update a booking with an invalid token.");
         });
-        int id = Integer.parseInt(jsonReader.getJsonData("bookingID"));
         String firstname = jsonReader.getJsonData("firstname");
         String lastname = jsonReader.getJsonData("lastname");
 
-        String token = "invalidToken";
+        String invalidToken = "invalidToken";
 
-        Response response = partialUpdateBookingRequest.partialUpdateBooking(id, token, firstname, lastname);
+        Response response = partialUpdateBookingRequest.partialUpdateBooking(bookingID, invalidToken, firstname, lastname);
         LogUtils.info("Invalid Partial Update Booking (Incorrect Token) Response Body: " + response.asString());
 
         softAssert.assertEquals(response.statusCode(), 403, "Status code is 403");
