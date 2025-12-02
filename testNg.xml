@@ -46,6 +46,7 @@
     </test>
     <test name="Invalid Test Cases">
         <classes>
+
             <class name="Tests.AuthenticationTest">
                 <methods>
                     <exclude name="validAuthenticationTest"/>
@@ -84,8 +85,6 @@
         </classes>
     </test>
     <test name="End to End">
-        <classes>
-            <class name="Tests.E2ETest"/>
-        </classes>
+       <classes><class name="Tests.EndToEndTest"/></classes>
     </test>
 </suite>

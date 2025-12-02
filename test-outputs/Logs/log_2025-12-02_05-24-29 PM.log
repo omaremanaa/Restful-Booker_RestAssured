@@ -1,0 +1,21 @@
+[DEBUG] 02-12-2025 17:24:29 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[DEBUG] 02-12-2025 17:24:30 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[TRACE] 02-12-2025 17:24:31 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.setup()[pri:0, instance:null] -374301111
+[TRACE] 02-12-2025 17:24:31 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 02-12-2025 17:24:31 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 02-12-2025 17:24:31 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 02-12-2025 17:24:31 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 02-12-2025 17:24:31 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.init()[pri:0, instance:null] -284835482
+[TRACE] 02-12-2025 17:24:31 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 02-12-2025 17:24:31 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 02-12-2025 17:24:31 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 02-12-2025 17:24:31 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 02-12-2025 17:24:31 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.invalidPasswordTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.AuthenticationTest@3afae281] 257519471
+[TRACE] 02-12-2025 17:24:31 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 02-12-2025 17:24:31 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 02-12-2025 17:24:31 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 02-12-2025 17:24:31 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 02-12-2025 17:24:31 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[DEBUG] 02-12-2025 17:24:31 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['authPath']

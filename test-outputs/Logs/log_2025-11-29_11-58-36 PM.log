@@ -1,0 +1,27 @@
+[DEBUG] 29-11-2025 23:58:36 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[DEBUG] 29-11-2025 23:58:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[DEBUG] 29-11-2025 23:58:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 29-11-2025 23:58:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[TRACE] 29-11-2025 23:58:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingByIDTest.setup()[pri:0, instance:null] 1508245448
+[TRACE] 29-11-2025 23:58:37 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 29-11-2025 23:58:37 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 29-11-2025 23:58:37 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 29-11-2025 23:58:37 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 29-11-2025 23:58:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingByIDTest.init()[pri:0, instance:null] 1599119587
+[TRACE] 29-11-2025 23:58:37 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 29-11-2025 23:58:37 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 29-11-2025 23:58:37 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 29-11-2025 23:58:37 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 29-11-2025 23:58:37 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingByIDTest.validGetBookingDetails()[pri:0, instance:Tests.EndToEndTest.GetBookingByIDTest@63ec445c] -1083888346
+[TRACE] 29-11-2025 23:58:37 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 29-11-2025 23:58:37 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 29-11-2025 23:58:37 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 29-11-2025 23:58:37 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 29-11-2025 23:58:37 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[DEBUG] 29-11-2025 23:58:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 29-11-2025 23:58:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingPath']
+[INFO] 29-11-2025 23:58:40 [main] [resources.LogUtils] - Valid Get Booking By ID Response Body: Not Found
+[ERROR] 29-11-2025 23:58:40 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Status code is not 200 | Error: Status code is not 200 expected [200] but found [404]
+[ERROR] 29-11-2025 23:58:40 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Response time is less than 2000ms | Error: Response time is less than 2000ms expected [true] but found [false]

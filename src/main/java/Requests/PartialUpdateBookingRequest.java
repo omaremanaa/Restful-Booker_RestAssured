@@ -8,7 +8,7 @@ import static io.restassured.RestAssured.given;
 
 public class PartialUpdateBookingRequest {
     JsonReader jsonReader = new JsonReader("api-data");
-    private String pathPar = jsonReader.getJsonData("bookingIdPath");
+    private String pathPar = jsonReader.getJsonData("bookingIdPath").toString();
 
     public Response partialUpdateBooking(int id, String token, String firstname, String lastname) {
         Payload payload = new Payload();

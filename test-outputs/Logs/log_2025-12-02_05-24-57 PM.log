@@ -1,0 +1,34 @@
+[DEBUG] 02-12-2025 17:24:57 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[DEBUG] 02-12-2025 17:24:58 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[TRACE] 02-12-2025 17:24:58 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.setup()[pri:0, instance:null] -374301111
+[TRACE] 02-12-2025 17:24:58 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 02-12-2025 17:24:58 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 02-12-2025 17:24:58 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 02-12-2025 17:24:58 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 02-12-2025 17:24:58 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.init()[pri:0, instance:null] -284835482
+[TRACE] 02-12-2025 17:24:58 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 02-12-2025 17:24:58 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 02-12-2025 17:24:58 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 02-12-2025 17:24:58 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 02-12-2025 17:24:58 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.invalidPasswordTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.AuthenticationTest@5f13be1] -632305457
+[TRACE] 02-12-2025 17:24:58 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 02-12-2025 17:24:58 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 02-12-2025 17:24:58 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 02-12-2025 17:24:58 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 02-12-2025 17:24:58 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[DEBUG] 02-12-2025 17:24:58 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['authPath']
+[DEBUG] 02-12-2025 17:24:58 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['credentials']
+[DEBUG] 02-12-2025 17:24:58 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 02-12-2025 17:24:58 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] 02-12-2025 17:25:01 [main] [resources.LogUtils] - Response for Invalid Password Authentication{"reason":"Bad credentials"}
+[ERROR] 02-12-2025 17:25:01 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Status code is not 200 | Error: Status code is not 200 did not expect [200] but found [200]
+[ERROR] 02-12-2025 17:25:01 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Response contains 'Bad credentials.json' | Error: Response contains 'Bad credentials.json' expected [true] but found [false]
+[ERROR] 02-12-2025 17:25:01 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Response time is less than 2000ms | Error: Response time is less than 2000ms expected [true] but found [false]
+[DEBUG] 02-12-2025 17:25:01 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 02-12-2025 17:25:01 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] 02-12-2025 17:25:02 [main] [resources.LogUtils] - Response for Invalid Password Authentication{"reason":"Bad credentials"}
+[ERROR] 02-12-2025 17:25:02 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Status code is not 200 | Error: Status code is not 200 did not expect [200] but found [200]
+[ERROR] 02-12-2025 17:25:02 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Response contains 'Bad credentials.json' | Error: Response contains 'Bad credentials.json' expected [true] but found [false]
+[INFO] 02-12-2025 17:25:02 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms

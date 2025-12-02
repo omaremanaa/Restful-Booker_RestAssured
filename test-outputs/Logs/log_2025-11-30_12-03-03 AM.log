@@ -1,0 +1,40 @@
+[DEBUG] 30-11-2025 00:03:04 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[DEBUG] 30-11-2025 00:03:04 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[DEBUG] 30-11-2025 00:03:04 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 30-11-2025 00:03:04 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[TRACE] 30-11-2025 00:03:05 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.setup()[pri:0, instance:null] -1038050406
+[TRACE] 30-11-2025 00:03:05 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 30-11-2025 00:03:05 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 30-11-2025 00:03:05 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 30-11-2025 00:03:05 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 30-11-2025 00:03:05 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.init()[pri:0, instance:null] -996817867
+[TRACE] 30-11-2025 00:03:05 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 30-11-2025 00:03:05 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 30-11-2025 00:03:05 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 30-11-2025 00:03:05 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 30-11-2025 00:03:05 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.validCreateBookingTest()[pri:0, instance:Tests.CreateBookingRequestsTest@770b3be0] -674069012
+[TRACE] 30-11-2025 00:03:05 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 30-11-2025 00:03:05 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 30-11-2025 00:03:05 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 30-11-2025 00:03:05 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 30-11-2025 00:03:05 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[DEBUG] 30-11-2025 00:03:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingPath']
+[DEBUG] 30-11-2025 00:03:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstname']
+[DEBUG] 30-11-2025 00:03:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastname']
+[DEBUG] 30-11-2025 00:03:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['totalprice']
+[DEBUG] 30-11-2025 00:03:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['depositpaid']
+[DEBUG] 30-11-2025 00:03:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingdates']['checkin']
+[DEBUG] 30-11-2025 00:03:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingdates']['checkout']
+[DEBUG] 30-11-2025 00:03:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['additionalneeds']
+[INFO] 30-11-2025 00:03:08 [main] [resources.LogUtils] - Valid Create Booking Response Body: {"bookingid":1000,"booking":{"firstname":"Karim","lastname":"Hassan","totalprice":350,"depositpaid":true,"bookingdates":{"checkin":"2025-12-01","checkout":"2025-12-10"},"additionalneeds":"Breakfast"}}
+[INFO] 30-11-2025 00:03:08 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[ERROR] 30-11-2025 00:03:08 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Response time is less than 2000ms | Error: Response time is less than 2000ms expected [true] but found [false]
+[INFO] 30-11-2025 00:03:08 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Firstname is correct
+[INFO] 30-11-2025 00:03:08 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Lastname is correct
+[INFO] 30-11-2025 00:03:08 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Total price is correct
+[INFO] 30-11-2025 00:03:08 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Deposit paid is correct
+[INFO] 30-11-2025 00:03:08 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkin date is correct
+[INFO] 30-11-2025 00:03:08 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkout date is correct
+[INFO] 30-11-2025 00:03:08 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Additional needs is correct

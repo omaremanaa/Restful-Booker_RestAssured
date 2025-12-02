@@ -30,7 +30,6 @@ public class GetBookingByIDTest extends Utils {
             testResult.setName("Valid Get Booking By ID Test");
             testResult.setDescription("This test verifies that a booking can be retrieved by its ID and contains all expected fields.");
         });
-        int bookingID = Integer.parseInt(jsonReader.getJsonData("bookingID"));
 
         Response response = getBookingByIDRequest.getBookingById(bookingID);
         LogUtils.info("Valid Get Booking By ID Response Body: " + response.asString());

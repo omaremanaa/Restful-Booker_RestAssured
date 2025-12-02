@@ -1,0 +1,1 @@
+{"uuid":"e39afa73-25df-4d36-9a5d-70ffd11d3b33","name":"Tests.PingRequestsTest","children":["e735c641-b25a-4cd8-97a5-ad39a9009270"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1764542666469,"stop":1764542666476}],"afters":[],"start":1764542666436,"stop":1764542673689}

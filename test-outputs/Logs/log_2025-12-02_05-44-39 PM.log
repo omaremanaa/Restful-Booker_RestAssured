@@ -1,0 +1,25 @@
+[DEBUG] 02-12-2025 17:44:39 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[DEBUG] 02-12-2025 17:44:40 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[TRACE] 02-12-2025 17:44:40 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.setup()[pri:0, instance:null] 2135650151
+[TRACE] 02-12-2025 17:44:40 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 02-12-2025 17:44:40 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 02-12-2025 17:44:40 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 02-12-2025 17:44:40 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 02-12-2025 17:44:40 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.init()[pri:0, instance:null] 2046701636
+[TRACE] 02-12-2025 17:44:40 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 02-12-2025 17:44:40 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 02-12-2025 17:44:40 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 02-12-2025 17:44:40 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 02-12-2025 17:44:40 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.validUpdateBookingTest()[pri:0, instance:Tests.UpdateBookingTest@3c017078] 57421894
+[TRACE] 02-12-2025 17:44:40 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 02-12-2025 17:44:40 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 02-12-2025 17:44:40 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 02-12-2025 17:44:40 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 02-12-2025 17:44:40 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[DEBUG] 02-12-2025 17:44:40 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 02-12-2025 17:44:41 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['booking-data']
+[INFO] 02-12-2025 17:44:48 [main] [resources.LogUtils] - Valid Update Booking Response: Forbidden
+[ERROR] 02-12-2025 17:44:48 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Expected status code 200 | Error: Expected status code 200 expected [200] but found [403]
+[ERROR] 02-12-2025 17:44:48 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Response time is less than 2000ms | Error: Response time is less than 2000ms expected [true] but found [false]

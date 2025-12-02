@@ -1,10 +1,16 @@
 package resources;
 
+import Helpers.JsonReader;
 import io.restassured.RestAssured;
 
 
 public class Utils {
-    private String baseURI = "https://restful-booker.herokuapp.com";
+    JsonReader apiJsonReader = new JsonReader("api-data");
+    private String baseURI = apiJsonReader.getJsonData("baseURI");
+    public static String username;
+    public static String password;
+    public static int bookingID;
+    public static String token;
 
     public Utils() {
         RestAssured.baseURI = baseURI;

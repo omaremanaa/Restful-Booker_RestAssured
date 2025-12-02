@@ -18,6 +18,7 @@ public class GetBookingIDsRequest {
                 .then()
                 .extract()
                 .response();
+
         return bookingIDsResponse;
     }
 }

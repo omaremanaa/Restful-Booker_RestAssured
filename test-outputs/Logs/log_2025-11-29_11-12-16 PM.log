@@ -1,0 +1,24 @@
+[DEBUG] 29-11-2025 23:12:16 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[TRACE] 29-11-2025 23:12:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingByIDTest.setup()[pri:0, instance:null] 1508245448
+[TRACE] 29-11-2025 23:12:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 29-11-2025 23:12:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 29-11-2025 23:12:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 29-11-2025 23:12:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 29-11-2025 23:12:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingByIDTest.init()[pri:0, instance:null] 1599119587
+[TRACE] 29-11-2025 23:12:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 29-11-2025 23:12:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 29-11-2025 23:12:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 29-11-2025 23:12:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 29-11-2025 23:12:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingByIDTest.validGetBookingDetails()[pri:0, instance:Tests.EndToEndTest.GetBookingByIDTest@ff6077] 1551386945
+[TRACE] 29-11-2025 23:12:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 29-11-2025 23:12:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 29-11-2025 23:12:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 29-11-2025 23:12:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 29-11-2025 23:12:17 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[DEBUG] 29-11-2025 23:12:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 29-11-2025 23:12:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingPath']
+[INFO] 29-11-2025 23:12:20 [main] [resources.LogUtils] - Valid Get Booking By ID Response Body: {"firstname":"Jim","lastname":"Smith","totalprice":934,"depositpaid":false,"bookingdates":{"checkin":"2025-07-21","checkout":"2025-09-28"}}
+[INFO] 29-11-2025 23:12:20 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 200
+[INFO] 29-11-2025 23:12:20 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms

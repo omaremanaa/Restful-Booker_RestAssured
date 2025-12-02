@@ -71,7 +71,7 @@
 [TRACE] 23-11-2025 08:57:46 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
 [TRACE] 23-11-2025 08:57:46 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.validAuthenticationTest()[pri:0, instance:Tests.AuthenticationTest@777c350f] 976976607
 [TRACE] 23-11-2025 08:57:46 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.validCreateBookingTest()[pri:0, instance:Tests.CreateBookingRequestsTest@40ab8a8] 1691484852
-[TRACE] 23-11-2025 08:57:46 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingByIDTest.validGetBookingDetails()[pri:0, instance:Tests.GetBookingByIDTest@37095ded] -1836955977
+[TRACE] 23-11-2025 08:57:46 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingByIDTest.validGetBookingDetails()[pri:0, instance:Tests.EndToEndTest.GetBookingByIDTest@37095ded] -1836955977
 [TRACE] 23-11-2025 08:57:46 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PartialUpdateBookingTest.validPartialUpdateBooking()[pri:0, instance:Tests.PartialUpdateBookingTest@4c0884e8] -776569148
 [TRACE] 23-11-2025 08:57:46 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.validUpdateBookingTest()[pri:0, instance:Tests.UpdateBookingTest@4443ef6f] 195997501
 [TRACE] 23-11-2025 08:57:46 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.validDeleteBookingTest()[pri:0, instance:Tests.DeleteTests@2cfbeac4] 541231160

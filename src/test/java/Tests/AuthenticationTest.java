@@ -24,18 +24,17 @@ public class AuthenticationTest extends Utils {
     public void init(){
         softAssert = new AllureSoftAssert();
         jsonReader = new JsonReader("auth-data");
+        username = jsonReader.getJsonData("username");
+        password = jsonReader.getJsonData("password");
     }
     @Test
     public void validAuthenticationTest() {
-        String username = jsonReader.getJsonData("username");
-        String password = jsonReader.getJsonData("password");
         Allure.getLifecycle().updateTestCase(testResult -> {
             testResult.setName("Valid Authentication Test");
-            testResult.setDescription("This test verifies that a valid token is generated when correct credentials are provided.");
+            testResult.setDescription("This test verifies that a valid token is generated when correct credentials.json are provided.");
         });
-
         Response response = authenticationRequests.createToken(username, password);
-        String token = response.jsonPath().getString("token");
+        token = response.jsonPath().getString("token");
         LogUtils.info("Authentication Response Body: " + response.asString());
 
         softAssert.assertEquals(response.statusCode(), 200, "Status code is 200");
@@ -50,7 +49,6 @@ public class AuthenticationTest extends Utils {
             testResult.setName("Invalid Password Test");
             testResult.setDescription("This test verifies that authentication fails when an incorrect password is provided.");
         });
-        String username = jsonReader.getJsonData("username");
         String invalidPassword = jsonReader.getJsonData("invalidPassword");
 
         Response response = authenticationRequests.createToken(username, invalidPassword);
@@ -58,7 +56,7 @@ public class AuthenticationTest extends Utils {
                 + response.asString());
 
         softAssert.assertNotEquals(response.statusCode(), 200, "Status code is not 200");
-        softAssert.assertTrue(response.asString().contains("Bad credentials"), "Response contains 'Bad credentials'");
+        softAssert.assertTrue(response.asString().contains("Bad credentials.json"), "Response contains 'Bad credentials.json'");
         softAssert.assertTrue(response.getTime() < 2000, "Response time is less than 2000ms");
         softAssert.assertAll();
     }
@@ -70,13 +68,12 @@ public class AuthenticationTest extends Utils {
             testResult.setDescription("This test verifies that authentication fails when an incorrect username is provided.");
         });
         String invalidUsername = jsonReader.getJsonData("invalidUsername");
-        String password = jsonReader.getJsonData("password");
         Response response = authenticationRequests.createToken(invalidUsername, password);
         LogUtils.info("Response for Invalid Username Authentication"
                 + response.asString());
 
         softAssert.assertNotEquals(response.statusCode(), 200, " Status code is not 200");
-        softAssert.assertTrue(response.asString().contains("Bad credentials"), " Response contains 'Bad credentials'");
+        softAssert.assertTrue(response.asString().contains("Bad credentials.json"), " Response contains 'Bad credentials.json'");
         softAssert.assertTrue(response.getTime() < 2000, " Response time is less than 2000ms");
         softAssert.assertAll();
     }
