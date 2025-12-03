@@ -2,11 +2,13 @@ package Tests;
 
 import Requests.GetBookingByIDRequest;
 import io.qameta.allure.Allure;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.annotations.*;
 import resources.AllureSoftAssert;
 import Helpers.JsonReader;
 import resources.LogUtils;
+import resources.TypeAssert;
 import resources.Utils;
 
 public class GetBookingByIDTest extends Utils {
@@ -33,9 +35,18 @@ public class GetBookingByIDTest extends Utils {
 
         Response response = getBookingByIDRequest.getBookingById(bookingID);
         LogUtils.info("Valid Get Booking By ID Response Body: " + response.asString());
+        JsonPath path = response.jsonPath();
 
         softAssert.assertEquals(response.statusCode(), 200, "Status code is not 200");
         softAssert.assertTrue(response.getTime() < 2000, "Response time is less than 2000ms");
+
+        TypeAssert.assertString(path, "firstname", softAssert);
+        TypeAssert.assertString(path, "lastname", softAssert);
+        TypeAssert.assertInteger(path, "totalprice", softAssert);
+        TypeAssert.assertBoolean(path, "depositpaid", softAssert);
+        TypeAssert.assertString(path,"bookingdates.checkin",softAssert);
+        TypeAssert.assertString(path,"bookingdates.checkout",softAssert);
+        TypeAssert.assertString(path, "additionalneeds", softAssert);
 
         softAssert.assertAll();
     }

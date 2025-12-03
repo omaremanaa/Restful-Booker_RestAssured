@@ -3,11 +3,13 @@ package Tests;
 import Requests.AuthenticationRequests;
 import Requests.UpdateBookingRequest;
 import io.qameta.allure.Allure;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.annotations.*;
 import resources.AllureSoftAssert;
 import Helpers.JsonReader;
 import resources.LogUtils;
+import resources.TypeAssert;
 import resources.Utils;
 
 public class UpdateBookingTest extends Utils {
@@ -40,6 +42,16 @@ public class UpdateBookingTest extends Utils {
                 + response.asString());
         softAssert.assertEquals(response.statusCode(), 200, "Expected status code 200");
         softAssert.assertTrue(response.getTime() < 2000, "Response time is less than 2000ms");
+        JsonPath path = response.jsonPath();
+
+        TypeAssert.assertString(path, "firstname", softAssert);
+        TypeAssert.assertString(path, "lastname", softAssert);
+        TypeAssert.assertInteger(path, "totalprice", softAssert);
+        TypeAssert.assertBoolean(path, "depositpaid", softAssert);
+        TypeAssert.assertString(path,"bookingdates.checkin",softAssert);
+        TypeAssert.assertString(path,"bookingdates.checkout",softAssert);
+        TypeAssert.assertString(path, "additionalneeds", softAssert);
+
         softAssert.assertAll();
 
     }

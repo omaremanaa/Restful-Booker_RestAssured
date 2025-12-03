@@ -35,7 +35,8 @@ public class DeleteTests extends Utils {
 
         softAssert.assertEquals(response.statusCode(), 201, "Status code is not 201");
         softAssert.assertTrue(response.getTime() < 2000, "Response time is less than 2000ms");
-
+        softAssert.assertTrue(response.getBody().asString().contains("Created"),
+                "Response doesn't include 'Created' as message");
         softAssert.assertAll();
     }
 

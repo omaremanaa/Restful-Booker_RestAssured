@@ -1,1 +1,0 @@
-{"uuid":"44ceac16-d89c-476e-ae0c-a4d7d0d8d41b","name":"Tests.GetBookingByIDTest","children":["f7495f51-4e9e-44ce-a275-d17f7456ece7"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1764689695391,"stop":1764689695392}],"afters":[],"start":1764689693430,"stop":1764689702529}
