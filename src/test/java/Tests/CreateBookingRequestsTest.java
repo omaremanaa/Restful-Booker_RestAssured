@@ -3,10 +3,12 @@ package Tests;
 import Requests.CreateBookingRequests;
 import Helpers.JsonReader;
 import io.qameta.allure.Allure;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.annotations.*;
 import resources.AllureSoftAssert;
 import resources.LogUtils;
+import resources.TypeAssert;
 import resources.Utils;
 
 public class CreateBookingRequestsTest extends Utils {
@@ -45,26 +47,19 @@ public class CreateBookingRequestsTest extends Utils {
         LogUtils.info("Valid Create Booking Response Body: " + response.asString());
 
         bookingID = response.jsonPath().getInt("bookingid");
-
-        String firstnameResponse = response.jsonPath().getString("booking.firstname");
-        String lastnameResponse = response.jsonPath().getString("booking.lastname");
-        int totalpriceResponse = response.jsonPath().getInt("booking.totalprice");
-        boolean depositpaidResponse = response.jsonPath().getBoolean("booking.depositpaid");
-        String checkinResponse = response.jsonPath().getString("booking.bookingdates.checkin");
-        String checkoutResponse = response.jsonPath().getString("booking.bookingdates.checkout");
-        String additionalneedsResponse = response.jsonPath().getString("booking.additionalneeds");
-
+        JsonPath path = response.jsonPath();
 
         softAssert.assertEquals(response.statusCode(), 200, "Status code is 200");
         softAssert.assertTrue(response.getTime() < 2000, "Response time is less than 2000ms");
         softAssert.assertTrue(bookingID>0, "Booking ID is greater than 0");
-        softAssert.assertEquals(firstnameResponse, firstname, "Firstname is correct");
-        softAssert.assertEquals(lastnameResponse, lastname, "Lastname is correct");
-        softAssert.assertEquals(totalpriceResponse, totalprice, "Total price is correct");
-        softAssert.assertEquals(depositpaidResponse, depositpaid, "Deposit paid is correct");
-        softAssert.assertEquals(checkinResponse, checkin, "Checkin date is correct");
-        softAssert.assertEquals(checkoutResponse, checkout, "Checkout date is correct");
-        softAssert.assertEquals(additionalneedsResponse, additionalneeds, "Additional needs is correct");
+
+        TypeAssert.assertString(path, "booking.firstname", softAssert);
+        TypeAssert.assertString(path, "booking.lastname", softAssert);
+        TypeAssert.assertInteger(path, "booking.totalprice", softAssert);
+        TypeAssert.assertBoolean(path, "booking.depositpaid", softAssert);
+        TypeAssert.assertString(path,"booking.bookingdates.checkin",softAssert);
+        TypeAssert.assertString(path,"booking.bookingdates.checkout",softAssert);
+        TypeAssert.assertString(path, "booking.additionalneeds", softAssert);
         softAssert.assertAll();
 
     }

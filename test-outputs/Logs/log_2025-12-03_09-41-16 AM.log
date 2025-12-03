@@ -1,0 +1,405 @@
+[DEBUG] 03-12-2025 09:41:16 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\omar_\IdeaProjects\Restful-Booker-GP\testNg.xml"
+[DEBUG] 03-12-2025 09:41:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PingRequestsTest.setup()[pri:0, instance:null] -624359641
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PingRequestsTest.init()[pri:0, instance:null] -595830652
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[DEBUG] 03-12-2025 09:41:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.setup()[pri:0, instance:null] -374301111
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.init()[pri:0, instance:null] -284835482
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[DEBUG] 03-12-2025 09:41:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.setup()[pri:0, instance:null] -1038050406
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.init()[pri:0, instance:null] -996817867
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[DEBUG] 03-12-2025 09:41:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingByIDTest.setup()[pri:0, instance:null] 1508245448
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingByIDTest.init()[pri:0, instance:null] 1599119587
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[DEBUG] 03-12-2025 09:41:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PartialUpdateBookingTest.setup()[pri:0, instance:null] 1412649394
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PartialUpdateBookingTest.init()[pri:0, instance:null] 1384517405
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[DEBUG] 03-12-2025 09:41:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.setup()[pri:0, instance:null] 2135650151
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.init()[pri:0, instance:null] 2046701636
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[DEBUG] 03-12-2025 09:41:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.setup()[pri:0, instance:null] -712026893
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.init()[pri:0, instance:null] -751170600
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PingRequestsTest.validateOnline()[pri:0, instance:Tests.PingRequestsTest@59429fac] 1285702769
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.validAuthenticationTest()[pri:0, instance:Tests.AuthenticationTest@15fdd1f2] -658696254
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.validCreateBookingTest()[pri:0, instance:Tests.CreateBookingRequestsTest@6e0f7aad] -824785735
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingByIDTest.validGetBookingDetails()[pri:0, instance:Tests.GetBookingByIDTest@4390f46e] -1626743496
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PartialUpdateBookingTest.validPartialUpdateBooking()[pri:0, instance:Tests.PartialUpdateBookingTest@67403656] -319934414
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.validUpdateBookingTest()[pri:0, instance:Tests.UpdateBookingTest@6a2eea2a] 832154104
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.validDeleteBookingTest()[pri:0, instance:Tests.DeleteTests@3b7b05a8] 784442140
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[DEBUG] 03-12-2025 09:41:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.setup()[pri:0, instance:null] -374301111
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.init()[pri:0, instance:null] -284835482
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[DEBUG] 03-12-2025 09:41:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.setup()[pri:0, instance:null] -1038050406
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.init()[pri:0, instance:null] -996817867
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[DEBUG] 03-12-2025 09:41:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingByIDTest.setup()[pri:0, instance:null] 1508245448
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingByIDTest.init()[pri:0, instance:null] 1599119587
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[DEBUG] 03-12-2025 09:41:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PartialUpdateBookingTest.setup()[pri:0, instance:null] 1412649394
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PartialUpdateBookingTest.init()[pri:0, instance:null] 1384517405
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[DEBUG] 03-12-2025 09:41:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.setup()[pri:0, instance:null] 2135650151
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.init()[pri:0, instance:null] 2046701636
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[DEBUG] 03-12-2025 09:41:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.setup()[pri:0, instance:null] -712026893
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.init()[pri:0, instance:null] -751170600
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.invalidPasswordTest()[pri:0, instance:Tests.AuthenticationTest@7ec25216] 1394663172
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE AuthenticationTest.invalidUsernameTest()[pri:0, instance:Tests.AuthenticationTest@7ec25216] 903858319
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE CreateBookingRequestsTest.invalidCreateBookingTest()[pri:0, instance:Tests.CreateBookingRequestsTest@2679311f] -2128973086
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE GetBookingByIDTest.invalidGetBookingByIncorrectID()[pri:0, instance:Tests.GetBookingByIDTest@3fa76c61] 1014886631
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PartialUpdateBookingTest.invalidPartialUpdateBookingByID()[pri:0, instance:Tests.PartialUpdateBookingTest@2ce45a7b] 1742858662
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE PartialUpdateBookingTest.invalidPartialUpdateBookingByToken()[pri:0, instance:Tests.PartialUpdateBookingTest@2ce45a7b] 1960428938
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.invalidUpdateBookingByIncorrectID()[pri:0, instance:Tests.UpdateBookingTest@149f5761] 1939986973
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE UpdateBookingTest.invalidUpdateBookingByIncorrectToken()[pri:0, instance:Tests.UpdateBookingTest@149f5761] -476237359
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.invalidDeleteBookingByIncorrectToken()[pri:0, instance:Tests.DeleteTests@4a0df195] 1187458347
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE DeleteTests.invalidDeleteBookingByIncorrectID()[pri:0, instance:Tests.DeleteTests@4a0df195] 743950811
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[DEBUG] 03-12-2025 09:41:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['baseURI']
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.setup()[pri:0, instance:null] -639662280
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.init()[pri:0, instance:null] -546645869
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.updateBooking()[pri:5, instance:Tests.EndToEndTest@6a0659ac] -1317075527
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.checkBookingDeleted()[pri:8, instance:Tests.EndToEndTest@6a0659ac] -1820887775
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.getBookingDetails()[pri:6, instance:Tests.EndToEndTest@6a0659ac] -1467300142
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.authenticateUser()[pri:2, instance:Tests.EndToEndTest@6a0659ac] 237820105
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.checkServerWorking()[pri:1, instance:Tests.EndToEndTest@6a0659ac] 1812834955
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.deleteBooking()[pri:7, instance:Tests.EndToEndTest@6a0659ac] 1623309667
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.checkBookingCreated()[pri:4, instance:Tests.EndToEndTest@6a0659ac] -1860580934
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EndToEndTest.createBooking()[pri:3, instance:Tests.EndToEndTest@6a0659ac] -425745996
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 03-12-2025 09:41:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 03-12-2025 09:41:17 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\omar_\IdeaProjects\Restful-Booker-GP\testNg.xml
+
+[DEBUG] 03-12-2025 09:41:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['pingPath']
+[INFO] 03-12-2025 09:41:20 [main] [resources.LogUtils] - Ping Response Body: Created
+[INFO] 03-12-2025 09:41:20 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 201
+[INFO] 03-12-2025 09:41:20 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 3000ms
+[DEBUG] 03-12-2025 09:41:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['authPath']
+[DEBUG] 03-12-2025 09:41:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 03-12-2025 09:41:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] 03-12-2025 09:41:21 [main] [resources.LogUtils] - Authentication Response Body: {"token":"dd39d89338c8c02"}
+[INFO] 03-12-2025 09:41:21 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 03-12-2025 09:41:21 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Token is not null
+[INFO] 03-12-2025 09:41:21 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Response time is less than 2000ms
+[DEBUG] 03-12-2025 09:41:21 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingPath']
+[DEBUG] 03-12-2025 09:41:21 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstname']
+[DEBUG] 03-12-2025 09:41:21 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastname']
+[DEBUG] 03-12-2025 09:41:21 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['totalprice']
+[DEBUG] 03-12-2025 09:41:21 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['depositpaid']
+[DEBUG] 03-12-2025 09:41:21 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingdates']['checkin']
+[DEBUG] 03-12-2025 09:41:21 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingdates']['checkout']
+[DEBUG] 03-12-2025 09:41:21 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['additionalneeds']
+[INFO] 03-12-2025 09:41:22 [main] [resources.LogUtils] - Valid Create Booking Response Body: {"bookingid":351,"booking":{"firstname":"Karim","lastname":"Hassan","totalprice":350,"depositpaid":true,"bookingdates":{"checkin":"2025-12-01","checkout":"2025-12-10"},"additionalneeds":"Breakfast"}}
+[INFO] 03-12-2025 09:41:22 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 03-12-2025 09:41:22 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 03-12-2025 09:41:22 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Booking ID is greater than 0
+[INFO] 03-12-2025 09:41:22 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> booking.firstname should not be null
+[INFO] 03-12-2025 09:41:22 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> booking.firstname should be a String but was: String
+[INFO] 03-12-2025 09:41:22 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> booking.lastname should not be null
+[INFO] 03-12-2025 09:41:22 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> booking.lastname should be a String but was: String
+[INFO] 03-12-2025 09:41:22 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> booking.totalprice should not be null
+[INFO] 03-12-2025 09:41:22 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> booking.totalprice should be an Integer but was: Integer
+[INFO] 03-12-2025 09:41:22 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> booking.depositpaid should not be null
+[INFO] 03-12-2025 09:41:22 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> booking.depositpaid should be a Boolean but was: Boolean
+[INFO] 03-12-2025 09:41:22 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> booking.bookingdates.checkin should not be null
+[INFO] 03-12-2025 09:41:22 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> booking.bookingdates.checkin should be a String but was: String
+[INFO] 03-12-2025 09:41:22 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> booking.bookingdates.checkout should not be null
+[INFO] 03-12-2025 09:41:22 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> booking.bookingdates.checkout should be a String but was: String
+[INFO] 03-12-2025 09:41:22 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> booking.additionalneeds should not be null
+[INFO] 03-12-2025 09:41:22 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> booking.additionalneeds should be a String but was: String
+[DEBUG] 03-12-2025 09:41:22 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[INFO] 03-12-2025 09:41:23 [main] [resources.LogUtils] - Valid Get Booking By ID Response Body: {"firstname":"Karim","lastname":"Hassan","totalprice":350,"depositpaid":true,"bookingdates":{"checkin":"2025-12-01","checkout":"2025-12-10"},"additionalneeds":"Breakfast"}
+[INFO] 03-12-2025 09:41:23 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 200
+[INFO] 03-12-2025 09:41:23 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 03-12-2025 09:41:23 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> firstname should not be null
+[INFO] 03-12-2025 09:41:23 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> firstname should be a String but was: String
+[INFO] 03-12-2025 09:41:23 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> lastname should not be null
+[INFO] 03-12-2025 09:41:23 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> lastname should be a String but was: String
+[INFO] 03-12-2025 09:41:23 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> totalprice should not be null
+[INFO] 03-12-2025 09:41:23 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> totalprice should be an Integer but was: Integer
+[INFO] 03-12-2025 09:41:23 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> depositpaid should not be null
+[INFO] 03-12-2025 09:41:23 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> depositpaid should be a Boolean but was: Boolean
+[INFO] 03-12-2025 09:41:23 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> bookingdates.checkin should not be null
+[INFO] 03-12-2025 09:41:23 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> bookingdates.checkin should be a String but was: String
+[INFO] 03-12-2025 09:41:23 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> bookingdates.checkout should not be null
+[INFO] 03-12-2025 09:41:23 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> bookingdates.checkout should be a String but was: String
+[INFO] 03-12-2025 09:41:23 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> additionalneeds should not be null
+[INFO] 03-12-2025 09:41:23 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> additionalneeds should be a String but was: String
+[DEBUG] 03-12-2025 09:41:23 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 03-12-2025 09:41:23 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstname']
+[DEBUG] 03-12-2025 09:41:23 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastname']
+[INFO] 03-12-2025 09:41:24 [main] [resources.LogUtils] - Valid Partial Update Booking Response Body: {"firstname":"Ahmed","lastname":"Mohamed","totalprice":350,"depositpaid":true,"bookingdates":{"checkin":"2025-12-01","checkout":"2025-12-10"},"additionalneeds":"Breakfast"}
+[INFO] 03-12-2025 09:41:24 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 03-12-2025 09:41:24 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> First name is updated correctly
+[INFO] 03-12-2025 09:41:24 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Last name is updated correctly
+[INFO] 03-12-2025 09:41:24 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[DEBUG] 03-12-2025 09:41:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 03-12-2025 09:41:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['booking-data']
+[INFO] 03-12-2025 09:41:25 [main] [resources.LogUtils] - Valid Update Booking Response: {"firstname":"Karim","lastname":"Hassan","totalprice":350,"depositpaid":true,"bookingdates":{"checkin":"2025-12-01","checkout":"2025-12-10"},"additionalneeds":"Breakfast"}
+[INFO] 03-12-2025 09:41:25 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Expected status code 200
+[INFO] 03-12-2025 09:41:25 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 03-12-2025 09:41:25 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> firstname should not be null
+[INFO] 03-12-2025 09:41:25 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> firstname should be a String but was: String
+[INFO] 03-12-2025 09:41:25 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> lastname should not be null
+[INFO] 03-12-2025 09:41:25 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> lastname should be a String but was: String
+[INFO] 03-12-2025 09:41:25 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> totalprice should not be null
+[INFO] 03-12-2025 09:41:25 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> totalprice should be an Integer but was: Integer
+[INFO] 03-12-2025 09:41:25 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> depositpaid should not be null
+[INFO] 03-12-2025 09:41:25 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> depositpaid should be a Boolean but was: Boolean
+[INFO] 03-12-2025 09:41:25 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> bookingdates.checkin should not be null
+[INFO] 03-12-2025 09:41:25 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> bookingdates.checkin should be a String but was: String
+[INFO] 03-12-2025 09:41:25 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> bookingdates.checkout should not be null
+[INFO] 03-12-2025 09:41:25 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> bookingdates.checkout should be a String but was: String
+[INFO] 03-12-2025 09:41:25 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> additionalneeds should not be null
+[INFO] 03-12-2025 09:41:25 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> additionalneeds should be a String but was: String
+[DEBUG] 03-12-2025 09:41:25 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[INFO] 03-12-2025 09:41:26 [main] [resources.LogUtils] - Valid Delete Booking Response Body: Created
+[INFO] 03-12-2025 09:41:26 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 201
+[INFO] 03-12-2025 09:41:26 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 03-12-2025 09:41:26 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response doesn't include 'Created' as message
+[DEBUG] 03-12-2025 09:41:26 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['authPath']
+[DEBUG] 03-12-2025 09:41:26 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 03-12-2025 09:41:26 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] 03-12-2025 09:41:26 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalidPassword']
+[INFO] 03-12-2025 09:41:26 [main] [resources.LogUtils] - Response for Invalid Password Authentication{"reason":"Bad credentials"}
+[ERROR] 03-12-2025 09:41:26 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Status code is not 200 | Error: Status code is not 200 did not expect [200] but found [200]
+[ERROR] 03-12-2025 09:41:26 [main] [resources.LogUtils] - ❌ SoftAssert FAILED -> Response contains 'Bad credentials.json' | Error: Response contains 'Bad credentials.json' expected [true] but found [false]
+[INFO] 03-12-2025 09:41:26 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[DEBUG] 03-12-2025 09:41:26 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 03-12-2025 09:41:26 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] 03-12-2025 09:41:26 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invalidUsername']
+[INFO] 03-12-2025 09:41:28 [main] [resources.LogUtils] - Response for Invalid Username Authentication{"reason":"Bad credentials"}
+[ERROR] 03-12-2025 09:41:28 [main] [resources.LogUtils] - ❌ SoftAssert FAILED ->  Status code is not 200 | Error:  Status code is not 200 did not expect [200] but found [200]
+[ERROR] 03-12-2025 09:41:28 [main] [resources.LogUtils] - ❌ SoftAssert FAILED ->  Response contains 'Bad credentials.json' | Error:  Response contains 'Bad credentials.json' expected [true] but found [false]
+[INFO] 03-12-2025 09:41:28 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Response time is less than 2000ms
+[DEBUG] 03-12-2025 09:41:28 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingPath']
+[DEBUG] 03-12-2025 09:41:28 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['body']
+[INFO] 03-12-2025 09:41:28 [main] [resources.LogUtils] - Invalid Create Booking Response Body: Internal Server Error
+[INFO] 03-12-2025 09:41:28 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 200
+[INFO] 03-12-2025 09:41:28 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[DEBUG] 03-12-2025 09:41:28 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 03-12-2025 09:41:28 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['incorrectBookingID']
+[INFO] 03-12-2025 09:41:29 [main] [resources.LogUtils] - Invalid Get Booking By ID (Non existent ID) Response Body: Not Found
+[INFO] 03-12-2025 09:41:29 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 404
+[INFO] 03-12-2025 09:41:29 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[DEBUG] 03-12-2025 09:41:29 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 03-12-2025 09:41:29 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['incorrectBookingID']
+[INFO] 03-12-2025 09:41:30 [main] [resources.LogUtils] - Invalid Partial Update Booking (Non existing Id) Response Body: Method Not Allowed
+[INFO] 03-12-2025 09:41:30 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 405
+[INFO] 03-12-2025 09:41:30 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[DEBUG] 03-12-2025 09:41:30 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstname']
+[DEBUG] 03-12-2025 09:41:30 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastname']
+[INFO] 03-12-2025 09:41:31 [main] [resources.LogUtils] - Invalid Partial Update Booking (Incorrect Token) Response Body: Forbidden
+[INFO] 03-12-2025 09:41:31 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 403
+[INFO] 03-12-2025 09:41:31 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[DEBUG] 03-12-2025 09:41:31 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 03-12-2025 09:41:31 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['incorrectBookingID']
+[DEBUG] 03-12-2025 09:41:31 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['booking-data']
+[INFO] 03-12-2025 09:41:32 [main] [resources.LogUtils] - Invalid Update Booking (By Nonexistent ID) Response: Method Not Allowed
+[INFO] 03-12-2025 09:41:32 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Expected status code 405
+[INFO] 03-12-2025 09:41:32 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[DEBUG] 03-12-2025 09:41:32 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['booking-data']
+[INFO] 03-12-2025 09:41:33 [main] [resources.LogUtils] - Invalid Update Booking (By Incorrect Token) Response: Forbidden
+[INFO] 03-12-2025 09:41:33 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Expected status code 403
+[INFO] 03-12-2025 09:41:33 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[DEBUG] 03-12-2025 09:41:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 03-12-2025 09:41:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['incorrectBookingID']
+[INFO] 03-12-2025 09:41:33 [main] [resources.LogUtils] - Invalid Delete Booking (By Booking ID) Response Body: Method Not Allowed
+[INFO] 03-12-2025 09:41:33 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 405
+[INFO] 03-12-2025 09:41:33 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 03-12-2025 09:41:34 [main] [resources.LogUtils] - Invalid Delete Booking (By Token) Response Body: Forbidden
+[INFO] 03-12-2025 09:41:34 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 403
+[INFO] 03-12-2025 09:41:34 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[DEBUG] 03-12-2025 09:41:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['pingPath']
+[DEBUG] 03-12-2025 09:41:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['authPath']
+[DEBUG] 03-12-2025 09:41:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingPath']
+[DEBUG] 03-12-2025 09:41:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingPath']
+[DEBUG] 03-12-2025 09:41:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 03-12-2025 09:41:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 03-12-2025 09:41:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 03-12-2025 09:41:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingIdPath']
+[DEBUG] 03-12-2025 09:41:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 03-12-2025 09:41:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] 03-12-2025 09:41:35 [main] [resources.LogUtils] - E2E Step 1 → Ping endpoint responded: Created
+[INFO] 03-12-2025 09:41:35 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 201
+[INFO] 03-12-2025 09:41:35 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 3000ms
+[DEBUG] 03-12-2025 09:41:35 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 03-12-2025 09:41:35 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] 03-12-2025 09:41:36 [main] [resources.LogUtils] - E2E Step 2 → Authentication response: {"token":"efe1cea08109c05"}
+[INFO] 03-12-2025 09:41:36 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 03-12-2025 09:41:36 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Token is not null
+[INFO] 03-12-2025 09:41:36 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED ->  Response time is less than 2000ms
+[DEBUG] 03-12-2025 09:41:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 03-12-2025 09:41:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] 03-12-2025 09:41:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstname']
+[DEBUG] 03-12-2025 09:41:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastname']
+[DEBUG] 03-12-2025 09:41:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['totalprice']
+[DEBUG] 03-12-2025 09:41:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['depositpaid']
+[DEBUG] 03-12-2025 09:41:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingdates']['checkin']
+[DEBUG] 03-12-2025 09:41:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['bookingdates']['checkout']
+[DEBUG] 03-12-2025 09:41:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['additionalneeds']
+[INFO] 03-12-2025 09:41:37 [main] [resources.LogUtils] - E2E Step 3 → Booking creation response: {"bookingid":481,"booking":{"firstname":"Karim","lastname":"Hassan","totalprice":350,"depositpaid":true,"bookingdates":{"checkin":"2025-12-01","checkout":"2025-12-10"},"additionalneeds":"Breakfast"}}
+[INFO] 03-12-2025 09:41:37 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 03-12-2025 09:41:37 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 03-12-2025 09:41:37 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Booking ID is greater than 0
+[INFO] 03-12-2025 09:41:37 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Firstname is correct
+[INFO] 03-12-2025 09:41:37 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Lastname is correct
+[INFO] 03-12-2025 09:41:37 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Total price is correct
+[INFO] 03-12-2025 09:41:37 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Deposit paid is correct
+[INFO] 03-12-2025 09:41:37 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkin date is correct
+[INFO] 03-12-2025 09:41:37 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Checkout date is correct
+[INFO] 03-12-2025 09:41:37 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Additional needs is correct
+[DEBUG] 03-12-2025 09:41:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 03-12-2025 09:41:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] 03-12-2025 09:41:37 [main] [resources.LogUtils] - E2E Step 4 → Booking IDs response: [{"bookingid":186},{"bookingid":22},{"bookingid":48},{"bookingid":308},{"bookingid":316},{"bookingid":171},{"bookingid":10},{"bookingid":102},{"bookingid":182},{"bookingid":126},{"bookingid":245},{"bookingid":221},{"bookingid":174},{"bookingid":260},{"bookingid":78},{"bookingid":477},{"bookingid":331},{"bookingid":93},{"bookingid":343},{"bookingid":6},{"bookingid":293},{"bookingid":420},{"bookingid":223},{"bookingid":256},{"bookingid":207},{"bookingid":44},{"bookingid":347},{"bookingid":281},{"bookingid":19},{"bookingid":401},{"bookingid":381},{"bookingid":29},{"bookingid":119},{"bookingid":324},{"bookingid":389},{"bookingid":124},{"bookingid":258},{"bookingid":453},{"bookingid":373},{"bookingid":129},{"bookingid":277},{"bookingid":350},{"bookingid":31},{"bookingid":192},{"bookingid":41},{"bookingid":282},{"bookingid":429},{"bookingid":305},{"bookingid":290},{"bookingid":189},{"bookingid":140},{"bookingid":353},{"bookingid":180},{"bookingid":39},{"bookingid":304},{"bookingid":99},{"bookingid":410},{"bookingid":98},{"bookingid":396},{"bookingid":423},{"bookingid":300},{"bookingid":339},{"bookingid":86},{"bookingid":442},{"bookingid":87},{"bookingid":471},{"bookingid":386},{"bookingid":62},{"bookingid":266},{"bookingid":42},{"bookingid":128},{"bookingid":8},{"bookingid":292},{"bookingid":187},{"bookingid":428},{"bookingid":33},{"bookingid":252},{"bookingid":411},{"bookingid":470},{"bookingid":454},{"bookingid":194},{"bookingid":150},{"bookingid":484},{"bookingid":239},{"bookingid":261},{"bookingid":36},{"bookingid":264},{"bookingid":101},{"bookingid":348},{"bookingid":362},{"bookingid":80},{"bookingid":230},{"bookingid":60},{"bookingid":462},{"bookingid":26},{"bookingid":224},{"bookingid":127},{"bookingid":198},{"bookingid":158},{"bookingid":111},{"bookingid":110},{"bookingid":408},{"bookingid":355},{"bookingid":202},{"bookingid":168},{"bookingid":83},{"bookingid":415},{"bookingid":476},{"bookingid":217},{"bookingid":181},{"bookingid":74},{"bookingid":177},{"bookingid":167},{"bookingid":120},{"bookingid":402},{"bookingid":358},{"bookingid":203},{"bookingid":229},{"bookingid":13},{"bookingid":341},{"bookingid":452},{"bookingid":141},{"bookingid":450},{"bookingid":92},{"bookingid":143},{"bookingid":376},{"bookingid":170},{"bookingid":153},{"bookingid":440},{"bookingid":7},{"bookingid":382},{"bookingid":441},{"bookingid":337},{"bookingid":479},{"bookingid":246},{"bookingid":17},{"bookingid":56},{"bookingid":273},{"bookingid":82},{"bookingid":431},{"bookingid":113},{"bookingid":53},{"bookingid":285},{"bookingid":68},{"bookingid":404},{"bookingid":197},{"bookingid":438},{"bookingid":287},{"bookingid":392},{"bookingid":345},{"bookingid":201},{"bookingid":185},{"bookingid":457},{"bookingid":234},{"bookingid":336},{"bookingid":15},{"bookingid":63},{"bookingid":51},{"bookingid":200},{"bookingid":233},{"bookingid":235},{"bookingid":265},{"bookingid":419},{"bookingid":312},{"bookingid":433},{"bookingid":20},{"bookingid":5},{"bookingid":359},{"bookingid":47},{"bookingid":142},{"bookingid":1},{"bookingid":446},{"bookingid":81},{"bookingid":90},{"bookingid":330},{"bookingid":472},{"bookingid":380},{"bookingid":295},{"bookingid":255},{"bookingid":11},{"bookingid":390},{"bookingid":342},{"bookingid":135},{"bookingid":378},{"bookingid":270},{"bookingid":448},{"bookingid":356},{"bookingid":242},{"bookingid":103},{"bookingid":88},{"bookingid":413},{"bookingid":134},{"bookingid":466},{"bookingid":384},{"bookingid":302},{"bookingid":35},{"bookingid":275},{"bookingid":311},{"bookingid":240},{"bookingid":272},{"bookingid":250},{"bookingid":137},{"bookingid":3},{"bookingid":154},{"bookingid":369},{"bookingid":319},{"bookingid":190},{"bookingid":108},{"bookingid":463},{"bookingid":303},{"bookingid":215},{"bookingid":238},{"bookingid":332},{"bookingid":165},{"bookingid":334},{"bookingid":322},{"bookingid":96},{"bookingid":289},{"bookingid":21},{"bookingid":73},{"bookingid":176},{"bookingid":443},{"bookingid":344},{"bookingid":59},{"bookingid":269},{"bookingid":323},{"bookingid":155},{"bookingid":14},{"bookingid":320},{"bookingid":459},{"bookingid":227},{"bookingid":297},{"bookingid":169},{"bookingid":248},{"bookingid":117},{"bookingid":434},{"bookingid":464},{"bookingid":375},{"bookingid":89},{"bookingid":40},{"bookingid":370},{"bookingid":317},{"bookingid":146},{"bookingid":148},{"bookingid":444},{"bookingid":43},{"bookingid":218},{"bookingid":38},{"bookingid":161},{"bookingid":210},{"bookingid":328},{"bookingid":4},{"bookingid":435},{"bookingid":209},{"bookingid":298},{"bookingid":70},{"bookingid":159},{"bookingid":147},{"bookingid":409},{"bookingid":354},{"bookingid":465},{"bookingid":105},{"bookingid":426},{"bookingid":206},{"bookingid":486},{"bookingid":436},{"bookingid":276},{"bookingid":28},{"bookingid":122},{"bookingid":50},{"bookingid":160},{"bookingid":424},{"bookingid":104},{"bookingid":262},{"bookingid":164},{"bookingid":175},{"bookingid":179},{"bookingid":69},{"bookingid":407},{"bookingid":365},{"bookingid":309},{"bookingid":284},{"bookingid":310},{"bookingid":481},{"bookingid":383},{"bookingid":114},{"bookingid":151},{"bookingid":25},{"bookingid":327},{"bookingid":115},{"bookingid":222},{"bookingid":366},{"bookingid":478},{"bookingid":430},{"bookingid":421},{"bookingid":66},{"bookingid":237},{"bookingid":315},{"bookingid":456},{"bookingid":395},{"bookingid":372},{"bookingid":52},{"bookingid":213},{"bookingid":77},{"bookingid":417},{"bookingid":18},{"bookingid":57},{"bookingid":34},{"bookingid":257},{"bookingid":249},{"bookingid":12},{"bookingid":254},{"bookingid":338},{"bookingid":397},{"bookingid":30},{"bookingid":360},{"bookingid":208},{"bookingid":228},{"bookingid":32},{"bookingid":2},{"bookingid":193},{"bookingid":27},{"bookingid":65},{"bookingid":9},{"bookingid":473},{"bookingid":131},{"bookingid":136},{"bookingid":72},{"bookingid":367},{"bookingid":121},{"bookingid":485},{"bookingid":94},{"bookingid":391},{"bookingid":288},{"bookingid":214},{"bookingid":461},{"bookingid":398},{"bookingid":403},{"bookingid":274},{"bookingid":483}]
+[INFO] 03-12-2025 09:41:37 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 03-12-2025 09:41:37 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 03-12-2025 09:41:37 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> New booking ID is present
+[DEBUG] 03-12-2025 09:41:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 03-12-2025 09:41:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] 03-12-2025 09:41:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstname']
+[DEBUG] 03-12-2025 09:41:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastname']
+[INFO] 03-12-2025 09:41:38 [main] [resources.LogUtils] - E2E Step 5 → Partial update response: {"firstname":"Ahmed","lastname":"Mohamed","totalprice":350,"depositpaid":true,"bookingdates":{"checkin":"2025-12-01","checkout":"2025-12-10"},"additionalneeds":"Breakfast"}
+[INFO] 03-12-2025 09:41:38 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 03-12-2025 09:41:38 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> First name is updated correctly
+[INFO] 03-12-2025 09:41:38 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Last name is updated correctly
+[INFO] 03-12-2025 09:41:38 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[DEBUG] 03-12-2025 09:41:38 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 03-12-2025 09:41:38 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] 03-12-2025 09:41:39 [main] [resources.LogUtils] - E2E Step 6 → Booking details response: {"firstname":"Ahmed","lastname":"Mohamed","totalprice":350,"depositpaid":true,"bookingdates":{"checkin":"2025-12-01","checkout":"2025-12-10"},"additionalneeds":"Breakfast"}
+[INFO] 03-12-2025 09:41:39 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 200
+[INFO] 03-12-2025 09:41:39 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[DEBUG] 03-12-2025 09:41:39 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 03-12-2025 09:41:39 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] 03-12-2025 09:41:40 [main] [resources.LogUtils] - E2E Step 7 → Delete response: Created
+[INFO] 03-12-2025 09:41:40 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is not 201
+[INFO] 03-12-2025 09:41:40 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[DEBUG] 03-12-2025 09:41:40 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['username']
+[DEBUG] 03-12-2025 09:41:40 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] 03-12-2025 09:41:41 [main] [resources.LogUtils] - E2E Step 8 → Booking IDs response: [{"bookingid":186},{"bookingid":22},{"bookingid":48},{"bookingid":493},{"bookingid":308},{"bookingid":316},{"bookingid":505},{"bookingid":494},{"bookingid":171},{"bookingid":10},{"bookingid":102},{"bookingid":182},{"bookingid":126},{"bookingid":245},{"bookingid":221},{"bookingid":174},{"bookingid":260},{"bookingid":78},{"bookingid":512},{"bookingid":477},{"bookingid":331},{"bookingid":93},{"bookingid":343},{"bookingid":6},{"bookingid":293},{"bookingid":420},{"bookingid":223},{"bookingid":256},{"bookingid":207},{"bookingid":44},{"bookingid":347},{"bookingid":281},{"bookingid":19},{"bookingid":401},{"bookingid":381},{"bookingid":29},{"bookingid":119},{"bookingid":324},{"bookingid":389},{"bookingid":124},{"bookingid":258},{"bookingid":453},{"bookingid":373},{"bookingid":129},{"bookingid":277},{"bookingid":350},{"bookingid":31},{"bookingid":192},{"bookingid":41},{"bookingid":282},{"bookingid":429},{"bookingid":305},{"bookingid":290},{"bookingid":189},{"bookingid":504},{"bookingid":511},{"bookingid":140},{"bookingid":353},{"bookingid":180},{"bookingid":39},{"bookingid":304},{"bookingid":99},{"bookingid":410},{"bookingid":98},{"bookingid":396},{"bookingid":423},{"bookingid":300},{"bookingid":339},{"bookingid":86},{"bookingid":442},{"bookingid":87},{"bookingid":471},{"bookingid":386},{"bookingid":62},{"bookingid":266},{"bookingid":42},{"bookingid":128},{"bookingid":8},{"bookingid":292},{"bookingid":187},{"bookingid":428},{"bookingid":33},{"bookingid":252},{"bookingid":411},{"bookingid":470},{"bookingid":454},{"bookingid":194},{"bookingid":150},{"bookingid":484},{"bookingid":239},{"bookingid":261},{"bookingid":36},{"bookingid":264},{"bookingid":101},{"bookingid":348},{"bookingid":362},{"bookingid":80},{"bookingid":230},{"bookingid":60},{"bookingid":462},{"bookingid":26},{"bookingid":224},{"bookingid":127},{"bookingid":198},{"bookingid":158},{"bookingid":111},{"bookingid":110},{"bookingid":408},{"bookingid":355},{"bookingid":202},{"bookingid":168},{"bookingid":83},{"bookingid":415},{"bookingid":476},{"bookingid":217},{"bookingid":181},{"bookingid":74},{"bookingid":177},{"bookingid":167},{"bookingid":120},{"bookingid":402},{"bookingid":358},{"bookingid":203},{"bookingid":229},{"bookingid":13},{"bookingid":341},{"bookingid":515},{"bookingid":452},{"bookingid":141},{"bookingid":492},{"bookingid":450},{"bookingid":92},{"bookingid":143},{"bookingid":376},{"bookingid":170},{"bookingid":153},{"bookingid":440},{"bookingid":7},{"bookingid":382},{"bookingid":441},{"bookingid":337},{"bookingid":479},{"bookingid":246},{"bookingid":17},{"bookingid":56},{"bookingid":273},{"bookingid":82},{"bookingid":431},{"bookingid":113},{"bookingid":53},{"bookingid":285},{"bookingid":68},{"bookingid":404},{"bookingid":197},{"bookingid":438},{"bookingid":287},{"bookingid":392},{"bookingid":495},{"bookingid":345},{"bookingid":201},{"bookingid":185},{"bookingid":457},{"bookingid":234},{"bookingid":336},{"bookingid":15},{"bookingid":63},{"bookingid":51},{"bookingid":200},{"bookingid":233},{"bookingid":235},{"bookingid":265},{"bookingid":419},{"bookingid":312},{"bookingid":433},{"bookingid":20},{"bookingid":5},{"bookingid":359},{"bookingid":47},{"bookingid":142},{"bookingid":1},{"bookingid":501},{"bookingid":446},{"bookingid":81},{"bookingid":90},{"bookingid":330},{"bookingid":472},{"bookingid":380},{"bookingid":295},{"bookingid":255},{"bookingid":11},{"bookingid":390},{"bookingid":342},{"bookingid":135},{"bookingid":378},{"bookingid":270},{"bookingid":448},{"bookingid":356},{"bookingid":242},{"bookingid":103},{"bookingid":88},{"bookingid":413},{"bookingid":134},{"bookingid":466},{"bookingid":384},{"bookingid":302},{"bookingid":35},{"bookingid":275},{"bookingid":311},{"bookingid":240},{"bookingid":272},{"bookingid":250},{"bookingid":137},{"bookingid":513},{"bookingid":3},{"bookingid":490},{"bookingid":154},{"bookingid":369},{"bookingid":506},{"bookingid":319},{"bookingid":190},{"bookingid":108},{"bookingid":463},{"bookingid":303},{"bookingid":215},{"bookingid":238},{"bookingid":332},{"bookingid":165},{"bookingid":334},{"bookingid":322},{"bookingid":96},{"bookingid":289},{"bookingid":21},{"bookingid":489},{"bookingid":73},{"bookingid":176},{"bookingid":443},{"bookingid":344},{"bookingid":59},{"bookingid":269},{"bookingid":323},{"bookingid":155},{"bookingid":14},{"bookingid":320},{"bookingid":459},{"bookingid":227},{"bookingid":297},{"bookingid":169},{"bookingid":248},{"bookingid":117},{"bookingid":434},{"bookingid":464},{"bookingid":375},{"bookingid":89},{"bookingid":498},{"bookingid":40},{"bookingid":370},{"bookingid":317},{"bookingid":146},{"bookingid":148},{"bookingid":444},{"bookingid":43},{"bookingid":218},{"bookingid":38},{"bookingid":161},{"bookingid":210},{"bookingid":328},{"bookingid":4},{"bookingid":435},{"bookingid":209},{"bookingid":298},{"bookingid":70},{"bookingid":507},{"bookingid":159},{"bookingid":147},{"bookingid":409},{"bookingid":354},{"bookingid":465},{"bookingid":105},{"bookingid":510},{"bookingid":426},{"bookingid":206},{"bookingid":486},{"bookingid":436},{"bookingid":276},{"bookingid":28},{"bookingid":122},{"bookingid":50},{"bookingid":160},{"bookingid":424},{"bookingid":104},{"bookingid":262},{"bookingid":164},{"bookingid":175},{"bookingid":179},{"bookingid":69},{"bookingid":407},{"bookingid":365},{"bookingid":309},{"bookingid":284},{"bookingid":310},{"bookingid":383},{"bookingid":114},{"bookingid":151},{"bookingid":25},{"bookingid":327},{"bookingid":115},{"bookingid":222},{"bookingid":366},{"bookingid":478},{"bookingid":430},{"bookingid":421},{"bookingid":66},{"bookingid":237},{"bookingid":315},{"bookingid":456},{"bookingid":395},{"bookingid":372},{"bookingid":52},{"bookingid":213},{"bookingid":77},{"bookingid":417},{"bookingid":18},{"bookingid":57},{"bookingid":34},{"bookingid":257},{"bookingid":249},{"bookingid":12},{"bookingid":254},{"bookingid":338},{"bookingid":397},{"bookingid":30},{"bookingid":360},{"bookingid":208},{"bookingid":228},{"bookingid":32},{"bookingid":2},{"bookingid":193},{"bookingid":27},{"bookingid":65},{"bookingid":9},{"bookingid":473},{"bookingid":131},{"bookingid":496},{"bookingid":136},{"bookingid":72},{"bookingid":367},{"bookingid":121},{"bookingid":485},{"bookingid":94},{"bookingid":391},{"bookingid":288},{"bookingid":214},{"bookingid":461},{"bookingid":398},{"bookingid":403},{"bookingid":274},{"bookingid":502},{"bookingid":483}]
+[INFO] 03-12-2025 09:41:41 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Status code is 200
+[INFO] 03-12-2025 09:41:41 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Response time is less than 2000ms
+[INFO] 03-12-2025 09:41:41 [main] [resources.LogUtils] - ✔️ SoftAssert PASSED -> Deleted booking ID should NOT be present

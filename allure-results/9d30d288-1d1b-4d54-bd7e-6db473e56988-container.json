@@ -1,0 +1,1 @@
+{"uuid":"9d30d288-1d1b-4d54-bd7e-6db473e56988","name":"Tests.PartialUpdateBookingTest","children":["684e793c-7c57-4c48-bcaf-63de3add88ab"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1764747816292,"stop":1764747816295}],"afters":[],"start":1764747811028,"stop":1764747818574}

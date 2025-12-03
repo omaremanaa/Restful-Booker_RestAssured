@@ -1,1 +1,0 @@
-{"uuid":"fd5c9457-0e79-41bf-82e7-ee85cacf1e0d","name":"Tests.AuthenticationTest.init","children":["c9592d8d-018b-439a-941e-0834bfae3ad9"],"description":"","befores":[{"name":"init","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1764689832595,"stop":1764689832596}],"afters":[],"start":1764689832595,"stop":1764689832596}
